@@ -1,0 +1,185 @@
+{
+  "alpha": 0.9,
+  "batch": 20,
+  "contamination": 0.2,
+  "early_warmup": 40,
+  "epochs": 20000,
+  "eval_every": 100,
+  "exploration": 0.2,
+  "fractions": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "lr_grid_gd": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "lr_grid_sgd": [
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "n": 100,
+  "n_val": 100,
+  "noise": 0.025,
+  "plot_fraction": 0.3,
+  "rank_mode": "probabilistic",
+  "rank_strength": 3.0,
+  "sigma_every": 200,
+  "sigma_floor": 0.1,
+  "sigma_strategy": "periodic",
+  "stage": "ranking",
+  "tune_epochs": 2000,
+  "tune_seeds": 2,
+  "val_mode": "clean",
+  "warmup": 2000,
+  "cache_format": 3,
+  "source": "fe2c6ce4726c",
+  "digest": "3263bf494b16d6",
+  "cache": "/data/gpfs/projects/punim3024/zalsaadi/robust_alpha/results/ranking_full_v2_periodic/cache/ranking_3263bf494b16d6",
+  "completed_eval_jobs": 240,
+  "expected_eval_jobs": 240,
+  "seeds": 20,
+  "methods": [
+    "GD MSE",
+    "SGD MSE",
+    "GD Alpha",
+    "GD Ranked 10%",
+    "GD Uniform 10%",
+    "GD Ranked 30%",
+    "GD Uniform 30%",
+    "GD Ranked 50%",
+    "GD Uniform 50%",
+    "GD Ranked 70%",
+    "GD Uniform 70%",
+    "SGD Alpha",
+    "SGD Ranked 10%",
+    "SGD Uniform 10%",
+    "SGD Ranked 30%",
+    "SGD Uniform 30%",
+    "SGD Ranked 50%",
+    "SGD Uniform 50%",
+    "SGD Ranked 70%",
+    "SGD Uniform 70%"
+  ],
+  "families": {
+    "PRIMARY ranked_vs_uniform GD": [
+      [
+        "GD Ranked 10%",
+        "GD Uniform 10%"
+      ],
+      [
+        "GD Ranked 30%",
+        "GD Uniform 30%"
+      ],
+      [
+        "GD Ranked 50%",
+        "GD Uniform 50%"
+      ],
+      [
+        "GD Ranked 70%",
+        "GD Uniform 70%"
+      ]
+    ],
+    "PRIMARY ranked_vs_uniform SGD": [
+      [
+        "SGD Ranked 10%",
+        "SGD Uniform 10%"
+      ],
+      [
+        "SGD Ranked 30%",
+        "SGD Uniform 30%"
+      ],
+      [
+        "SGD Ranked 50%",
+        "SGD Uniform 50%"
+      ],
+      [
+        "SGD Ranked 70%",
+        "SGD Uniform 70%"
+      ]
+    ],
+    "ranked_vs_alpha": [
+      [
+        "GD Ranked 10%",
+        "GD Alpha"
+      ],
+      [
+        "GD Ranked 30%",
+        "GD Alpha"
+      ],
+      [
+        "GD Ranked 50%",
+        "GD Alpha"
+      ],
+      [
+        "GD Ranked 70%",
+        "GD Alpha"
+      ],
+      [
+        "SGD Ranked 10%",
+        "SGD Alpha"
+      ],
+      [
+        "SGD Ranked 30%",
+        "SGD Alpha"
+      ],
+      [
+        "SGD Ranked 50%",
+        "SGD Alpha"
+      ],
+      [
+        "SGD Ranked 70%",
+        "SGD Alpha"
+      ]
+    ],
+    "alpha_vs_mse": [
+      [
+        "GD Alpha",
+        "GD MSE"
+      ],
+      [
+        "SGD Alpha",
+        "SGD MSE"
+      ]
+    ],
+    "sgd_vs_gd": [
+      [
+        "SGD MSE",
+        "GD MSE"
+      ],
+      [
+        "SGD Alpha",
+        "GD Alpha"
+      ]
+    ]
+  },
+  "validation_criterion": "mean squared residual on CLEAN validation set (internal scale)",
+  "main_schedule": {
+    "epochs": 20000,
+    "warmup": {
+      "early": 40,
+      "late": 2000,
+      "periodic": 2000
+    },
+    "sigma_every": 200,
+    "eval_every": 100
+  },
+  "tuning_schedule": {
+    "epochs": 2000,
+    "warmup": {
+      "early": 4,
+      "late": 200,
+      "periodic": 200
+    },
+    "sigma_every": 20,
+    "eval_every": 10
+  },
+  "tuning_criterion": "mean over pilot seeds of log(best validation score); post-alpha checkpoint for alpha methods, overall for MSE"
+}

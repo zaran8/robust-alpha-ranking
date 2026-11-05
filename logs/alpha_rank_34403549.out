@@ -1,0 +1,431 @@
+========================================
+Job ID: 34403549
+Node: spartan-bm166.hpc.unimelb.edu.au
+Mode: sigma
+Workers: 32
+Started: Fri 06 Nov 2026 08:07:38 AEDT
+Python: /data/gpfs/projects/punim3024/zalsaadi/anaconda3/envs/quonet/bin/python
+Python 3.10.20
+========================================
+PASS quick self-test (13 checks, 1 s)
+Stage 'sigma': 8 methods; cache /data/gpfs/projects/punim3024/zalsaadi/robust_alpha/results/sigma_full_v2/cache/sigma_5cf7ec6112def5
+Tuning learning rates on pilot data: 24 job(s)
+  [1/24] tune_Sigmoid_symmetric_p1.json.gz  (15s)
+  [2/24] tune_Gaussian_point_mass_p0.json.gz  (15s)
+  [3/24] tune_Gaussian_asymmetric_p0.json.gz  (15s)
+  [4/24] tune_Sigmoid_symmetric_p0.json.gz  (15s)
+  [5/24] tune_Sine_symmetric_p1.json.gz  (15s)
+  [6/24] tune_Sine_clean_p0.json.gz  (15s)
+  [7/24] tune_Gaussian_asymmetric_p1.json.gz  (15s)
+  [8/24] tune_Sine_symmetric_p0.json.gz  (15s)
+  [9/24] tune_Sine_clean_p1.json.gz  (15s)
+  [10/24] tune_Gaussian_point_mass_p1.json.gz  (15s)
+  [11/24] tune_Sigmoid_asymmetric_p1.json.gz  (16s)
+  [12/24] tune_Sigmoid_point_mass_p1.json.gz  (16s)
+  [13/24] tune_Sine_point_mass_p0.json.gz  (16s)
+  [14/24] tune_Sine_asymmetric_p0.json.gz  (16s)
+  [15/24] tune_Sigmoid_clean_p1.json.gz  (16s)
+  [16/24] tune_Sigmoid_asymmetric_p0.json.gz  (16s)
+  [17/24] tune_Sigmoid_point_mass_p0.json.gz  (16s)
+  [18/24] tune_Gaussian_clean_p0.json.gz  (17s)
+  [19/24] tune_Sigmoid_clean_p0.json.gz  (17s)
+  [20/24] tune_Gaussian_symmetric_p0.json.gz  (17s)
+  [21/24] tune_Gaussian_symmetric_p1.json.gz  (17s)
+  [22/24] tune_Gaussian_clean_p1.json.gz  (17s)
+  [23/24] tune_Sine_point_mass_p1.json.gz  (17s)
+  [24/24] tune_Sine_asymmetric_p1.json.gz  (17s)
+Evaluation runs: 240 job(s)
+  [1/240] eval_Sigmoid_asymmetric_s0.json.gz  (36s)
+  [2/240] eval_Sigmoid_symmetric_s0.json.gz  (36s)
+  [3/240] eval_Sigmoid_point_mass_s1.json.gz  (36s)
+  [4/240] eval_Sine_clean_s1.json.gz  (36s)
+  [5/240] eval_Sine_clean_s0.json.gz  (36s)
+  [6/240] eval_Sine_point_mass_s1.json.gz  (36s)
+  [7/240] eval_Sigmoid_point_mass_s2.json.gz  (36s)
+  [8/240] eval_Sigmoid_point_mass_s0.json.gz  (36s)
+  [9/240] eval_Sigmoid_asymmetric_s1.json.gz  (36s)
+  [10/240] eval_Sigmoid_asymmetric_s2.json.gz  (36s)
+  [11/240] eval_Sine_asymmetric_s1.json.gz  (36s)
+  [12/240] eval_Sigmoid_symmetric_s2.json.gz  (36s)
+  [13/240] eval_Sigmoid_symmetric_s1.json.gz  (36s)
+  [14/240] eval_Sine_symmetric_s0.json.gz  (36s)
+  [15/240] eval_Gaussian_asymmetric_s0.json.gz  (37s)
+  [16/240] eval_Gaussian_clean_s0.json.gz  (37s)
+  [17/240] eval_Sine_asymmetric_s0.json.gz  (37s)
+  [18/240] eval_Gaussian_clean_s1.json.gz  (37s)
+  [19/240] eval_Sigmoid_clean_s0.json.gz  (37s)
+  [20/240] eval_Gaussian_symmetric_s1.json.gz  (37s)
+  [21/240] eval_Sigmoid_clean_s2.json.gz  (37s)
+  [22/240] eval_Gaussian_asymmetric_s2.json.gz  (37s)
+  [23/240] eval_Sine_point_mass_s0.json.gz  (37s)
+  [24/240] eval_Gaussian_symmetric_s0.json.gz  (37s)
+  [25/240] eval_Gaussian_clean_s2.json.gz  (37s)
+  [26/240] eval_Gaussian_symmetric_s2.json.gz  (37s)
+  [27/240] eval_Sine_symmetric_s1.json.gz  (37s)
+  [28/240] eval_Gaussian_point_mass_s2.json.gz  (38s)
+  [29/240] eval_Gaussian_point_mass_s0.json.gz  (38s)
+  [30/240] eval_Gaussian_asymmetric_s1.json.gz  (38s)
+  [31/240] eval_Gaussian_point_mass_s1.json.gz  (38s)
+  [32/240] eval_Sigmoid_clean_s1.json.gz  (38s)
+  [33/240] eval_Sine_clean_s2.json.gz  (72s)
+  [34/240] eval_Sine_symmetric_s2.json.gz  (72s)
+  [35/240] eval_Sine_point_mass_s2.json.gz  (72s)
+  [36/240] eval_Sine_asymmetric_s2.json.gz  (72s)
+  [37/240] eval_Gaussian_clean_s3.json.gz  (72s)
+  [38/240] eval_Gaussian_asymmetric_s3.json.gz  (72s)
+  [39/240] eval_Sigmoid_clean_s3.json.gz  (72s)
+  [40/240] eval_Sigmoid_asymmetric_s3.json.gz  (72s)
+  [41/240] eval_Sigmoid_point_mass_s3.json.gz  (72s)
+  [42/240] eval_Gaussian_point_mass_s3.json.gz  (72s)
+  [43/240] eval_Sigmoid_symmetric_s3.json.gz  (72s)
+  [44/240] eval_Gaussian_symmetric_s3.json.gz  (72s)
+  [45/240] eval_Sine_clean_s3.json.gz  (72s)
+  [46/240] eval_Sine_asymmetric_s3.json.gz  (73s)
+  [47/240] eval_Sine_symmetric_s3.json.gz  (74s)
+  [48/240] eval_Sine_point_mass_s3.json.gz  (74s)
+  [49/240] eval_Gaussian_clean_s4.json.gz  (74s)
+  [50/240] eval_Gaussian_asymmetric_s4.json.gz  (74s)
+  [51/240] eval_Gaussian_point_mass_s4.json.gz  (74s)
+  [52/240] eval_Gaussian_symmetric_s4.json.gz  (74s)
+  [53/240] eval_Sigmoid_clean_s4.json.gz  (74s)
+  [54/240] eval_Sigmoid_asymmetric_s4.json.gz  (74s)
+  [55/240] eval_Sigmoid_symmetric_s4.json.gz  (74s)
+  [56/240] eval_Sine_asymmetric_s4.json.gz  (74s)
+  [57/240] eval_Sigmoid_point_mass_s4.json.gz  (74s)
+  [58/240] eval_Sine_clean_s4.json.gz  (74s)
+  [59/240] eval_Gaussian_asymmetric_s5.json.gz  (74s)
+  [60/240] eval_Sine_symmetric_s4.json.gz  (75s)
+  [61/240] eval_Sine_point_mass_s4.json.gz  (75s)
+  [62/240] eval_Gaussian_clean_s5.json.gz  (75s)
+  [63/240] eval_Gaussian_symmetric_s5.json.gz  (75s)
+  [64/240] eval_Gaussian_point_mass_s5.json.gz  (75s)
+  [65/240] eval_Sigmoid_clean_s5.json.gz  (108s)
+  [66/240] eval_Sigmoid_point_mass_s5.json.gz  (108s)
+  [67/240] eval_Sigmoid_asymmetric_s5.json.gz  (108s)
+  [68/240] eval_Sigmoid_symmetric_s5.json.gz  (108s)
+  [69/240] eval_Sine_asymmetric_s5.json.gz  (108s)
+  [70/240] eval_Sine_clean_s5.json.gz  (108s)
+  [71/240] eval_Gaussian_clean_s6.json.gz  (108s)
+  [72/240] eval_Gaussian_point_mass_s6.json.gz  (108s)
+  [73/240] eval_Sine_symmetric_s5.json.gz  (108s)
+  [74/240] eval_Gaussian_asymmetric_s6.json.gz  (108s)
+  [75/240] eval_Sine_point_mass_s5.json.gz  (108s)
+  [76/240] eval_Gaussian_symmetric_s6.json.gz  (109s)
+  [77/240] eval_Sigmoid_clean_s6.json.gz  (109s)
+  [78/240] eval_Sigmoid_asymmetric_s6.json.gz  (109s)
+  [79/240] eval_Sigmoid_symmetric_s6.json.gz  (110s)
+  [80/240] eval_Sine_point_mass_s6.json.gz  (110s)
+  [81/240] eval_Sine_clean_s6.json.gz  (110s)
+  [82/240] eval_Sigmoid_point_mass_s6.json.gz  (110s)
+  [83/240] eval_Sine_asymmetric_s6.json.gz  (110s)
+  [84/240] eval_Sine_symmetric_s6.json.gz  (110s)
+  [85/240] eval_Gaussian_clean_s7.json.gz  (111s)
+  [86/240] eval_Gaussian_asymmetric_s7.json.gz  (111s)
+  [87/240] eval_Sigmoid_point_mass_s7.json.gz  (111s)
+  [88/240] eval_Gaussian_symmetric_s7.json.gz  (111s)
+  [89/240] eval_Sigmoid_clean_s7.json.gz  (111s)
+  [90/240] eval_Sigmoid_asymmetric_s7.json.gz  (111s)
+  [91/240] eval_Gaussian_point_mass_s7.json.gz  (111s)
+  [92/240] eval_Sigmoid_symmetric_s7.json.gz  (112s)
+  [93/240] eval_Sine_asymmetric_s7.json.gz  (112s)
+  [94/240] eval_Sine_clean_s7.json.gz  (112s)
+  [95/240] eval_Sine_point_mass_s7.json.gz  (112s)
+  [96/240] eval_Sine_symmetric_s7.json.gz  (112s)
+  [97/240] eval_Gaussian_clean_s8.json.gz  (144s)
+  [98/240] eval_Gaussian_asymmetric_s8.json.gz  (144s)
+  [99/240] eval_Gaussian_point_mass_s8.json.gz  (144s)
+  [100/240] eval_Sigmoid_clean_s8.json.gz  (144s)
+  [101/240] eval_Gaussian_symmetric_s8.json.gz  (144s)
+  [102/240] eval_Sigmoid_symmetric_s8.json.gz  (144s)
+  [103/240] eval_Sine_clean_s8.json.gz  (144s)
+  [104/240] eval_Sigmoid_asymmetric_s8.json.gz  (145s)
+  [105/240] eval_Sigmoid_point_mass_s8.json.gz  (145s)
+  [106/240] eval_Sine_point_mass_s8.json.gz  (145s)
+  [107/240] eval_Sine_asymmetric_s8.json.gz  (145s)
+  [108/240] eval_Sine_symmetric_s8.json.gz  (145s)
+  [109/240] eval_Gaussian_asymmetric_s9.json.gz  (145s)
+  [110/240] eval_Gaussian_clean_s9.json.gz  (145s)
+  [111/240] eval_Gaussian_point_mass_s9.json.gz  (147s)
+  [112/240] eval_Gaussian_symmetric_s9.json.gz  (147s)
+  [113/240] eval_Sigmoid_clean_s9.json.gz  (147s)
+  [114/240] eval_Sigmoid_point_mass_s9.json.gz  (147s)
+  [115/240] eval_Sigmoid_asymmetric_s9.json.gz  (147s)
+  [116/240] eval_Sigmoid_symmetric_s9.json.gz  (147s)
+  [117/240] eval_Sine_clean_s9.json.gz  (147s)
+  [118/240] eval_Sine_point_mass_s9.json.gz  (148s)
+  [119/240] eval_Sine_asymmetric_s9.json.gz  (148s)
+  [120/240] eval_Gaussian_clean_s10.json.gz  (148s)
+  [121/240] eval_Gaussian_point_mass_s10.json.gz  (149s)
+  [122/240] eval_Sine_symmetric_s9.json.gz  (149s)
+  [123/240] eval_Gaussian_asymmetric_s10.json.gz  (149s)
+  [124/240] eval_Gaussian_symmetric_s10.json.gz  (149s)
+  [125/240] eval_Sigmoid_clean_s10.json.gz  (149s)
+  [126/240] eval_Sigmoid_point_mass_s10.json.gz  (149s)
+  [127/240] eval_Sigmoid_asymmetric_s10.json.gz  (149s)
+  [128/240] eval_Sigmoid_symmetric_s10.json.gz  (150s)
+  [129/240] eval_Sine_clean_s10.json.gz  (180s)
+  [130/240] eval_Sine_point_mass_s10.json.gz  (180s)
+  [131/240] eval_Sine_asymmetric_s10.json.gz  (180s)
+  [132/240] eval_Sine_symmetric_s10.json.gz  (181s)
+  [133/240] eval_Gaussian_clean_s11.json.gz  (181s)
+  [134/240] eval_Gaussian_asymmetric_s11.json.gz  (181s)
+  [135/240] eval_Gaussian_point_mass_s11.json.gz  (181s)
+  [136/240] eval_Sigmoid_clean_s11.json.gz  (181s)
+  [137/240] eval_Sigmoid_asymmetric_s11.json.gz  (181s)
+  [138/240] eval_Gaussian_symmetric_s11.json.gz  (181s)
+  [139/240] eval_Sigmoid_point_mass_s11.json.gz  (181s)
+  [140/240] eval_Sigmoid_symmetric_s11.json.gz  (181s)
+  [141/240] eval_Sine_clean_s11.json.gz  (182s)
+  [142/240] eval_Sine_asymmetric_s11.json.gz  (182s)
+  [143/240] eval_Sine_point_mass_s11.json.gz  (184s)
+  [144/240] eval_Sine_symmetric_s11.json.gz  (184s)
+  [145/240] eval_Gaussian_asymmetric_s12.json.gz  (184s)
+  [146/240] eval_Gaussian_clean_s12.json.gz  (184s)
+  [147/240] eval_Gaussian_point_mass_s12.json.gz  (184s)
+  [148/240] eval_Gaussian_symmetric_s12.json.gz  (184s)
+  [149/240] eval_Sigmoid_clean_s12.json.gz  (184s)
+  [150/240] eval_Sigmoid_asymmetric_s12.json.gz  (185s)
+  [151/240] eval_Sigmoid_point_mass_s12.json.gz  (185s)
+  [152/240] eval_Sine_clean_s12.json.gz  (186s)
+  [153/240] eval_Sigmoid_symmetric_s12.json.gz  (186s)
+  [154/240] eval_Sine_asymmetric_s12.json.gz  (186s)
+  [155/240] eval_Sine_point_mass_s12.json.gz  (186s)
+  [156/240] eval_Sine_symmetric_s12.json.gz  (186s)
+  [157/240] eval_Gaussian_clean_s13.json.gz  (186s)
+  [158/240] eval_Gaussian_asymmetric_s13.json.gz  (187s)
+  [159/240] eval_Gaussian_point_mass_s13.json.gz  (187s)
+  [160/240] eval_Gaussian_symmetric_s13.json.gz  (187s)
+  [161/240] eval_Sigmoid_clean_s13.json.gz  (216s)
+  [162/240] eval_Sigmoid_point_mass_s13.json.gz  (217s)
+  [163/240] eval_Sigmoid_asymmetric_s13.json.gz  (217s)
+  [164/240] eval_Sigmoid_symmetric_s13.json.gz  (217s)
+  [165/240] eval_Sine_clean_s13.json.gz  (217s)
+  [166/240] eval_Sine_asymmetric_s13.json.gz  (217s)
+  [167/240] eval_Sine_point_mass_s13.json.gz  (217s)
+  [168/240] eval_Gaussian_clean_s14.json.gz  (217s)
+  [169/240] eval_Sine_symmetric_s13.json.gz  (217s)
+  [170/240] eval_Gaussian_asymmetric_s14.json.gz  (217s)
+  [171/240] eval_Gaussian_point_mass_s14.json.gz  (217s)
+  [172/240] eval_Gaussian_symmetric_s14.json.gz  (218s)
+  [173/240] eval_Sigmoid_clean_s14.json.gz  (218s)
+  [174/240] eval_Sigmoid_asymmetric_s14.json.gz  (218s)
+  [175/240] eval_Sigmoid_point_mass_s14.json.gz  (220s)
+  [176/240] eval_Sigmoid_symmetric_s14.json.gz  (221s)
+  [177/240] eval_Sine_clean_s14.json.gz  (221s)
+  [178/240] eval_Sine_asymmetric_s14.json.gz  (221s)
+  [179/240] eval_Sine_point_mass_s14.json.gz  (221s)
+  [180/240] eval_Gaussian_clean_s15.json.gz  (221s)
+  [181/240] eval_Sine_symmetric_s14.json.gz  (221s)
+  [182/240] eval_Gaussian_asymmetric_s15.json.gz  (222s)
+  [183/240] eval_Gaussian_point_mass_s15.json.gz  (222s)
+  [184/240] eval_Gaussian_symmetric_s15.json.gz  (223s)
+  [185/240] eval_Sigmoid_clean_s15.json.gz  (223s)
+  [186/240] eval_Sigmoid_asymmetric_s15.json.gz  (223s)
+  [187/240] eval_Sigmoid_point_mass_s15.json.gz  (223s)
+  [188/240] eval_Sigmoid_symmetric_s15.json.gz  (223s)
+  [189/240] eval_Sine_clean_s15.json.gz  (223s)
+  [190/240] eval_Sine_asymmetric_s15.json.gz  (224s)
+  [191/240] eval_Sine_point_mass_s15.json.gz  (224s)
+  [192/240] eval_Sine_symmetric_s15.json.gz  (225s)
+  [193/240] eval_Gaussian_clean_s16.json.gz  (252s)
+  [194/240] eval_Gaussian_asymmetric_s16.json.gz  (252s)
+  [195/240] eval_Gaussian_point_mass_s16.json.gz  (253s)
+  [196/240] eval_Gaussian_symmetric_s16.json.gz  (253s)
+  [197/240] eval_Sigmoid_clean_s16.json.gz  (253s)
+  [198/240] eval_Sigmoid_asymmetric_s16.json.gz  (253s)
+  [199/240] eval_Sigmoid_point_mass_s16.json.gz  (253s)
+  [200/240] eval_Sine_clean_s16.json.gz  (253s)
+  [201/240] eval_Sine_asymmetric_s16.json.gz  (253s)
+  [202/240] eval_Sigmoid_symmetric_s16.json.gz  (253s)
+  [203/240] eval_Sine_point_mass_s16.json.gz  (253s)
+  [204/240] eval_Gaussian_clean_s17.json.gz  (254s)
+  [205/240] eval_Sine_symmetric_s16.json.gz  (254s)
+  [206/240] eval_Gaussian_asymmetric_s17.json.gz  (254s)
+  [207/240] eval_Gaussian_symmetric_s17.json.gz  (257s)
+  [208/240] eval_Sigmoid_clean_s17.json.gz  (257s)
+  [209/240] eval_Gaussian_point_mass_s17.json.gz  (257s)
+  [210/240] eval_Sigmoid_asymmetric_s17.json.gz  (257s)
+  [211/240] eval_Sigmoid_symmetric_s17.json.gz  (257s)
+  [212/240] eval_Sigmoid_point_mass_s17.json.gz  (257s)
+  [213/240] eval_Sine_clean_s17.json.gz  (257s)
+  [214/240] eval_Sine_asymmetric_s17.json.gz  (258s)
+  [215/240] eval_Sine_point_mass_s17.json.gz  (259s)
+  [216/240] eval_Gaussian_clean_s18.json.gz  (259s)
+  [217/240] eval_Sine_symmetric_s17.json.gz  (260s)
+  [218/240] eval_Gaussian_asymmetric_s18.json.gz  (260s)
+  [219/240] eval_Sigmoid_clean_s18.json.gz  (260s)
+  [220/240] eval_Gaussian_point_mass_s18.json.gz  (260s)
+  [221/240] eval_Gaussian_symmetric_s18.json.gz  (260s)
+  [222/240] eval_Sigmoid_asymmetric_s18.json.gz  (260s)
+  [223/240] eval_Sigmoid_point_mass_s18.json.gz  (262s)
+  [224/240] eval_Sigmoid_symmetric_s18.json.gz  (262s)
+  [225/240] eval_Sine_clean_s18.json.gz  (288s)
+  [226/240] eval_Sine_asymmetric_s18.json.gz  (288s)
+  [227/240] eval_Sine_point_mass_s18.json.gz  (289s)
+  [228/240] eval_Sine_symmetric_s18.json.gz  (289s)
+  [229/240] eval_Gaussian_clean_s19.json.gz  (289s)
+  [230/240] eval_Gaussian_asymmetric_s19.json.gz  (289s)
+  [231/240] eval_Gaussian_point_mass_s19.json.gz  (289s)
+  [232/240] eval_Sigmoid_clean_s19.json.gz  (289s)
+  [233/240] eval_Gaussian_symmetric_s19.json.gz  (289s)
+  [234/240] eval_Sigmoid_asymmetric_s19.json.gz  (289s)
+  [235/240] eval_Sigmoid_point_mass_s19.json.gz  (289s)
+  [236/240] eval_Sigmoid_symmetric_s19.json.gz  (290s)
+  [237/240] eval_Sine_clean_s19.json.gz  (290s)
+  [238/240] eval_Sine_asymmetric_s19.json.gz  (295s)
+  [239/240] eval_Sine_point_mass_s19.json.gz  (299s)
+  [240/240] eval_Sine_symmetric_s19.json.gz  (299s)
+
+Median test MSE, alpha-phase checkpoint (post-alpha for alpha methods, overall for MSE), original units:
+method               GD MSE  SGD MSE  GD Alpha[early]  GD Alpha[late]  GD Alpha[periodic]  SGD Alpha[early]  SGD Alpha[late]  SGD Alpha[periodic]
+Gaussian clean      0.00005  0.00005          0.00005         0.00006             0.00006           0.00005          0.00004              0.00004
+         asymmetric 0.04089  0.01128          0.02732         0.00540             0.00026           0.00891          0.00021              0.00016
+         point_mass 0.04922  0.02383          0.03148         0.02714             0.00056           0.01590          0.00060              0.00030
+         symmetric  0.00944  0.00766          0.00445         0.00075             0.00047           0.00368          0.00057              0.00041
+Sigmoid  clean      0.00005  0.00005          0.00005         0.00005             0.00005           0.00005          0.00005              0.00005
+         asymmetric 0.04217  0.00908          0.03488         0.00027             0.00027           0.00009          0.00016              0.00014
+         point_mass 0.05567  0.02787          0.05478         0.00101             0.00028           0.00127          0.00139              0.00019
+         symmetric  0.00259  0.00152          0.00096         0.00027             0.00026           0.00031          0.00030              0.00022
+Sine     clean      0.00301  0.00018          0.00213         0.00293             0.00293           0.00018          0.00018              0.00018
+         asymmetric 0.03094  0.01956          0.02217         0.00314             0.00210           0.00722          0.00042              0.00023
+         point_mass 0.06126  0.03675          0.05603         0.00724             0.00212           0.00979          0.00301              0.00030
+         symmetric  0.00874  0.00734          0.00920         0.00315             0.00233           0.00145          0.00048              0.00044
+
+Share of runs whose OVERALL best checkpoint lies in the MSE warmup:
+method               GD MSE  SGD MSE  GD Alpha[early]  GD Alpha[late]  GD Alpha[periodic]  SGD Alpha[early]  SGD Alpha[late]  SGD Alpha[periodic]
+Gaussian clean         0.00     0.00             0.00            0.00                0.00              0.00             0.20                 0.20
+         asymmetric    0.00     0.00             0.00            0.00                0.00              0.00             0.05                 0.05
+         point_mass    0.00     0.00             0.00            0.00                0.00              0.00             0.05                 0.00
+         symmetric     0.00     0.00             0.00            0.00                0.00              0.00             0.00                 0.00
+Sigmoid  clean         0.00     0.00             0.00            0.25                0.25              0.00             0.20                 0.20
+         asymmetric    0.00     0.00             0.00            0.00                0.00              0.00             0.05                 0.00
+         point_mass    0.00     0.00             0.00            0.00                0.00              0.00             0.00                 0.00
+         symmetric     0.00     0.00             0.00            0.05                0.05              0.00             0.15                 0.15
+Sine     clean         0.00     0.00             0.00            0.00                0.00              0.00             0.00                 0.00
+         asymmetric    0.00     0.00             0.00            0.00                0.00              0.00             0.00                 0.00
+         point_mass    0.00     0.00             0.00            0.00                0.00              0.00             0.00                 0.00
+         symmetric     0.00     0.00             0.00            0.00                0.00              0.00             0.00                 0.00
+
+Median sigma used by the LAST optimiser update (alpha methods):
+method               GD Alpha[early]  GD Alpha[late]  GD Alpha[periodic]  SGD Alpha[early]  SGD Alpha[late]  SGD Alpha[periodic]
+Gaussian clean                 0.315           0.100               0.100             0.313            0.100                0.100
+         asymmetric            0.339           0.142               0.100             0.330            0.100                0.100
+         point_mass            0.337           0.288               0.100             0.331            0.115                0.100
+         symmetric             0.338           0.105               0.100             0.334            0.100                0.100
+Sigmoid  clean                 0.279           0.100               0.100             0.100            0.100                0.100
+         asymmetric            0.399           0.100               0.100             0.100            0.100                0.100
+         point_mass            0.487           0.118               0.100             0.176            0.137                0.100
+         symmetric             0.301           0.100               0.100             0.169            0.100                0.100
+Sine     clean                 0.326           0.100               0.100             0.145            0.100                0.100
+         asymmetric            0.429           0.109               0.100             0.203            0.108                0.100
+         point_mass            0.460           0.170               0.100             0.246            0.166                0.100
+         symmetric             0.427           0.109               0.100             0.173            0.100                0.100
+
+Median mean-q on CORRUPTED points at the final parameters, under that sigma:
+method               GD Alpha[early]  GD Alpha[late]  GD Alpha[periodic]  SGD Alpha[early]  SGD Alpha[late]  SGD Alpha[periodic]
+Gaussian asymmetric            0.848           0.277               0.045             0.836            0.049                0.046
+         point_mass            0.772           0.682               0.053             0.777            0.095                0.055
+         symmetric             0.811           0.432               0.345             0.821            0.400                0.358
+Sigmoid  asymmetric            0.888           0.047               0.046             0.047            0.046                0.046
+         point_mass            0.893           0.120               0.047             0.329            0.157                0.046
+         symmetric             0.802           0.348               0.348             0.580            0.354                0.347
+Sine     asymmetric            0.896           0.079               0.046             0.581            0.071                0.043
+         point_mass            0.860           0.326               0.048             0.605            0.263                0.051
+         symmetric             0.869           0.451               0.372             0.629            0.446                0.377
+
+Paired Wilcoxon, Holm within family, alpha-phase checkpoint (full table incl. other metrics: paired_statistics.csv).
+Effect: median ratio candidate/baseline [bootstrap 95% CI]; r = rank-biserial (>0 favours candidate). Non-significance is NOT equivalence.
+  alpha_vs_mse: 72 tests, 49 significant (46 favour the candidate, 3 the baseline)
+      Gaussian asymmetric GD Alpha[late] vs GD MSE: ratio 0.128 [0.0396, 0.5], r=+0.84, wins 17/20, p_holm 0.01 *
+      Gaussian asymmetric GD Alpha[periodic] vs GD MSE: ratio 0.00748 [0.00515, 0.0145], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian asymmetric SGD Alpha[early] vs SGD MSE: ratio 0.78 [0.7, 0.857], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian asymmetric SGD Alpha[late] vs SGD MSE: ratio 0.0182 [0.0123, 0.0577], r=+0.81, wins 19/20, p_holm 0.017 *
+      Gaussian asymmetric SGD Alpha[periodic] vs SGD MSE: ratio 0.0123 [0.00901, 0.0182], r=+0.98, wins 19/20, p_holm 0.00022 *
+      Gaussian point_mass GD Alpha[periodic] vs GD MSE: ratio 0.00922 [0.00564, 0.0124], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian point_mass SGD Alpha[early] vs SGD MSE: ratio 0.601 [0.463, 0.681], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian point_mass SGD Alpha[late] vs SGD MSE: ratio 0.0494 [0.0137, 0.094], r=+0.95, wins 19/20, p_holm 0.00061 *
+      Gaussian point_mass SGD Alpha[periodic] vs SGD MSE: ratio 0.00824 [0.00506, 0.0285], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  GD Alpha[early] vs GD MSE: ratio 0.589 [0.391, 0.681], r=+0.95, wins 19/20, p_holm 0.00061 *
+      Gaussian symmetric  GD Alpha[late] vs GD MSE: ratio 0.09 [0.0565, 0.122], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  GD Alpha[periodic] vs GD MSE: ratio 0.0509 [0.038, 0.063], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  SGD Alpha[early] vs SGD MSE: ratio 0.52 [0.325, 0.59], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  SGD Alpha[late] vs SGD MSE: ratio 0.0681 [0.0413, 0.124], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  SGD Alpha[periodic] vs SGD MSE: ratio 0.0642 [0.0368, 0.0952], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  asymmetric GD Alpha[late] vs GD MSE: ratio 0.00672 [0.00554, 0.0163], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  asymmetric GD Alpha[periodic] vs GD MSE: ratio 0.00664 [0.00554, 0.00929], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  asymmetric SGD Alpha[early] vs SGD MSE: ratio 0.0126 [0.00755, 0.0158], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  asymmetric SGD Alpha[late] vs SGD MSE: ratio 0.0255 [0.00916, 0.0512], r=+0.98, wins 19/20, p_holm 0.00022 *
+      Sigmoid  asymmetric SGD Alpha[periodic] vs SGD MSE: ratio 0.0199 [0.0075, 0.0327], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass GD Alpha[late] vs GD MSE: ratio 0.0318 [0.0134, 0.0618], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass GD Alpha[periodic] vs GD MSE: ratio 0.00585 [0.00345, 0.00816], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass SGD Alpha[early] vs SGD MSE: ratio 0.0565 [0.0232, 0.1], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass SGD Alpha[late] vs SGD MSE: ratio 0.0592 [0.0244, 0.112], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass SGD Alpha[periodic] vs SGD MSE: ratio 0.00608 [0.00297, 0.015], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  symmetric  GD Alpha[early] vs GD MSE: ratio 0.431 [0.246, 0.564], r=+0.86, wins 16/20, p_holm 0.0071 *
+      Sigmoid  symmetric  GD Alpha[late] vs GD MSE: ratio 0.091 [0.0462, 0.171], r=+0.97, wins 18/20, p_holm 0.00034 *
+      Sigmoid  symmetric  GD Alpha[periodic] vs GD MSE: ratio 0.091 [0.0472, 0.167], r=+0.97, wins 18/20, p_holm 0.00034 *
+      Sigmoid  symmetric  SGD Alpha[early] vs SGD MSE: ratio 0.285 [0.109, 0.634], r=+0.84, wins 17/20, p_holm 0.01 *
+      Sigmoid  symmetric  SGD Alpha[late] vs SGD MSE: ratio 0.133 [0.101, 0.369], r=+0.96, wins 18/20, p_holm 0.00045 *
+  sigma_strategy: 72 tests, 34 significant (34 favour the candidate, 0 the baseline)
+      Gaussian asymmetric GD Alpha[periodic] vs GD Alpha[early]: ratio 0.0116 [0.0082, 0.0184], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian asymmetric GD Alpha[periodic] vs GD Alpha[late]: ratio 0.0383 [0.017, 0.525], r=+1.00, wins 16/20, p_holm 0.019 *
+      Gaussian asymmetric SGD Alpha[late] vs SGD Alpha[early]: ratio 0.023 [0.0197, 0.0734], r=+0.81, wins 19/20, p_holm 0.029 *
+      Gaussian asymmetric SGD Alpha[periodic] vs SGD Alpha[early]: ratio 0.0183 [0.0124, 0.0227], r=+0.92, wins 19/20, p_holm 0.0023 *
+      Gaussian point_mass GD Alpha[periodic] vs GD Alpha[early]: ratio 0.0142 [0.00893, 0.0178], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian point_mass GD Alpha[periodic] vs GD Alpha[late]: ratio 0.023 [0.0106, 0.118], r=+0.98, wins 19/20, p_holm 0.00031 *
+      Gaussian point_mass SGD Alpha[late] vs SGD Alpha[early]: ratio 0.0748 [0.0262, 0.147], r=+0.84, wins 19/20, p_holm 0.017 *
+      Gaussian point_mass SGD Alpha[periodic] vs SGD Alpha[early]: ratio 0.019 [0.00909, 0.0548], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  GD Alpha[late] vs GD Alpha[early]: ratio 0.163 [0.102, 0.278], r=+0.97, wins 18/20, p_holm 0.0005 *
+      Gaussian symmetric  GD Alpha[periodic] vs GD Alpha[early]: ratio 0.101 [0.0855, 0.141], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  SGD Alpha[late] vs SGD Alpha[early]: ratio 0.14 [0.108, 0.257], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Gaussian symmetric  SGD Alpha[periodic] vs SGD Alpha[early]: ratio 0.123 [0.0765, 0.184], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  asymmetric GD Alpha[late] vs GD Alpha[early]: ratio 0.00871 [0.0066, 0.018], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  asymmetric GD Alpha[periodic] vs GD Alpha[early]: ratio 0.00801 [0.0066, 0.0125], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass GD Alpha[late] vs GD Alpha[early]: ratio 0.0334 [0.0166, 0.0699], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass GD Alpha[periodic] vs GD Alpha[early]: ratio 0.00657 [0.00336, 0.013], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sigmoid  point_mass GD Alpha[periodic] vs GD Alpha[late]: ratio 0.318 [0.0712, 0.685], r=+0.98, wins 14/20, p_holm 0.031 *
+      Sigmoid  point_mass SGD Alpha[periodic] vs SGD Alpha[late]: ratio 0.192 [0.0797, 0.424], r=+1.00, wins 15/20, p_holm 0.028 *
+      Sigmoid  symmetric  GD Alpha[late] vs GD Alpha[early]: ratio 0.239 [0.16, 0.355], r=+0.94, wins 18/20, p_holm 0.0013 *
+      Sigmoid  symmetric  GD Alpha[periodic] vs GD Alpha[early]: ratio 0.239 [0.16, 0.355], r=+0.93, wins 17/20, p_holm 0.0018 *
+      Sine     asymmetric GD Alpha[late] vs GD Alpha[early]: ratio 0.171 [0.065, 0.363], r=+0.99, wins 19/20, p_holm 0.00021 *
+      Sine     asymmetric GD Alpha[periodic] vs GD Alpha[early]: ratio 0.0833 [0.0536, 0.147], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sine     asymmetric SGD Alpha[late] vs SGD Alpha[early]: ratio 0.0755 [0.049, 0.228], r=+0.97, wins 18/20, p_holm 0.0005 *
+      Sine     asymmetric SGD Alpha[periodic] vs SGD Alpha[early]: ratio 0.038 [0.0206, 0.0696], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sine     point_mass GD Alpha[late] vs GD Alpha[early]: ratio 0.15 [0.108, 0.306], r=+0.98, wins 19/20, p_holm 0.00031 *
+      Sine     point_mass GD Alpha[periodic] vs GD Alpha[early]: ratio 0.0472 [0.0338, 0.0725], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sine     point_mass GD Alpha[periodic] vs GD Alpha[late]: ratio 0.375 [0.189, 0.43], r=+0.98, wins 18/20, p_holm 0.0082 *
+      Sine     point_mass SGD Alpha[late] vs SGD Alpha[early]: ratio 0.459 [0.209, 0.716], r=+0.81, wins 17/20, p_holm 0.029 *
+      Sine     point_mass SGD Alpha[periodic] vs SGD Alpha[early]: ratio 0.0299 [0.0164, 0.0683], r=+1.00, wins 20/20, p_holm 0.00014 *
+      Sine     point_mass SGD Alpha[periodic] vs SGD Alpha[late]: ratio 0.142 [0.0688, 0.266], r=+1.00, wins 19/20, p_holm 0.0062 *
+  sgd_vs_gd: 48 tests, 24 significant (24 favour the candidate, 0 the baseline)
+      Gaussian asymmetric SGD MSE vs GD MSE: ratio 0.451 [0.259, 0.636], r=+0.86, wins 16/20, p_holm 0.0073 *
+      Gaussian asymmetric SGD Alpha[early] vs GD Alpha[early]: ratio 0.568 [0.309, 0.801], r=+0.90, wins 18/20, p_holm 0.0031 *
+      Gaussian point_mass SGD MSE vs GD MSE: ratio 0.624 [0.365, 0.815], r=+0.78, wins 15/20, p_holm 0.03 *
+      Gaussian point_mass SGD Alpha[late] vs GD Alpha[late]: ratio 0.0693 [0.0182, 0.211], r=+0.90, wins 19/20, p_holm 0.0025 *
+      Sigmoid  asymmetric SGD MSE vs GD MSE: ratio 0.375 [0.241, 0.476], r=+0.97, wins 19/20, p_holm 0.00032 *
+      Sigmoid  asymmetric SGD Alpha[early] vs GD Alpha[early]: ratio 0.00357 [0.00181, 0.00546], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sigmoid  asymmetric SGD Alpha[periodic] vs GD Alpha[periodic]: ratio 0.518 [0.452, 0.753], r=+0.91, wins 18/20, p_holm 0.002 *
+      Sigmoid  point_mass SGD MSE vs GD MSE: ratio 0.522 [0.421, 0.909], r=+0.79, wins 14/20, p_holm 0.026 *
+      Sigmoid  point_mass SGD Alpha[early] vs GD Alpha[early]: ratio 0.0252 [0.0126, 0.0859], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sigmoid  symmetric  SGD MSE vs GD MSE: ratio 0.58 [0.338, 0.845], r=+0.85, wins 17/20, p_holm 0.0087 *
+      Sigmoid  symmetric  SGD Alpha[early] vs GD Alpha[early]: ratio 0.415 [0.141, 0.731], r=+0.89, wins 17/20, p_holm 0.0039 *
+      Sine     clean      SGD MSE vs GD MSE: ratio 0.0658 [0.0576, 0.0734], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     clean      SGD Alpha[early] vs GD Alpha[early]: ratio 0.0788 [0.0683, 0.0992], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     clean      SGD Alpha[late] vs GD Alpha[late]: ratio 0.0651 [0.0556, 0.0963], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     clean      SGD Alpha[periodic] vs GD Alpha[periodic]: ratio 0.0651 [0.0564, 0.0963], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     asymmetric SGD Alpha[early] vs GD Alpha[early]: ratio 0.26 [0.203, 0.489], r=+0.99, wins 19/20, p_holm 0.00014 *
+      Sine     asymmetric SGD Alpha[late] vs GD Alpha[late]: ratio 0.162 [0.0814, 0.247], r=+0.98, wins 19/20, p_holm 0.0002 *
+      Sine     asymmetric SGD Alpha[periodic] vs GD Alpha[periodic]: ratio 0.133 [0.0752, 0.17], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     point_mass SGD Alpha[early] vs GD Alpha[early]: ratio 0.198 [0.125, 0.273], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     point_mass SGD Alpha[late] vs GD Alpha[late]: ratio 0.377 [0.183, 0.548], r=+0.92, wins 18/20, p_holm 0.0016 *
+      Sine     point_mass SGD Alpha[periodic] vs GD Alpha[periodic]: ratio 0.14 [0.0769, 0.211], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     symmetric  SGD Alpha[early] vs GD Alpha[early]: ratio 0.228 [0.109, 0.362], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+      Sine     symmetric  SGD Alpha[late] vs GD Alpha[late]: ratio 0.188 [0.121, 0.285], r=+0.99, wins 19/20, p_holm 0.00014 *
+      Sine     symmetric  SGD Alpha[periodic] vs GD Alpha[periodic]: ratio 0.184 [0.148, 0.246], r=+1.00, wins 20/20, p_holm 9.2e-05 *
+  Smallest attainable raw p with these seeds: 1.91e-06; the largest family (72 tests) needs >= 12 non-zero pairs, all in one direction, to reach p_holm < 0.05.
+
+Figures: fitted_curves.png, convergence.png, validation.png, gradient_noise.png, sigma_trajectory.png, outlier_weight.png, inlier_weight.png, summary_mse.png, effect_sizes.png
+Outputs saved to /data/gpfs/projects/punim3024/zalsaadi/robust_alpha/results/sigma_full_v2
+========================================
+Finished: Fri 06 Nov 2026 08:13:30 AEDT
+========================================

@@ -1,0 +1,149 @@
+{
+  "alpha": 0.9,
+  "batch": 20,
+  "contamination": 0.2,
+  "early_warmup": 40,
+  "epochs": 20000,
+  "eval_every": 100,
+  "exploration": 0.2,
+  "lr_grid_gd": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "lr_grid_sgd": [
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "n": 100,
+  "n_val": 100,
+  "noise": 0.025,
+  "rank_mode": "probabilistic",
+  "rank_strength": 3.0,
+  "sigma_every": 200,
+  "sigma_floor": 0.1,
+  "sigma_strategies": [
+    "early",
+    "late",
+    "periodic"
+  ],
+  "stage": "sigma",
+  "tune_epochs": 2000,
+  "tune_seeds": 2,
+  "val_mode": "clean",
+  "warmup": 2000,
+  "cache_format": 3,
+  "source": "fe2c6ce4726c",
+  "digest": "5cf7ec6112def5",
+  "cache": "/data/gpfs/projects/punim3024/zalsaadi/robust_alpha/results/sigma_full_v2/cache/sigma_5cf7ec6112def5",
+  "completed_eval_jobs": 240,
+  "expected_eval_jobs": 240,
+  "seeds": 20,
+  "methods": [
+    "GD MSE",
+    "SGD MSE",
+    "GD Alpha[early]",
+    "GD Alpha[late]",
+    "GD Alpha[periodic]",
+    "SGD Alpha[early]",
+    "SGD Alpha[late]",
+    "SGD Alpha[periodic]"
+  ],
+  "families": {
+    "alpha_vs_mse": [
+      [
+        "GD Alpha[early]",
+        "GD MSE"
+      ],
+      [
+        "GD Alpha[late]",
+        "GD MSE"
+      ],
+      [
+        "GD Alpha[periodic]",
+        "GD MSE"
+      ],
+      [
+        "SGD Alpha[early]",
+        "SGD MSE"
+      ],
+      [
+        "SGD Alpha[late]",
+        "SGD MSE"
+      ],
+      [
+        "SGD Alpha[periodic]",
+        "SGD MSE"
+      ]
+    ],
+    "sigma_strategy": [
+      [
+        "GD Alpha[late]",
+        "GD Alpha[early]"
+      ],
+      [
+        "GD Alpha[periodic]",
+        "GD Alpha[early]"
+      ],
+      [
+        "GD Alpha[periodic]",
+        "GD Alpha[late]"
+      ],
+      [
+        "SGD Alpha[late]",
+        "SGD Alpha[early]"
+      ],
+      [
+        "SGD Alpha[periodic]",
+        "SGD Alpha[early]"
+      ],
+      [
+        "SGD Alpha[periodic]",
+        "SGD Alpha[late]"
+      ]
+    ],
+    "sgd_vs_gd": [
+      [
+        "SGD MSE",
+        "GD MSE"
+      ],
+      [
+        "SGD Alpha[early]",
+        "GD Alpha[early]"
+      ],
+      [
+        "SGD Alpha[late]",
+        "GD Alpha[late]"
+      ],
+      [
+        "SGD Alpha[periodic]",
+        "GD Alpha[periodic]"
+      ]
+    ]
+  },
+  "validation_criterion": "mean squared residual on CLEAN validation set (internal scale)",
+  "main_schedule": {
+    "epochs": 20000,
+    "warmup": {
+      "early": 40,
+      "late": 2000,
+      "periodic": 2000
+    },
+    "sigma_every": 200,
+    "eval_every": 100
+  },
+  "tuning_schedule": {
+    "epochs": 2000,
+    "warmup": {
+      "early": 4,
+      "late": 200,
+      "periodic": 200
+    },
+    "sigma_every": 20,
+    "eval_every": 10
+  },
+  "tuning_criterion": "mean over pilot seeds of log(best validation score); post-alpha checkpoint for alpha methods, overall for MSE"
+}

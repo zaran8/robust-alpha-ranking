@@ -1,0 +1,1921 @@
+function,condition,method,lr,pilot_seed,tuning_score,criterion,chosen,chosen_at_grid_edge,all_diverged
+Gaussian,clean,GD MSE,0.25,0,0.04806472578227784,-3.073669407671573,False,False,False
+Gaussian,clean,GD MSE,0.25,1,0.04450596327006766,-3.073669407671573,False,False,False
+Gaussian,clean,GD MSE,0.5,0,0.0024285289214335364,-6.005459373435547,True,False,False
+Gaussian,clean,GD MSE,0.5,1,0.0025025397574766307,-6.005459373435547,True,False,False
+Gaussian,clean,GD MSE,1.0,0,0.007869423352091698,-3.9535867918628567,False,False,False
+Gaussian,clean,GD MSE,1.0,1,0.046775155011975024,-3.9535867918628567,False,False,False
+Gaussian,clean,GD MSE,2.0,0,0.06464386243425269,-2.118373113986232,False,False,False
+Gaussian,clean,GD MSE,2.0,1,0.22360277786222013,-2.118373113986232,False,False,False
+Gaussian,clean,SGD MSE,0.05,0,0.048094389388519086,-3.0794376674166513,False,True,False
+Gaussian,clean,SGD MSE,0.05,1,0.04396833419993779,-3.0794376674166513,False,True,False
+Gaussian,clean,SGD MSE,0.1,0,0.0022223664216374337,-6.142290836932865,False,True,False
+Gaussian,clean,SGD MSE,0.1,1,0.002079975885734553,-6.142290836932865,False,True,False
+Gaussian,clean,SGD MSE,0.2,0,0.0007106270360577548,-7.129721258591056,False,True,False
+Gaussian,clean,SGD MSE,0.2,1,0.0009027366474543,-7.129721258591056,False,True,False
+Gaussian,clean,SGD MSE,0.4,0,0.0006008690645165182,-7.2673465721122215,True,True,False
+Gaussian,clean,SGD MSE,0.4,1,0.000810742847934181,-7.2673465721122215,True,True,False
+Gaussian,clean,GD Alpha,0.25,0,0.04873870397645231,-3.049152164092165,False,False,False
+Gaussian,clean,GD Alpha,0.25,1,0.04609630396480842,-3.049152164092165,False,False,False
+Gaussian,clean,GD Alpha,0.5,0,0.0037054290759097317,-5.074775510454927,True,False,False
+Gaussian,clean,GD Alpha,0.5,1,0.010550365195916886,-5.074775510454927,True,False,False
+Gaussian,clean,GD Alpha,1.0,0,0.015783414617083557,-3.5968298575104964,False,False,False
+Gaussian,clean,GD Alpha,1.0,1,0.04760277995837808,-3.5968298575104964,False,False,False
+Gaussian,clean,GD Alpha,2.0,0,68.10057215296239,4.364065288622863,False,False,False
+Gaussian,clean,GD Alpha,2.0,1,90.66260351643903,4.364065288622863,False,False,False
+Gaussian,clean,GD Ranked 10%,0.25,0,0.05339460730805024,-2.9881478444431,False,False,False
+Gaussian,clean,GD Ranked 10%,0.25,1,0.047536845969202816,-2.9881478444431,False,False,False
+Gaussian,clean,GD Ranked 10%,0.5,0,0.05198280430173468,-3.0140657368876074,True,False,False
+Gaussian,clean,GD Ranked 10%,0.5,1,0.04636134855459334,-3.0140657368876074,True,False,False
+Gaussian,clean,GD Ranked 10%,1.0,0,0.053196495029331985,-2.9801905715776047,False,False,False
+Gaussian,clean,GD Ranked 10%,1.0,1,0.04847930004005416,-2.9801905715776047,False,False,False
+Gaussian,clean,GD Ranked 10%,2.0,0,68.1005721529624,4.3640652886228635,False,False,False
+Gaussian,clean,GD Ranked 10%,2.0,1,90.66260351643903,4.3640652886228635,False,False,False
+Gaussian,clean,GD Uniform 10%,0.25,0,0.05352109644838996,-2.9869715742441394,False,False,False
+Gaussian,clean,GD Uniform 10%,0.25,1,0.04753619910218504,-2.9869715742441394,False,False,False
+Gaussian,clean,GD Uniform 10%,0.5,0,0.05193299487289565,-3.017103254640976,True,False,False
+Gaussian,clean,GD Uniform 10%,0.5,1,0.04612475179209356,-3.017103254640976,True,False,False
+Gaussian,clean,GD Uniform 10%,1.0,0,0.05293109423732904,-2.982799673016245,False,False,False
+Gaussian,clean,GD Uniform 10%,1.0,1,0.04846879811044816,-2.982799673016245,False,False,False
+Gaussian,clean,GD Uniform 10%,2.0,0,68.1005721529624,4.3640652886228635,False,False,False
+Gaussian,clean,GD Uniform 10%,2.0,1,90.66260351643903,4.3640652886228635,False,False,False
+Gaussian,clean,GD Ranked 30%,0.25,0,0.05253562908051139,-2.9970898473864414,False,False,False
+Gaussian,clean,GD Ranked 30%,0.25,1,0.047457723095235285,-2.9970898473864414,False,False,False
+Gaussian,clean,GD Ranked 30%,0.5,0,0.05030295475471671,-3.0479010806199485,True,False,False
+Gaussian,clean,GD Ranked 30%,0.5,1,0.044774759592865546,-3.0479010806199485,True,False,False
+Gaussian,clean,GD Ranked 30%,1.0,0,0.05210933321688577,-2.9909027049126395,False,False,False
+Gaussian,clean,GD Ranked 30%,1.0,1,0.048441703001071056,-2.9909027049126395,False,False,False
+Gaussian,clean,GD Ranked 30%,2.0,0,68.1005721529624,4.3640652886228635,False,False,False
+Gaussian,clean,GD Ranked 30%,2.0,1,90.66260351643903,4.3640652886228635,False,False,False
+Gaussian,clean,GD Uniform 30%,0.25,0,0.05252265646450055,-2.997276039489916,False,False,False
+Gaussian,clean,GD Uniform 30%,0.25,1,0.047451771138364386,-2.997276039489916,False,False,False
+Gaussian,clean,GD Uniform 30%,0.5,0,0.049134376001774956,-3.075425936622082,True,False,False
+Gaussian,clean,GD Uniform 30%,0.5,1,0.043384393196022476,-3.075425936622082,True,False,False
+Gaussian,clean,GD Uniform 30%,1.0,0,0.0505500921652175,-3.0064006404897627,False,False,False
+Gaussian,clean,GD Uniform 30%,1.0,1,0.048411844665261876,-3.0064006404897627,False,False,False
+Gaussian,clean,GD Uniform 30%,2.0,0,68.1005721529624,4.3640652886228635,False,False,False
+Gaussian,clean,GD Uniform 30%,2.0,1,90.66260351643903,4.3640652886228635,False,False,False
+Gaussian,clean,GD Ranked 50%,0.25,0,0.05205788089151997,-3.0032849400433843,False,False,False
+Gaussian,clean,GD Ranked 50%,0.25,1,0.04730350925853832,-3.0032849400433843,False,False,False
+Gaussian,clean,GD Ranked 50%,0.5,0,0.046688795838108046,-3.122246048259764,True,False,False
+Gaussian,clean,GD Ranked 50%,0.5,1,0.04157563270519275,-3.122246048259764,True,False,False
+Gaussian,clean,GD Ranked 50%,1.0,0,0.04982375927039881,-3.0139587416988296,False,False,False
+Gaussian,clean,GD Ranked 50%,1.0,1,0.04838070661170631,-3.0139587416988296,False,False,False
+Gaussian,clean,GD Ranked 50%,2.0,0,68.10057215296239,4.364065288622863,False,False,False
+Gaussian,clean,GD Ranked 50%,2.0,1,90.66260351643903,4.364065288622863,False,False,False
+Gaussian,clean,GD Uniform 50%,0.25,0,0.05193677415458321,-3.004934848513977,False,False,False
+Gaussian,clean,GD Uniform 50%,0.25,1,0.04725761305326692,-3.004934848513977,False,False,False
+Gaussian,clean,GD Uniform 50%,0.5,0,0.041473621930430665,-3.241053104332557,True,False,False
+Gaussian,clean,GD Uniform 50%,0.5,1,0.03690498882015844,-3.241053104332557,True,False,False
+Gaussian,clean,GD Uniform 50%,1.0,0,0.040267100222138336,-3.120944251037974,False,False,False
+Gaussian,clean,GD Uniform 50%,1.0,1,0.04833168221053435,-3.120944251037974,False,False,False
+Gaussian,clean,GD Uniform 50%,2.0,0,68.1005721529624,4.3640652886228635,False,False,False
+Gaussian,clean,GD Uniform 50%,2.0,1,90.66260351643903,4.3640652886228635,False,False,False
+Gaussian,clean,GD Ranked 70%,0.25,0,0.05139265110369537,-3.0127446405819933,False,False,False
+Gaussian,clean,GD Ranked 70%,0.25,1,0.04701779227876504,-3.0127446405819933,False,False,False
+Gaussian,clean,GD Ranked 70%,0.5,0,0.032427114099364295,-3.448170543065843,True,False,False
+Gaussian,clean,GD Ranked 70%,0.5,1,0.031192402142432917,-3.448170543065843,True,False,False
+Gaussian,clean,GD Ranked 70%,1.0,0,0.037798759573139676,-3.1533830963790592,False,False,False
+Gaussian,clean,GD Ranked 70%,1.0,1,0.04825348622990923,-3.1533830963790592,False,False,False
+Gaussian,clean,GD Ranked 70%,2.0,0,68.10057215296239,4.364065288622863,False,False,False
+Gaussian,clean,GD Ranked 70%,2.0,1,90.66260351643903,4.364065288622863,False,False,False
+Gaussian,clean,GD Uniform 70%,0.25,0,0.05116933557525589,-3.015619532072187,False,False,False
+Gaussian,clean,GD Uniform 70%,0.25,1,0.046952246615330304,-3.015619532072187,False,False,False
+Gaussian,clean,GD Uniform 70%,0.5,0,0.015157538403314299,-4.033284785432402,True,False,False
+Gaussian,clean,GD Uniform 70%,0.5,1,0.020706403381181064,-4.033284785432402,True,False,False
+Gaussian,clean,GD Uniform 70%,1.0,0,0.010909275941634084,-3.775422096217053,False,False,False
+Gaussian,clean,GD Uniform 70%,1.0,1,0.04818524887957084,-3.775422096217053,False,False,False
+Gaussian,clean,GD Uniform 70%,2.0,0,68.1005721529624,4.3640652886228635,False,False,False
+Gaussian,clean,GD Uniform 70%,2.0,1,90.66260351643903,4.3640652886228635,False,False,False
+Gaussian,clean,SGD Alpha,0.05,0,0.04876235867873945,-3.0549290123071877,False,True,False
+Gaussian,clean,SGD Alpha,0.05,1,0.04554468157229313,-3.0549290123071877,False,True,False
+Gaussian,clean,SGD Alpha,0.1,0,0.002591010516667691,-5.896308291990848,False,True,False
+Gaussian,clean,SGD Alpha,0.1,1,0.002917846993977616,-5.896308291990848,False,True,False
+Gaussian,clean,SGD Alpha,0.2,0,0.0007235602583302247,-7.106753567133152,False,True,False
+Gaussian,clean,SGD Alpha,0.2,1,0.0009282769741719645,-7.106753567133152,False,True,False
+Gaussian,clean,SGD Alpha,0.4,0,0.0006037816134727255,-7.267102947589654,True,True,False
+Gaussian,clean,SGD Alpha,0.4,1,0.0008072251739370132,-7.267102947589654,True,True,False
+Gaussian,clean,SGD Ranked 10%,0.05,0,0.05348629206367755,-2.987687491444853,False,True,False
+Gaussian,clean,SGD Ranked 10%,0.05,1,0.04749907214746292,-2.987687491444853,False,True,False
+Gaussian,clean,SGD Ranked 10%,0.1,0,0.05214343830700587,-3.013363041407728,False,True,False
+Gaussian,clean,SGD Ranked 10%,0.1,1,0.04628352772305851,-3.013363041407728,False,True,False
+Gaussian,clean,SGD Ranked 10%,0.2,0,0.048729610708844115,-3.1038728294570372,False,True,False
+Gaussian,clean,SGD Ranked 10%,0.2,1,0.041325429255610245,-3.1038728294570372,False,True,False
+Gaussian,clean,SGD Ranked 10%,0.4,0,0.018679529851291267,-4.237033368677297,True,True,False
+Gaussian,clean,SGD Ranked 10%,0.4,1,0.01117876008332522,-4.237033368677297,True,True,False
+Gaussian,clean,SGD Uniform 10%,0.05,0,0.05342264132718102,-2.9878050727514163,False,True,False
+Gaussian,clean,SGD Uniform 10%,0.05,1,0.04754448321116118,-2.9878050727514163,False,True,False
+Gaussian,clean,SGD Uniform 10%,0.1,0,0.051775632886527465,-3.0172974121727494,False,True,False
+Gaussian,clean,SGD Uniform 10%,0.1,1,0.0462469771371511,-3.0172974121727494,False,True,False
+Gaussian,clean,SGD Uniform 10%,0.2,0,0.045819436200627,-3.1651866763106637,False,True,False
+Gaussian,clean,SGD Uniform 10%,0.2,1,0.03887801147329391,-3.1651866763106637,False,True,False
+Gaussian,clean,SGD Uniform 10%,0.4,0,0.0019892538304794477,-6.377683959431326,True,True,False
+Gaussian,clean,SGD Uniform 10%,0.4,1,0.0014511887240158652,-6.377683959431326,True,True,False
+Gaussian,clean,SGD Ranked 30%,0.05,0,0.052420479652577165,-3.001248052470162,False,True,False
+Gaussian,clean,SGD Ranked 30%,0.05,1,0.04716806643244762,-3.001248052470162,False,True,False
+Gaussian,clean,SGD Ranked 30%,0.1,0,0.04992105581323619,-3.060759242496201,False,True,False
+Gaussian,clean,SGD Ranked 30%,0.1,1,0.043971829886417756,-3.060759242496201,False,True,False
+Gaussian,clean,SGD Ranked 30%,0.2,0,0.020943200966095556,-3.990277285547617,False,True,False
+Gaussian,clean,SGD Ranked 30%,0.2,1,0.016332254061610974,-3.990277285547617,False,True,False
+Gaussian,clean,SGD Ranked 30%,0.4,0,0.0011377487599835247,-6.827983210796093,True,True,False
+Gaussian,clean,SGD Ranked 30%,0.4,1,0.00103096225919142,-6.827983210796093,True,True,False
+Gaussian,clean,SGD Uniform 30%,0.05,0,0.05259230659101515,-2.9969362888505513,False,True,False
+Gaussian,clean,SGD Uniform 30%,0.05,1,0.047421140612093404,-2.9969362888505513,False,True,False
+Gaussian,clean,SGD Uniform 30%,0.1,0,0.04970524154963986,-3.0665534808799104,False,True,False
+Gaussian,clean,SGD Uniform 30%,0.1,1,0.04365392529804905,-3.0665534808799104,False,True,False
+Gaussian,clean,SGD Uniform 30%,0.2,0,0.005229219940665974,-5.730578396170966,False,True,False
+Gaussian,clean,SGD Uniform 30%,0.2,1,0.0020139372755460065,-5.730578396170966,False,True,False
+Gaussian,clean,SGD Uniform 30%,0.4,0,0.0007675104917170237,-7.1061342784401305,True,True,False
+Gaussian,clean,SGD Uniform 30%,0.4,1,0.0008762052872792187,-7.1061342784401305,True,True,False
+Gaussian,clean,SGD Ranked 50%,0.05,0,0.051911414674937255,-3.0078543141025325,False,True,False
+Gaussian,clean,SGD Ranked 50%,0.05,1,0.04700543474213331,-3.0078543141025325,False,True,False
+Gaussian,clean,SGD Ranked 50%,0.1,0,0.04638963568036887,-3.1239242971432093,False,True,False
+Gaussian,clean,SGD Ranked 50%,0.1,1,0.04170353504002385,-3.1239242971432093,False,True,False
+Gaussian,clean,SGD Ranked 50%,0.2,0,0.002469443874518264,-6.164507577282706,False,True,False
+Gaussian,clean,SGD Ranked 50%,0.2,1,0.0017905134640198359,-6.164507577282706,False,True,False
+Gaussian,clean,SGD Ranked 50%,0.4,0,0.0008747381033666342,-7.012102033343446,True,True,False
+Gaussian,clean,SGD Ranked 50%,0.4,1,0.0009278708177861636,-7.012102033343446,True,True,False
+Gaussian,clean,SGD Uniform 50%,0.05,0,0.05201928882664093,-3.0058642182398896,False,True,False
+Gaussian,clean,SGD Uniform 50%,0.05,1,0.04709503270444066,-3.0058642182398896,False,True,False
+Gaussian,clean,SGD Uniform 50%,0.1,0,0.04551763440481925,-3.1818165605450552,False,True,False
+Gaussian,clean,SGD Uniform 50%,0.1,1,0.03785555060917734,-3.1818165605450552,False,True,False
+Gaussian,clean,SGD Uniform 50%,0.2,0,0.0017502873889638946,-6.5122469123506885,False,True,False
+Gaussian,clean,SGD Uniform 50%,0.2,1,0.0012601575294799421,-6.5122469123506885,False,True,False
+Gaussian,clean,SGD Uniform 50%,0.4,0,0.000650040018606181,-7.202322886396233,True,True,False
+Gaussian,clean,SGD Uniform 50%,0.4,1,0.0008534964774596906,-7.202322886396233,True,True,False
+Gaussian,clean,SGD Ranked 70%,0.05,0,0.05107519499840408,-3.0213652497445143,False,True,False
+Gaussian,clean,SGD Ranked 70%,0.05,1,0.04650133862880845,-3.0213652497445143,False,True,False
+Gaussian,clean,SGD Ranked 70%,0.1,0,0.025340243446016427,-3.581623620864579,False,True,False
+Gaussian,clean,SGD Ranked 70%,0.1,1,0.030565427018180717,-3.581623620864579,False,True,False
+Gaussian,clean,SGD Ranked 70%,0.2,0,0.0013223450543233552,-6.62601256729182,False,True,False
+Gaussian,clean,SGD Ranked 70%,0.2,1,0.0013285374914216305,-6.62601256729182,False,True,False
+Gaussian,clean,SGD Ranked 70%,0.4,0,0.0006942685161488115,-7.165064275803164,True,True,False
+Gaussian,clean,SGD Ranked 70%,0.4,1,0.0008609477073247853,-7.165064275803164,True,True,False
+Gaussian,clean,SGD Uniform 70%,0.05,0,0.05128719537691527,-3.016595877366991,False,True,False
+Gaussian,clean,SGD Uniform 70%,0.05,1,0.04675296541213838,-3.016595877366991,False,True,False
+Gaussian,clean,SGD Uniform 70%,0.1,0,0.02468129394109769,-3.7227129048412504,False,True,False
+Gaussian,clean,SGD Uniform 70%,0.1,1,0.023665992969421335,-3.7227129048412504,False,True,False
+Gaussian,clean,SGD Uniform 70%,0.2,0,0.0010343730269205707,-6.849555559231526,False,True,False
+Gaussian,clean,SGD Uniform 70%,0.2,1,0.0010861115877981665,-6.849555559231526,False,True,False
+Gaussian,clean,SGD Uniform 70%,0.4,0,0.0006219357275191964,-7.237903791488607,True,True,False
+Gaussian,clean,SGD Uniform 70%,0.4,1,0.00083078976918638,-7.237903791488607,True,True,False
+Gaussian,asymmetric,GD MSE,0.25,0,0.06464386243425269,-2.6402013927248236,False,False,False
+Gaussian,asymmetric,GD MSE,0.25,1,0.07874498609798378,-2.6402013927248236,False,False,False
+Gaussian,asymmetric,GD MSE,0.5,0,0.021241710563778632,-4.151451039295752,False,False,False
+Gaussian,asymmetric,GD MSE,0.5,1,0.011665569799596568,-4.151451039295752,False,False,False
+Gaussian,asymmetric,GD MSE,1.0,0,0.0033360871236550915,-4.598068232404604,True,False,False
+Gaussian,asymmetric,GD MSE,1.0,1,0.03040403995368638,-4.598068232404604,True,False,False
+Gaussian,asymmetric,GD MSE,2.0,0,0.06464386243425269,-2.118373113986232,False,False,False
+Gaussian,asymmetric,GD MSE,2.0,1,0.22360277786222013,-2.118373113986232,False,False,False
+Gaussian,asymmetric,SGD MSE,0.05,0,0.06464386243425269,-2.6617967845377386,False,True,False
+Gaussian,asymmetric,SGD MSE,0.05,1,0.07541632952053207,-2.6617967845377386,False,True,False
+Gaussian,asymmetric,SGD MSE,0.1,0,0.017947138026334443,-4.041391986062418,False,True,False
+Gaussian,asymmetric,SGD MSE,0.1,1,0.01720664979424373,-4.041391986062418,False,True,False
+Gaussian,asymmetric,SGD MSE,0.2,0,0.005281792326732434,-4.855200228873812,False,True,False
+Gaussian,asymmetric,SGD MSE,0.2,1,0.011482735015447,-4.855200228873812,False,True,False
+Gaussian,asymmetric,SGD MSE,0.4,0,0.003879525928960359,-5.158834270803941,True,True,False
+Gaussian,asymmetric,SGD MSE,0.4,1,0.008517552662935602,-5.158834270803941,True,True,False
+Gaussian,asymmetric,GD Alpha,0.25,0,0.07325204997095999,-2.6146314408733375,False,False,False
+Gaussian,asymmetric,GD Alpha,0.25,1,0.07313751547926059,-2.6146314408733375,False,False,False
+Gaussian,asymmetric,GD Alpha,0.5,0,0.004599814956658137,-5.1217017714076984,True,False,False
+Gaussian,asymmetric,GD Alpha,0.5,1,0.0077375951816286434,-5.1217017714076984,True,False,False
+Gaussian,asymmetric,GD Alpha,1.0,0,0.004772091776345221,-4.40122896890739,False,False,False
+Gaussian,asymmetric,GD Alpha,1.0,1,0.031508831885121415,-4.40122896890739,False,False,False
+Gaussian,asymmetric,GD Alpha,2.0,0,33.50040674382071,3.9127348403470146,False,False,False
+Gaussian,asymmetric,GD Alpha,2.0,1,74.732277983569,3.9127348403470146,False,False,False
+Gaussian,asymmetric,GD Ranked 10%,0.25,0,0.07677531149005082,-2.5747877697984474,False,False,False
+Gaussian,asymmetric,GD Ranked 10%,0.25,1,0.0755694344237947,-2.5747877697984474,False,False,False
+Gaussian,asymmetric,GD Ranked 10%,0.5,0,0.07546372003235353,-2.5950042731386773,True,False,False
+Gaussian,asymmetric,GD Ranked 10%,0.5,1,0.07383626453637529,-2.5950042731386773,True,False,False
+Gaussian,asymmetric,GD Ranked 10%,1.0,0,0.07513556396894364,-2.577528340971578,False,False,False
+Gaussian,asymmetric,GD Ranked 10%,1.0,1,0.07679656207449281,-2.577528340971578,False,False,False
+Gaussian,asymmetric,GD Ranked 10%,2.0,0,33.50040847782544,3.912734866227367,False,False,False
+Gaussian,asymmetric,GD Ranked 10%,2.0,1,74.732277983569,3.912734866227367,False,False,False
+Gaussian,asymmetric,GD Uniform 10%,0.25,0,0.07686099674231682,-2.574307720031623,False,False,False
+Gaussian,asymmetric,GD Uniform 10%,0.25,1,0.07555769711220008,-2.574307720031623,False,False,False
+Gaussian,asymmetric,GD Uniform 10%,0.5,0,0.07562510414392486,-2.595788955091531,True,False,False
+Gaussian,asymmetric,GD Uniform 10%,0.5,1,0.07356315980715712,-2.595788955091531,True,False,False
+Gaussian,asymmetric,GD Uniform 10%,1.0,0,0.07500251559006049,-2.578283431696157,False,False,False
+Gaussian,asymmetric,GD Uniform 10%,1.0,1,0.07681669815374252,-2.578283431696157,False,False,False
+Gaussian,asymmetric,GD Uniform 10%,2.0,0,33.5004086574696,3.912734868908591,False,False,False
+Gaussian,asymmetric,GD Uniform 10%,2.0,1,74.732277983569,3.912734868908591,False,False,False
+Gaussian,asymmetric,GD Ranked 30%,0.25,0,0.07603277725762271,-2.581051106072632,False,False,False
+Gaussian,asymmetric,GD Ranked 30%,0.25,1,0.07535752736844033,-2.581051106072632,False,False,False
+Gaussian,asymmetric,GD Ranked 30%,0.5,0,0.07430919971071134,-2.620076697431446,True,False,False
+Gaussian,asymmetric,GD Ranked 30%,0.5,1,0.07131612083947893,-2.620076697431446,True,False,False
+Gaussian,asymmetric,GD Ranked 30%,1.0,0,0.07417045188780372,-2.5884411107366088,False,False,False
+Gaussian,asymmetric,GD Ranked 30%,1.0,1,0.07611630413928407,-2.5884411107366088,False,False,False
+Gaussian,asymmetric,GD Ranked 30%,2.0,0,33.50040780366619,3.9127348561654114,False,False,False
+Gaussian,asymmetric,GD Ranked 30%,2.0,1,74.732277983569,3.9127348561654114,False,False,False
+Gaussian,asymmetric,GD Uniform 30%,0.25,0,0.07614705639437197,-2.5800085157051393,False,False,False
+Gaussian,asymmetric,GD Uniform 30%,0.25,1,0.07540149506906303,-2.5800085157051393,False,False,False
+Gaussian,asymmetric,GD Uniform 30%,0.5,0,0.0736502975159049,-2.633719005626098,True,False,False
+Gaussian,asymmetric,GD Uniform 30%,0.5,1,0.07001744072430573,-2.633719005626098,True,False,False
+Gaussian,asymmetric,GD Uniform 30%,1.0,0,0.0730931358832878,-2.5961869707006837,False,False,False
+Gaussian,asymmetric,GD Uniform 30%,1.0,1,0.07605084688810099,-2.5961869707006837,False,False,False
+Gaussian,asymmetric,GD Uniform 30%,2.0,0,33.500408149153984,3.9127348613218826,False,False,False
+Gaussian,asymmetric,GD Uniform 30%,2.0,1,74.732277983569,3.9127348613218826,False,False,False
+Gaussian,asymmetric,GD Ranked 50%,0.25,0,0.07564936784539512,-2.5857630188358494,False,False,False
+Gaussian,asymmetric,GD Ranked 50%,0.25,1,0.07502905484120544,-2.5857630188358494,False,False,False
+Gaussian,asymmetric,GD Ranked 50%,0.5,0,0.07146732796269518,-2.676916153364848,True,False,False
+Gaussian,asymmetric,GD Ranked 50%,0.5,1,0.06618394147031244,-2.676916153364848,True,False,False
+Gaussian,asymmetric,GD Ranked 50%,1.0,0,0.07118792935865743,-2.6164181820797205,False,False,False
+Gaussian,asymmetric,GD Ranked 50%,1.0,1,0.07498971128344811,-2.6164181820797205,False,False,False
+Gaussian,asymmetric,GD Ranked 50%,2.0,0,33.500407420872286,3.9127348504521393,False,False,False
+Gaussian,asymmetric,GD Ranked 50%,2.0,1,74.732277983569,3.9127348504521393,False,False,False
+Gaussian,asymmetric,GD Uniform 50%,0.25,0,0.07570538834691366,-2.5853376189779516,False,False,False
+Gaussian,asymmetric,GD Uniform 50%,0.25,1,0.07503734941819264,-2.5853376189779516,False,False,False
+Gaussian,asymmetric,GD Uniform 50%,0.5,0,0.06731019934431612,-2.75310065349145,True,False,False
+Gaussian,asymmetric,GD Uniform 50%,0.5,1,0.0603401352611183,-2.75310065349145,True,False,False
+Gaussian,asymmetric,GD Uniform 50%,1.0,0,0.06524890951963201,-2.6619030288670045,False,False,False
+Gaussian,asymmetric,GD Uniform 50%,1.0,1,0.07470112606401211,-2.6619030288670045,False,False,False
+Gaussian,asymmetric,GD Uniform 50%,2.0,0,33.50040776633385,3.9127348556082193,False,False,False
+Gaussian,asymmetric,GD Uniform 50%,2.0,1,74.732277983569,3.9127348556082193,False,False,False
+Gaussian,asymmetric,GD Ranked 70%,0.25,0,0.07517657213344049,-2.5927855078870405,False,False,False
+Gaussian,asymmetric,GD Ranked 70%,0.25,1,0.07444792595775854,-2.5927855078870405,False,False,False
+Gaussian,asymmetric,GD Ranked 70%,0.5,0,0.059354510580030544,-2.957693226883764,True,False,False
+Gaussian,asymmetric,GD Ranked 70%,0.5,1,0.04544923488940844,-2.957693226883764,True,False,False
+Gaussian,asymmetric,GD Ranked 70%,1.0,0,0.0541660091105183,-2.7663013567468564,False,False,False
+Gaussian,asymmetric,GD Ranked 70%,1.0,1,0.07302882826559212,-2.7663013567468564,False,False,False
+Gaussian,asymmetric,GD Ranked 70%,2.0,0,33.50040708603114,3.9127348454545707,False,False,False
+Gaussian,asymmetric,GD Ranked 70%,2.0,1,74.732277983569,3.9127348454545707,False,False,False
+Gaussian,asymmetric,GD Uniform 70%,0.25,0,0.07513546679526541,-2.593132439918439,False,False,False
+Gaussian,asymmetric,GD Uniform 70%,0.25,1,0.07443698808015344,-2.593132439918439,False,False,False
+Gaussian,asymmetric,GD Uniform 70%,0.5,0,0.04240776193771142,-3.36426211829032,True,False,False
+Gaussian,asymmetric,GD Uniform 70%,0.5,1,0.02820939028460367,-3.36426211829032,True,False,False
+Gaussian,asymmetric,GD Uniform 70%,1.0,0,0.017979506902362226,-3.3265022989343875,False,False,False
+Gaussian,asymmetric,GD Uniform 70%,1.0,1,0.07175613500017484,-3.3265022989343875,False,False,False
+Gaussian,asymmetric,GD Uniform 70%,2.0,0,33.50040737250316,3.912734849730221,False,False,False
+Gaussian,asymmetric,GD Uniform 70%,2.0,1,74.732277983569,3.912734849730221,False,False,False
+Gaussian,asymmetric,SGD Alpha,0.05,0,0.07144951661401626,-2.644450106856375,False,True,False
+Gaussian,asymmetric,SGD Alpha,0.05,1,0.07064159994185296,-2.644450106856375,False,True,False
+Gaussian,asymmetric,SGD Alpha,0.1,0,0.004801520981545857,-5.108050630128041,False,True,False
+Gaussian,asymmetric,SGD Alpha,0.1,1,0.007617715783630574,-5.108050630128041,False,True,False
+Gaussian,asymmetric,SGD Alpha,0.2,0,0.0010098914594584753,-6.731307783075803,False,True,False
+Gaussian,asymmetric,SGD Alpha,0.2,1,0.0014092422274968634,-6.731307783075803,False,True,False
+Gaussian,asymmetric,SGD Alpha,0.4,0,0.0006210242743619692,-7.1475838473359055,True,True,False
+Gaussian,asymmetric,SGD Alpha,0.4,1,0.0009967333192054295,-7.1475838473359055,True,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.05,0,0.07617049993660778,-2.586367417584217,False,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.05,1,0.07442571210917058,-2.586367417584217,False,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.1,0,0.07359140562525672,-2.6323801838912706,False,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.1,1,0.07026135573763914,-2.6323801838912706,False,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.2,0,0.06843690860125326,-2.7829673989301265,False,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.2,1,0.05590554004345947,-2.7829673989301265,False,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.4,0,0.03217659942737875,-4.452636711520406,True,True,False
+Gaussian,asymmetric,SGD Ranked 10%,0.4,1,0.004216467416665013,-4.452636711520406,True,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.05,0,0.07601585936370876,-2.583937343909117,False,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.05,1,0.07494045581836589,-2.583937343909117,False,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.1,0,0.07241186532489546,-2.6224254369125957,False,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.1,1,0.07284176694594889,-2.6224254369125957,False,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.2,0,0.06100203525120298,-2.772271696013531,False,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.2,1,0.0640753630049039,-2.772271696013531,False,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.4,0,0.002789074133343849,-5.766727339445998,True,True,False
+Gaussian,asymmetric,SGD Uniform 10%,0.4,1,0.0035125637717804913,-5.766727339445998,True,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.05,0,0.07465057938515612,-2.599508187645867,False,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.05,1,0.07397120511149709,-2.599508187645867,False,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.1,0,0.0710983859282113,-2.6663332141811953,False,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.1,1,0.0679504996983125,-2.6663332141811953,False,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.2,0,0.032063523428660215,-4.304174704189584,False,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.2,1,0.005694165803183885,-4.304174704189584,False,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.4,0,0.0015177831222624848,-6.422953219052648,True,True,False
+Gaussian,asymmetric,SGD Ranked 30%,0.4,1,0.0017373367232351115,-6.422953219052648,True,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.05,0,0.07501689714085144,-2.5931983955183853,False,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.05,1,0.0745448072026248,-2.5931983955183853,False,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.1,0,0.06865830682220911,-2.670554230603959,False,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.1,1,0.06977389686120436,-2.670554230603959,False,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.2,0,0.004049416498568291,-5.268118531775228,False,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.2,1,0.006558098499802557,-5.268118531775228,False,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.4,0,0.000935021018732499,-6.794218542623214,True,True,False
+Gaussian,asymmetric,SGD Uniform 30%,0.4,1,0.0013421324675559553,-6.794218542623214,True,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.05,0,0.07442087304422994,-2.606023942486266,False,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.05,1,0.07323886471730867,-2.606023942486266,False,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.1,0,0.06909633315408571,-2.732995684220721,False,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.1,1,0.06119206510374267,-2.732995684220721,False,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.2,0,0.003773656057509589,-5.607727942369459,False,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.2,1,0.003568018376850769,-5.607727942369459,False,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.4,0,0.0009497130761371491,-6.76685664696182,True,True,False
+Gaussian,asymmetric,SGD Ranked 50%,0.4,1,0.0013956951815400926,-6.76685664696182,True,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.05,0,0.07399043204958504,-2.6046877212184354,False,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.05,1,0.07386206204381236,-2.6046877212184354,False,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.1,0,0.06434599956447515,-2.758101366071486,False,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.1,1,0.06249165704435583,-2.758101366071486,False,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.2,0,0.0028169032133286156,-5.902780380443538,False,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.2,1,0.00264934295259679,-5.902780380443538,False,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.4,0,0.0007434880741107176,-6.998358906231966,True,True,False
+Gaussian,asymmetric,SGD Uniform 50%,0.4,1,0.0011220925596298113,-6.998358906231966,True,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.05,0,0.0736429892725083,-2.61657624662518,False,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.05,1,0.0724668427681095,-2.61657624662518,False,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.1,0,0.04940690639719987,-3.091800844482706,False,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.1,1,0.041754976799272966,-3.091800844482706,False,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.2,0,0.0017624164726835639,-6.185853946687756,False,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.2,1,0.0024039586148224723,-6.185853946687756,False,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.4,0,0.0007341011644938832,-6.981371210419429,True,True,False
+Gaussian,asymmetric,SGD Ranked 70%,0.4,1,0.001175715114676154,-6.981371210419429,True,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.05,0,0.0738601366895196,-2.6121431783435245,False,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.05,1,0.07289725188093969,-2.6121431783435245,False,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.1,0,0.04417142831605928,-3.125370853792602,False,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.1,1,0.04367128046705924,-3.125370853792602,False,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.2,0,0.0017525381216867983,-6.2868241207628905,False,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.2,1,0.0019754519823687866,-6.2868241207628905,False,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.4,0,0.0006351272706214532,-7.121885414723721,True,True,False
+Gaussian,asymmetric,SGD Uniform 70%,0.4,1,0.0010260019040164777,-7.121885414723721,True,True,False
+Gaussian,point_mass,GD MSE,0.25,0,0.06464386243425269,-2.5972689580911483,False,False,False
+Gaussian,point_mass,GD MSE,0.25,1,0.08580518847044877,-2.5972689580911483,False,False,False
+Gaussian,point_mass,GD MSE,0.5,0,0.021471227695063443,-3.512051141097525,True,False,False
+Gaussian,point_mass,GD MSE,0.5,1,0.04145856453956005,-3.512051141097525,True,False,False
+Gaussian,point_mass,GD MSE,1.0,0,0.04562774838566195,-3.17120896673375,False,False,False
+Gaussian,point_mass,GD MSE,1.0,1,0.038573926764666394,-3.17120896673375,False,False,False
+Gaussian,point_mass,GD MSE,2.0,0,0.06464386243425269,-2.118373113986232,False,False,False
+Gaussian,point_mass,GD MSE,2.0,1,0.22360277786222013,-2.118373113986232,False,False,False
+Gaussian,point_mass,SGD MSE,0.05,0,0.06464386243425269,-2.62676372994018,False,True,False
+Gaussian,point_mass,SGD MSE,0.05,1,0.08088997780550237,-2.62676372994018,False,True,False
+Gaussian,point_mass,SGD MSE,0.1,0,0.034050389459746616,-3.505676116933662,False,True,False
+Gaussian,point_mass,SGD MSE,0.1,1,0.02647807027729533,-3.505676116933662,False,True,False
+Gaussian,point_mass,SGD MSE,0.2,0,0.012406782818135278,-4.194738092698484,False,True,False
+Gaussian,point_mass,SGD MSE,0.2,1,0.018316294033681776,-4.194738092698484,False,True,False
+Gaussian,point_mass,SGD MSE,0.4,0,0.010547940443307625,-4.431080664360447,True,True,False
+Gaussian,point_mass,SGD MSE,0.4,1,0.0134290276560298,-4.431080664360447,True,True,False
+Gaussian,point_mass,GD Alpha,0.25,0,0.08366208802381424,-2.512235291530277,False,False,False
+Gaussian,point_mass,GD Alpha,0.25,1,0.0785907533574791,-2.512235291530277,False,False,False
+Gaussian,point_mass,GD Alpha,0.5,0,0.005963997200956116,-4.944949533228208,True,False,False
+Gaussian,point_mass,GD Alpha,0.5,1,0.008498337566266872,-4.944949533228208,True,False,False
+Gaussian,point_mass,GD Alpha,1.0,0,0.005348918979180813,-4.511031291509416,False,False,False
+Gaussian,point_mass,GD Alpha,1.0,1,0.022568463116381027,-4.511031291509416,False,False,False
+Gaussian,point_mass,GD Alpha,2.0,0,35.40508545950533,3.9380913428910063,False,False,False
+Gaussian,point_mass,GD Alpha,2.0,1,74.390423630575,3.9380913428910063,False,False,False
+Gaussian,point_mass,GD Ranked 10%,0.25,0,0.0852176438279853,-2.493918940549614,False,False,False
+Gaussian,point_mass,GD Ranked 10%,0.25,1,0.08003501106786316,-2.493918940549614,False,False,False
+Gaussian,point_mass,GD Ranked 10%,0.5,0,0.08443553256333025,-2.505467853267478,True,False,False
+Gaussian,point_mass,GD Ranked 10%,0.5,1,0.07893198533297426,-2.505467853267478,True,False,False
+Gaussian,point_mass,GD Ranked 10%,1.0,0,0.08337917003742136,-2.4978954667368547,False,False,False
+Gaussian,point_mass,GD Ranked 10%,1.0,1,0.08115177007150925,-2.4978954667368547,False,False,False
+Gaussian,point_mass,GD Ranked 10%,2.0,0,35.40508603427234,3.938091351008018,False,False,False
+Gaussian,point_mass,GD Ranked 10%,2.0,1,74.390423630575,3.938091351008018,False,False,False
+Gaussian,point_mass,GD Uniform 10%,0.25,0,0.08528643191891855,-2.4934532965623926,False,False,False
+Gaussian,point_mass,GD Uniform 10%,0.25,1,0.08004496874626471,-2.4934532965623926,False,False,False
+Gaussian,point_mass,GD Uniform 10%,0.5,0,0.0847768281566593,-2.504284795053472,True,False,False
+Gaussian,point_mass,GD Uniform 10%,0.5,1,0.07880045061164896,-2.504284795053472,True,False,False
+Gaussian,point_mass,GD Uniform 10%,1.0,0,0.08334294958152297,-2.4979019862334133,False,False,False
+Gaussian,point_mass,GD Uniform 10%,1.0,1,0.08118597966071439,-2.4979019862334133,False,False,False
+Gaussian,point_mass,GD Uniform 10%,2.0,0,35.40508611214992,3.9380913521078265,False,False,False
+Gaussian,point_mass,GD Uniform 10%,2.0,1,74.390423630575,3.9380913521078265,False,False,False
+Gaussian,point_mass,GD Ranked 30%,0.25,0,0.08495180460259047,-2.4947752429233376,False,False,False
+Gaussian,point_mass,GD Ranked 30%,0.25,1,0.0801480846026007,-2.4947752429233376,False,False,False
+Gaussian,point_mass,GD Ranked 30%,0.5,0,0.08421684199389545,-2.5182338239825786,True,False,False
+Gaussian,point_mass,GD Ranked 30%,0.5,1,0.07714200815717054,-2.5182338239825786,True,False,False
+Gaussian,point_mass,GD Ranked 30%,1.0,0,0.08329750075641963,-2.5049868903354726,False,False,False
+Gaussian,point_mass,GD Ranked 30%,1.0,1,0.080087375426363,-2.5049868903354726,False,False,False
+Gaussian,point_mass,GD Ranked 30%,2.0,0,35.40508577775908,3.9380913473854706,False,False,False
+Gaussian,point_mass,GD Ranked 30%,2.0,1,74.390423630575,3.9380913473854706,False,False,False
+Gaussian,point_mass,GD Uniform 30%,0.25,0,0.08517273737038215,-2.4927787520199214,False,False,False
+Gaussian,point_mass,GD Uniform 30%,0.25,1,0.08026002330524967,-2.4927787520199214,False,False,False
+Gaussian,point_mass,GD Uniform 30%,0.5,0,0.0839650810204489,-2.526186938653281,True,False,False
+Gaussian,point_mass,GD Uniform 30%,0.5,1,0.0761523295432381,-2.526186938653281,True,False,False
+Gaussian,point_mass,GD Uniform 30%,1.0,0,0.08262736906356466,-2.509373345365841,False,False,False
+Gaussian,point_mass,GD Uniform 30%,1.0,1,0.08003170726730771,-2.509373345365841,False,False,False
+Gaussian,point_mass,GD Uniform 30%,2.0,0,35.40508593104536,3.93809134955022,False,False,False
+Gaussian,point_mass,GD Uniform 30%,2.0,1,74.390423630575,3.93809134955022,False,False,False
+Gaussian,point_mass,GD Ranked 50%,0.25,0,0.08483876717791569,-2.4962702366477467,False,False,False
+Gaussian,point_mass,GD Ranked 50%,0.25,1,0.080015269580742,-2.4962702366477467,False,False,False
+Gaussian,point_mass,GD Ranked 50%,0.5,0,0.08261958275252157,-2.5551644349091838,True,False,False
+Gaussian,point_mass,GD Ranked 50%,0.5,1,0.07303472086709661,-2.5551644349091838,True,False,False
+Gaussian,point_mass,GD Ranked 50%,1.0,0,0.08143638350312343,-2.522657541721375,False,False,False
+Gaussian,point_mass,GD Ranked 50%,1.0,1,0.07907314653540017,-2.522657541721375,False,False,False
+Gaussian,point_mass,GD Ranked 50%,2.0,0,35.40508565045071,3.938091345587588,False,False,False
+Gaussian,point_mass,GD Ranked 50%,2.0,1,74.390423630575,3.938091345587588,False,False,False
+Gaussian,point_mass,GD Uniform 50%,0.25,0,0.08507455192323855,-2.494196071603495,False,False,False
+Gaussian,point_mass,GD Uniform 50%,0.25,1,0.08012520399750381,-2.494196071603495,False,False,False
+Gaussian,point_mass,GD Uniform 50%,0.5,0,0.08022503502032455,-2.6043240461666146,True,False,False
+Gaussian,point_mass,GD Uniform 50%,0.5,1,0.06817151725845488,-2.6043240461666146,True,False,False
+Gaussian,point_mass,GD Uniform 50%,1.0,0,0.07881415194986344,-2.541237408667297,False,False,False
+Gaussian,point_mass,GD Uniform 50%,1.0,1,0.0787236144231691,-2.541237408667297,False,False,False
+Gaussian,point_mass,GD Uniform 50%,2.0,0,35.405085803476894,3.938091347748664,False,False,False
+Gaussian,point_mass,GD Uniform 50%,2.0,1,74.390423630575,3.938091347748664,False,False,False
+Gaussian,point_mass,GD Ranked 70%,0.25,0,0.08472389236497362,-2.4990470123061446,False,False,False
+Gaussian,point_mass,GD Ranked 70%,0.25,1,0.07968002198883471,-2.4990470123061446,False,False,False
+Gaussian,point_mass,GD Ranked 70%,0.5,0,0.07546380222432647,-2.728046935826275,True,False,False
+Gaussian,point_mass,GD Ranked 70%,0.5,1,0.05658611209543781,-2.728046935826275,True,False,False
+Gaussian,point_mass,GD Ranked 70%,1.0,0,0.07253442082886409,-2.598470114953651,False,False,False
+Gaussian,point_mass,GD Ranked 70%,1.0,1,0.07628750083459099,-2.598470114953651,False,False,False
+Gaussian,point_mass,GD Ranked 70%,2.0,0,35.4050855463828,3.9380913441179133,False,False,False
+Gaussian,point_mass,GD Ranked 70%,2.0,1,74.390423630575,3.9380913441179133,False,False,False
+Gaussian,point_mass,GD Uniform 70%,0.25,0,0.08487299479842679,-2.4977709080624684,False,False,False
+Gaussian,point_mass,GD Uniform 70%,0.25,1,0.07974330446506252,-2.4977709080624684,False,False,False
+Gaussian,point_mass,GD Uniform 70%,0.5,0,0.06537214685322378,-3.0102017458495762,True,False,False
+Gaussian,point_mass,GD Uniform 70%,0.5,1,0.03715174670214767,-3.0102017458495762,True,False,False
+Gaussian,point_mass,GD Uniform 70%,1.0,0,0.04945572950190372,-2.7990142875230655,False,False,False
+Gaussian,point_mass,GD Uniform 70%,1.0,1,0.07491874056322166,-2.7990142875230655,False,False,False
+Gaussian,point_mass,GD Uniform 70%,2.0,0,35.40508567317157,3.938091345908458,False,False,False
+Gaussian,point_mass,GD Uniform 70%,2.0,1,74.390423630575,3.938091345908458,False,False,False
+Gaussian,point_mass,SGD Alpha,0.05,0,0.08150240564210404,-2.5461775754200104,False,True,False
+Gaussian,point_mass,SGD Alpha,0.05,1,0.075378558928562,-2.5461775754200104,False,True,False
+Gaussian,point_mass,SGD Alpha,0.1,0,0.006643538893094895,-4.886153402902934,False,True,False
+Gaussian,point_mass,SGD Alpha,0.1,1,0.008581073007401754,-4.886153402902934,False,True,False
+Gaussian,point_mass,SGD Alpha,0.2,0,0.0014090069750485928,-6.607084845035215,False,True,False
+Gaussian,point_mass,SGD Alpha,0.2,1,0.0012949287633414277,-6.607084845035215,False,True,False
+Gaussian,point_mass,SGD Alpha,0.4,0,0.0008878620059822199,-6.969250511381736,True,True,False
+Gaussian,point_mass,SGD Alpha,0.4,1,0.0009959566782614556,-6.969250511381736,True,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.05,0,0.08384267587339446,-2.511562570694532,False,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.05,1,0.07852706010356121,-2.511562570694532,False,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.1,0,0.08174805346872338,-2.5506229689758184,False,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.1,1,0.07448685160595385,-2.5506229689758184,False,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.2,0,0.07660231581994352,-2.6873569350825424,False,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.2,1,0.060471330632087206,-2.6873569350825424,False,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.4,0,0.058489299437584116,-4.108671186960117,True,True,False
+Gaussian,point_mass,SGD Ranked 10%,0.4,1,0.004615057660997979,-4.108671186960117,True,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.05,0,0.08428278458652777,-2.504357421736416,False,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.05,1,0.07925084589021515,-2.504357421736416,False,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.1,0,0.08084046984172398,-2.5369459751633237,False,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.1,1,0.07741193000297064,-2.5369459751633237,False,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.2,0,0.07097546591575409,-2.658554894840772,False,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.2,1,0.06913537240355909,-2.658554894840772,False,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.4,0,0.0032254140435160118,-5.671701868058074,True,True,False
+Gaussian,point_mass,SGD Uniform 10%,0.4,1,0.0036731349022807573,-5.671701868058074,True,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.05,0,0.083318053843951,-2.5151481921243253,False,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.05,1,0.07845685965615798,-2.5151481921243253,False,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.1,0,0.0796928770823226,-2.5805326155770887,False,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.1,1,0.07197113361578314,-2.5805326155770887,False,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.2,0,0.05296195778214805,-3.931213644309641,False,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.2,1,0.00726820525616058,-3.931213644309641,False,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.4,0,0.0020734193764631605,-6.322556118285442,True,True,False
+Gaussian,point_mass,SGD Ranked 30%,0.4,1,0.0015545703485507784,-6.322556118285442,True,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.05,0,0.08379521329212934,-2.5083648136779733,False,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.05,1,0.07907565444156286,-2.5083648136779733,False,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.1,0,0.07711618301076353,-2.5795069767457726,False,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.1,1,0.07452863765299896,-2.5795069767457726,False,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.2,0,0.004267786727236402,-5.197797674834359,False,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.2,1,0.0071622189794682024,-5.197797674834359,False,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.4,0,0.0011948572666926692,-6.709942473038538,True,True,False
+Gaussian,point_mass,SGD Uniform 30%,0.4,1,0.0012430883347050769,-6.709942473038538,True,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.05,0,0.08312844797963954,-2.5208601749207458,False,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.05,1,0.07774258918381566,-2.5208601749207458,False,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.1,0,0.07680249361497501,-2.6218670590117057,False,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.1,1,0.06875430352874667,-2.6218670590117057,False,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.2,0,0.003675807072522571,-5.660752200880751,False,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.2,1,0.0032944308976204815,-5.660752200880751,False,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.4,0,0.0012672413313083166,-6.655869823306057,True,True,False
+Gaussian,point_mass,SGD Ranked 50%,0.4,1,0.0013059471377222093,-6.655869823306057,True,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.05,0,0.08275445562605938,-2.5178995075220714,False,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.05,1,0.07855772349322981,-2.5178995075220714,False,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.1,0,0.07425610559304649,-2.6374022519294273,False,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.1,1,0.06893651782549616,-2.6374022519294273,False,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.2,0,0.0036040596263886343,-5.827888943620048,False,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.2,1,0.002405293146609961,-5.827888943620048,False,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.4,0,0.0010577899453843554,-6.836094653738404,True,True,False
+Gaussian,point_mass,SGD Uniform 50%,0.4,1,0.001091048844340986,-6.836094653738404,True,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.05,0,0.08244908139629395,-2.5269727647094626,False,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.05,1,0.07743076025373967,-2.5269727647094626,False,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.1,0,0.06710630856013887,-2.8348319469574497,False,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.1,1,0.05139642447001751,-2.8348319469574497,False,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.2,0,0.0022326388328762587,-6.102399442524851,False,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.2,1,0.0022423567961683765,-6.102399442524851,False,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.4,0,0.0010230440932567386,-6.843075435682924,True,True,False
+Gaussian,point_mass,SGD Ranked 70%,0.4,1,0.0011124636925827819,-6.843075435682924,True,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.05,0,0.08234382770667777,-2.526780096375676,False,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.05,1,0.07755961475863508,-2.526780096375676,False,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.1,0,0.06311737649842444,-2.843528920129928,False,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.1,1,0.05370234159814605,-2.843528920129928,False,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.2,0,0.0023749361316605867,-6.214250250426133,False,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.2,1,0.001685461665807226,-6.214250250426133,False,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.4,0,0.0008900024374528907,-6.9554553126859,True,True,False
+Gaussian,point_mass,SGD Uniform 70%,0.4,1,0.0010213558508469058,-6.9554553126859,True,True,False
+Gaussian,symmetric,GD MSE,0.25,0,0.044067452594049324,-3.140482982145061,False,False,False
+Gaussian,symmetric,GD MSE,0.25,1,0.04247106922948312,-3.140482982145061,False,False,False
+Gaussian,symmetric,GD MSE,0.5,0,0.005840854988850265,-5.515511775465679,True,False,False
+Gaussian,symmetric,GD MSE,0.5,1,0.0027721129263188695,-5.515511775465679,True,False,False
+Gaussian,symmetric,GD MSE,1.0,0,0.01008099630927261,-3.853606153969937,False,False,False
+Gaussian,symmetric,GD MSE,1.0,1,0.0445960884408506,-3.853606153969937,False,False,False
+Gaussian,symmetric,GD MSE,2.0,0,0.06464386243425269,-2.118373113986232,False,False,False
+Gaussian,symmetric,GD MSE,2.0,1,0.22360277786222013,-2.118373113986232,False,False,False
+Gaussian,symmetric,SGD MSE,0.05,0,0.04414013532345673,-3.1391352423486083,False,True,False
+Gaussian,symmetric,SGD MSE,0.05,1,0.04251558041138896,-3.1391352423486083,False,True,False
+Gaussian,symmetric,SGD MSE,0.1,0,0.0050651358579451335,-5.664295487693842,False,True,False
+Gaussian,symmetric,SGD MSE,0.1,1,0.0023739105639808485,-5.664295487693842,False,True,False
+Gaussian,symmetric,SGD MSE,0.2,0,0.003895520088698855,-6.03265419616298,False,True,False
+Gaussian,symmetric,SGD MSE,0.2,1,0.001477534718209451,-6.03265419616298,False,True,False
+Gaussian,symmetric,SGD MSE,0.4,0,0.0038730387106423593,-6.046868366340704,True,True,False
+Gaussian,symmetric,SGD MSE,0.4,1,0.0014444583829282254,-6.046868366340704,True,True,False
+Gaussian,symmetric,GD Alpha,0.25,0,0.04782110667353226,-3.0789071680633855,False,False,False
+Gaussian,symmetric,GD Alpha,0.25,1,0.044266541357560134,-3.0789071680633855,False,False,False
+Gaussian,symmetric,GD Alpha,0.5,0,0.003323934365779379,-5.563426483025389,True,False,False
+Gaussian,symmetric,GD Alpha,0.5,1,0.00442605408180198,-5.563426483025389,True,False,False
+Gaussian,symmetric,GD Alpha,1.0,0,0.012162589524962035,-3.7442873372468766,False,False,False
+Gaussian,symmetric,GD Alpha,1.0,1,0.045996765336672685,-3.7442873372468766,False,False,False
+Gaussian,symmetric,GD Alpha,2.0,0,50.51714897061939,4.236273503651466,False,False,False
+Gaussian,symmetric,GD Alpha,2.0,1,94.65456862299078,4.236273503651466,False,False,False
+Gaussian,symmetric,GD Ranked 10%,0.25,0,0.05326830812256328,-3.0100957678041302,False,False,False
+Gaussian,symmetric,GD Ranked 10%,0.25,1,0.04560318052069565,-3.0100957678041302,False,False,False
+Gaussian,symmetric,GD Ranked 10%,0.5,0,0.0516098529894959,-3.038728750579839,True,False,False
+Gaussian,symmetric,GD Ranked 10%,0.5,1,0.04444891059616094,-3.038728750579839,True,False,False
+Gaussian,symmetric,GD Ranked 10%,1.0,0,0.05354363077675012,-2.9962013019020564,False,False,False
+Gaussian,symmetric,GD Ranked 10%,1.0,1,0.04664711603641036,-2.9962013019020564,False,False,False
+Gaussian,symmetric,GD Ranked 10%,2.0,0,50.51714897200247,4.236273503665155,False,False,False
+Gaussian,symmetric,GD Ranked 10%,2.0,1,94.65456862299078,4.236273503665155,False,False,False
+Gaussian,symmetric,GD Uniform 10%,0.25,0,0.0533810928359913,-3.0090698353108056,False,False,False
+Gaussian,symmetric,GD Uniform 10%,0.25,1,0.04560029887680124,-3.0090698353108056,False,False,False
+Gaussian,symmetric,GD Uniform 10%,0.5,0,0.05148645219500827,-3.042571169869947,True,False,False
+Gaussian,symmetric,GD Uniform 10%,0.5,1,0.04421435496573417,-3.042571169869947,True,False,False
+Gaussian,symmetric,GD Uniform 10%,1.0,0,0.05313878228601831,-3.0000735213229865,False,False,False
+Gaussian,symmetric,GD Uniform 10%,1.0,1,0.046639904314021166,-3.0000735213229865,False,False,False
+Gaussian,symmetric,GD Uniform 10%,2.0,0,50.51714897209044,4.236273503666026,False,False,False
+Gaussian,symmetric,GD Uniform 10%,2.0,1,94.65456862299078,4.236273503666026,False,False,False
+Gaussian,symmetric,GD Ranked 30%,0.25,0,0.0523774027574387,-3.018737629036144,False,False,False
+Gaussian,symmetric,GD Ranked 30%,0.25,1,0.045584149010209164,-3.018737629036144,False,False,False
+Gaussian,symmetric,GD Ranked 30%,0.5,0,0.04960620877243249,-3.0750044256479834,True,False,False
+Gaussian,symmetric,GD Ranked 30%,0.5,1,0.04300798103378378,-3.0750044256479834,True,False,False
+Gaussian,symmetric,GD Ranked 30%,1.0,0,0.05232357304165128,-3.007978072170542,False,False,False
+Gaussian,symmetric,GD Ranked 30%,1.0,1,0.0466236263899926,-3.007978072170542,False,False,False
+Gaussian,symmetric,GD Ranked 30%,2.0,0,50.51714897151922,4.236273503660372,False,False,False
+Gaussian,symmetric,GD Ranked 30%,2.0,1,94.65456862299078,4.236273503660372,False,False,False
+Gaussian,symmetric,GD Uniform 30%,0.25,0,0.05231346043759437,-3.019568111831521,False,False,False
+Gaussian,symmetric,GD Uniform 30%,0.25,1,0.0455641228207945,-3.019568111831521,False,False,False
+Gaussian,symmetric,GD Uniform 30%,0.5,0,0.048128268224299824,-3.10638883155431,True,False,False
+Gaussian,symmetric,GD Uniform 30%,0.5,1,0.041631754000119196,-3.10638883155431,True,False,False
+Gaussian,symmetric,GD Uniform 30%,1.0,0,0.05080817426428452,-3.022915134661808,False,False,False
+Gaussian,symmetric,GD Uniform 30%,1.0,1,0.04660104828601828,-3.022915134661808,False,False,False
+Gaussian,symmetric,GD Uniform 30%,2.0,0,50.517148971750785,4.236273503662664,False,False,False
+Gaussian,symmetric,GD Uniform 30%,2.0,1,94.65456862299078,4.236273503662664,False,False,False
+Gaussian,symmetric,GD Ranked 50%,0.25,0,0.05184889346402022,-3.0248889363317457,False,False,False
+Gaussian,symmetric,GD Ranked 50%,0.25,1,0.04548575008466808,-3.0248889363317457,False,False,False
+Gaussian,symmetric,GD Ranked 50%,0.5,0,0.045435842945887366,-3.1533219829341874,True,False,False
+Gaussian,symmetric,GD Ranked 50%,0.5,1,0.04014770613304863,-3.1533219829341874,True,False,False
+Gaussian,symmetric,GD Ranked 50%,1.0,0,0.050610665281877465,-3.0252434581004195,False,False,False
+Gaussian,symmetric,GD Ranked 50%,1.0,1,0.04656556462197159,-3.0252434581004195,False,False,False
+Gaussian,symmetric,GD Ranked 50%,2.0,0,50.51714897112649,4.236273503656485,False,False,False
+Gaussian,symmetric,GD Ranked 50%,2.0,1,94.65456862299078,4.236273503656485,False,False,False
+Gaussian,symmetric,GD Uniform 50%,0.25,0,0.05166640683604266,-3.027349640282889,False,False,False
+Gaussian,symmetric,GD Uniform 50%,0.25,1,0.04542231382015693,-3.027349640282889,False,False,False
+Gaussian,symmetric,GD Uniform 50%,0.5,0,0.038768302596087864,-3.2891188322523273,True,False,False
+Gaussian,symmetric,GD Uniform 50%,0.5,1,0.03586170181014883,-3.2891188322523273,True,False,False
+Gaussian,symmetric,GD Uniform 50%,1.0,0,0.04348257878705801,-3.1015019553562597,False,False,False
+Gaussian,symmetric,GD Uniform 50%,1.0,1,0.046532280545672135,-3.1015019553562597,False,False,False
+Gaussian,symmetric,GD Uniform 50%,2.0,0,50.51714897143614,4.23627350365955,False,False,False
+Gaussian,symmetric,GD Uniform 50%,2.0,1,94.65456862299078,4.23627350365955,False,False,False
+Gaussian,symmetric,GD Ranked 70%,0.25,0,0.051052624057624126,-3.035367339647764,False,False,False
+Gaussian,symmetric,GD Ranked 70%,0.25,1,0.04523716274541651,-3.035367339647764,False,False,False
+Gaussian,symmetric,GD Ranked 70%,0.5,0,0.030088510270083718,-3.4822726161313673,True,False,False
+Gaussian,symmetric,GD Ranked 70%,0.5,1,0.031400441251834645,-3.4822726161313673,True,False,False
+Gaussian,symmetric,GD Ranked 70%,1.0,0,0.044647862156776894,-3.089118199592711,False,False,False
+Gaussian,symmetric,GD Ranked 70%,1.0,1,0.04645423956280858,-3.089118199592711,False,False,False
+Gaussian,symmetric,GD Ranked 70%,2.0,0,50.51714897082058,4.236273503653457,False,False,False
+Gaussian,symmetric,GD Ranked 70%,2.0,1,94.65456862299078,4.236273503653457,False,False,False
+Gaussian,symmetric,GD Uniform 70%,0.25,0,0.05075081217487188,-3.039367092605058,False,False,False
+Gaussian,symmetric,GD Uniform 70%,0.25,1,0.045143610447230406,-3.039367092605058,False,False,False
+Gaussian,symmetric,GD Uniform 70%,0.5,0,0.013974859021090313,-4.044733133802543,True,False,False
+Gaussian,symmetric,GD Uniform 70%,0.5,1,0.0219503779775136,-4.044733133802543,True,False,False
+Gaussian,symmetric,GD Uniform 70%,1.0,0,0.013279035211731764,-3.6958594522500725,False,False,False
+Gaussian,symmetric,GD Uniform 70%,1.0,1,0.046414186766291686,-3.6958594522500725,False,False,False
+Gaussian,symmetric,GD Uniform 70%,2.0,0,50.51714897110859,4.2362735036563075,False,False,False
+Gaussian,symmetric,GD Uniform 70%,2.0,1,94.65456862299078,4.2362735036563075,False,False,False
+Gaussian,symmetric,SGD Alpha,0.05,0,0.04780292562721669,-3.0803566430520415,False,True,False
+Gaussian,symmetric,SGD Alpha,0.05,1,0.044155188000234075,-3.0803566430520415,False,True,False
+Gaussian,symmetric,SGD Alpha,0.1,0,0.003404808652450892,-5.655948897635277,False,True,False
+Gaussian,symmetric,SGD Alpha,0.1,1,0.003590975960048452,-5.655948897635277,False,True,False
+Gaussian,symmetric,SGD Alpha,0.2,0,0.0011452549869424128,-6.812516626494222,False,True,False
+Gaussian,symmetric,SGD Alpha,0.2,1,0.0010563821420282824,-6.812516626494222,False,True,False
+Gaussian,symmetric,SGD Alpha,0.4,0,0.0008869082192079887,-7.034969470926154,True,True,False
+Gaussian,symmetric,SGD Alpha,0.4,1,0.0008742275272105432,-7.034969470926154,True,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.05,0,0.053244464254132824,-3.0102836021841988,False,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.05,1,0.045606466335921185,-3.0102836021841988,False,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.1,0,0.05155861401165176,-3.038176660622786,False,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.1,1,0.04454223944987072,-3.038176660622786,False,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.2,0,0.04676289657893412,-3.1385090123626536,False,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.2,1,0.04018132971921775,-3.1385090123626536,False,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.4,0,0.017507642119787347,-4.186050436257877,True,True,False
+Gaussian,symmetric,SGD Ranked 10%,0.4,1,0.013207333021616434,-4.186050436257877,True,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.05,0,0.05324924122528029,-3.011208166107307,False,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.05,1,0.045518128289497424,-3.011208166107307,False,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.1,0,0.051178843192067974,-3.045706254703733,False,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.1,1,0.044202078851399096,-3.045706254703733,False,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.2,0,0.04302105403879733,-3.2267296792240154,False,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.2,1,0.03661146983718168,-3.2267296792240154,False,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.4,0,0.0028708263545520235,-5.959874079094579,True,True,False
+Gaussian,symmetric,SGD Uniform 10%,0.4,1,0.0023190612798241112,-5.959874079094579,True,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.05,0,0.05221253399561908,-3.022389454424781,False,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.05,1,0.04539532236768848,-3.022389454424781,False,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.1,0,0.049443357073199384,-3.075804431693462,False,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.1,1,0.043080651782883915,-3.075804431693462,False,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.2,0,0.01944428237982937,-3.8617457197449463,False,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.2,1,0.022747745843222845,-3.8617457197449463,False,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.4,0,0.0018615801483481203,-6.533939542245064,True,True,False
+Gaussian,symmetric,SGD Ranked 30%,0.4,1,0.0011345156324345847,-6.533939542245064,True,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.05,0,0.052248521731065395,-3.0208480113353913,False,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.05,1,0.0455041229927659,-3.0208480113353913,False,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.1,0,0.04816344069295257,-3.1109491656505073,False,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.1,1,0.04122364441273835,-3.1109491656505073,False,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.2,0,0.005016519518430934,-5.788809145853577,False,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.2,1,0.0018685372322726588,-5.788809145853577,False,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.4,0,0.0011643728699546594,-6.8728911623254,True,True,False
+Gaussian,symmetric,SGD Uniform 30%,0.4,1,0.0009208534280808838,-6.8728911623254,True,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.05,0,0.05171821015702283,-3.0273916499760536,False,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.05,1,0.04537300438430818,-3.0273916499760536,False,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.1,0,0.044635457656657156,-3.15051054913922,False,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.1,1,0.041098059315787146,-3.15051054913922,False,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.2,0,0.003341791561719364,-5.900470093838399,False,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.2,1,0.0022435587018318696,-5.900470093838399,False,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.4,0,0.0012910704080865527,-6.765892722931634,True,True,False
+Gaussian,symmetric,SGD Ranked 50%,0.4,1,0.0010286563788334472,-6.765892722931634,True,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.05,0,0.05165159935609787,-3.0283371409314155,False,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.05,1,0.0453456891969805,-3.0283371409314155,False,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.1,0,0.042685684485294556,-3.2467636245260456,False,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.1,1,0.03544987414799476,-3.2467636245260456,False,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.2,0,0.0026880965432486926,-6.269586987409074,False,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.2,1,0.0013330949177066387,-6.269586987409074,False,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.4,0,0.001027636323286734,-6.9585729907285225,True,True,False
+Gaussian,symmetric,SGD Uniform 50%,0.4,1,0.000879064718304568,-6.9585729907285225,True,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.05,0,0.05072786342182231,-3.0408661171382243,False,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.05,1,0.04502883172725018,-3.0408661171382243,False,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.1,0,0.02785652259487882,-3.5224054917374734,False,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.1,1,0.03130044864200118,-3.5224054917374734,False,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.2,0,0.0020261206970635607,-6.331848487140837,False,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.2,1,0.0015615682512535583,-6.331848487140837,False,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.4,0,0.0010196896181140778,-6.913318142389725,True,True,False
+Gaussian,symmetric,SGD Ranked 70%,0.4,1,0.0009698401529500415,-6.913318142389725,True,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.05,0,0.05088862684915942,-3.0396357808245336,False,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.05,1,0.0449971672956244,-3.0396357808245336,False,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.1,0,0.023149022484517,-3.864869627659134,False,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.1,1,0.018988219267228604,-3.864869627659134,False,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.2,0,0.0016114781301659789,-6.59496032908018,False,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.2,1,0.0011600209307744912,-6.59496032908018,False,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.4,0,0.0009643426924729804,-7.000203205858536,True,True,False
+Gaussian,symmetric,SGD Uniform 70%,0.4,1,0.0008619247610206046,-7.000203205858536,True,True,False
+Sigmoid,clean,GD MSE,0.25,0,0.000726735668630345,-7.214519307274194,False,False,False
+Sigmoid,clean,GD MSE,0.25,1,0.000745026420822876,-7.214519307274194,False,False,False
+Sigmoid,clean,GD MSE,0.5,0,0.0006947017148194243,-7.235150338990849,True,False,False
+Sigmoid,clean,GD MSE,0.5,1,0.0007478765107907523,-7.235150338990849,True,False,False
+Sigmoid,clean,GD MSE,1.0,0,0.000689574661396953,-7.225388998572491,False,False,False
+Sigmoid,clean,GD MSE,1.0,1,0.0007682906745460547,-7.225388998572491,False,False,False
+Sigmoid,clean,GD MSE,2.0,0,0.10986966282057559,-2.031173892760319,False,False,False
+Sigmoid,clean,GD MSE,2.0,1,0.15662712689011055,-2.031173892760319,False,False,False
+Sigmoid,clean,SGD MSE,0.05,0,0.00072680564453083,-7.21292711322179,False,True,False
+Sigmoid,clean,SGD MSE,0.05,1,0.0007473306965600055,-7.21292711322179,False,True,False
+Sigmoid,clean,SGD MSE,0.1,0,0.0006944668728652986,-7.237957253435721,False,True,False
+Sigmoid,clean,SGD MSE,0.1,1,0.0007439413099594046,-7.237957253435721,False,True,False
+Sigmoid,clean,SGD MSE,0.2,0,0.0006746673405706284,-7.253284336166878,False,True,False
+Sigmoid,clean,SGD MSE,0.2,1,0.0007426558168370707,-7.253284336166878,False,True,False
+Sigmoid,clean,SGD MSE,0.4,0,0.0006717902033648848,-7.255795768799175,True,True,False
+Sigmoid,clean,SGD MSE,0.4,1,0.0007420996133277003,-7.255795768799175,True,True,False
+Sigmoid,clean,GD Alpha,0.25,0,0.0007281099646684266,-7.213558744012216,False,False,False
+Sigmoid,clean,GD Alpha,0.25,1,0.000745050156851073,-7.213558744012216,False,False,False
+Sigmoid,clean,GD Alpha,0.5,0,0.0006960271173056393,-7.2233516824001995,False,False,False
+Sigmoid,clean,GD Alpha,0.5,1,0.0007642761142081353,-7.2233516824001995,False,False,False
+Sigmoid,clean,GD Alpha,1.0,0,0.000690942533498806,-7.223715745130495,True,False,False
+Sigmoid,clean,GD Alpha,1.0,1,0.0007693399732123953,-7.223715745130495,True,False,False
+Sigmoid,clean,GD Alpha,2.0,0,42.82930306411926,4.179262013159958,False,False,False
+Sigmoid,clean,GD Alpha,2.0,1,99.613879467764,4.179262013159958,False,False,False
+Sigmoid,clean,GD Ranked 10%,0.25,0,0.0007755766312690153,-7.184372438437478,True,True,False
+Sigmoid,clean,GD Ranked 10%,0.25,1,0.0007414957619213591,-7.184372438437478,True,True,False
+Sigmoid,clean,GD Ranked 10%,0.5,0,0.000758564419948591,-7.170535271636663,False,True,False
+Sigmoid,clean,GD Ranked 10%,0.5,1,0.0007793987949330015,-7.170535271636663,False,True,False
+Sigmoid,clean,GD Ranked 10%,1.0,0,0.0008019734700914932,-7.0798473598391105,False,True,False
+Sigmoid,clean,GD Ranked 10%,1.0,1,0.0008838177432768524,-7.0798473598391105,False,True,False
+Sigmoid,clean,GD Ranked 10%,2.0,0,42.82930446637279,4.17926202953023,False,True,False
+Sigmoid,clean,GD Ranked 10%,2.0,1,99.61387946776682,4.17926202953023,False,True,False
+Sigmoid,clean,GD Uniform 10%,0.25,0,0.0007714782944391234,-7.1882360901197995,True,True,False
+Sigmoid,clean,GD Uniform 10%,0.25,1,0.0007396968192382834,-7.1882360901197995,True,True,False
+Sigmoid,clean,GD Uniform 10%,0.5,0,0.0007557008765802114,-7.172395044835735,False,True,False
+Sigmoid,clean,GD Uniform 10%,0.5,1,0.0007794475459168023,-7.172395044835735,False,True,False
+Sigmoid,clean,GD Uniform 10%,1.0,0,0.0007950603381517309,-7.087798521906018,False,True,False
+Sigmoid,clean,GD Uniform 10%,1.0,1,0.0008774377944363478,-7.087798521906018,False,True,False
+Sigmoid,clean,GD Uniform 10%,2.0,0,42.82930448495792,4.179262029747199,False,True,False
+Sigmoid,clean,GD Uniform 10%,2.0,1,99.61387946776708,4.179262029747199,False,True,False
+Sigmoid,clean,GD Ranked 30%,0.25,0,0.0007645687883006718,-7.18818958671162,True,True,False
+Sigmoid,clean,GD Ranked 30%,0.25,1,0.0007464509760048002,-7.18818958671162,True,True,False
+Sigmoid,clean,GD Ranked 30%,0.5,0,0.0007408994977949884,-7.184450501921319,False,True,False
+Sigmoid,clean,GD Ranked 30%,0.5,1,0.0007760796265826269,-7.184450501921319,False,True,False
+Sigmoid,clean,GD Ranked 30%,1.0,0,0.0007668109091163078,-7.142908550009729,False,True,False
+Sigmoid,clean,GD Ranked 30%,1.0,1,0.0008148171873102987,-7.142908550009729,False,True,False
+Sigmoid,clean,GD Ranked 30%,2.0,0,42.82930411491595,4.179262025427229,False,True,False
+Sigmoid,clean,GD Ranked 30%,2.0,1,99.61387946776546,4.179262025427229,False,True,False
+Sigmoid,clean,GD Uniform 30%,0.25,0,0.0007592216870454478,-7.1950141592741,True,True,False
+Sigmoid,clean,GD Uniform 30%,0.25,1,0.0007415176651572697,-7.1950141592741,True,True,False
+Sigmoid,clean,GD Uniform 30%,0.5,0,0.000735684780010036,-7.188922842883243,False,True,False
+Sigmoid,clean,GD Uniform 30%,0.5,1,0.0007746208557071247,-7.188922842883243,False,True,False
+Sigmoid,clean,GD Uniform 30%,1.0,0,0.0007548316174978682,-7.155933703748717,False,True,False
+Sigmoid,clean,GD Uniform 30%,1.0,1,0.0008064637967629204,-7.155933703748717,False,True,False
+Sigmoid,clean,GD Uniform 30%,2.0,0,42.829304154922546,4.179262025894279,False,True,False
+Sigmoid,clean,GD Uniform 30%,2.0,1,99.61387946776622,4.179262025894279,False,True,False
+Sigmoid,clean,GD Ranked 50%,0.25,0,0.0007542000540499243,-7.194718528250839,False,False,False
+Sigmoid,clean,GD Ranked 50%,0.25,1,0.0007468963368934692,-7.194718528250839,False,False,False
+Sigmoid,clean,GD Ranked 50%,0.5,0,0.0007256468501262468,-7.196788246510959,True,False,False
+Sigmoid,clean,GD Ranked 50%,0.5,1,0.0007730789351944717,-7.196788246510959,True,False,False
+Sigmoid,clean,GD Ranked 50%,1.0,0,0.0007384628621533939,-7.174566072913903,False,False,False
+Sigmoid,clean,GD Ranked 50%,1.0,1,0.0007941863707803968,-7.174566072913903,False,False,False
+Sigmoid,clean,GD Ranked 50%,2.0,0,42.82930380788724,4.179262021842895,False,False,False
+Sigmoid,clean,GD Ranked 50%,2.0,1,99.61387946776476,4.179262021842895,False,False,False
+Sigmoid,clean,GD Uniform 50%,0.25,0,0.0007494450993419375,-7.1998054874518145,False,False,False
+Sigmoid,clean,GD Uniform 50%,0.25,1,0.0007440268150189295,-7.1998054874518145,False,False,False
+Sigmoid,clean,GD Uniform 50%,0.5,0,0.0007206729582595541,-7.201548922005296,True,False,False
+Sigmoid,clean,GD Uniform 50%,0.5,1,0.0007710381335404101,-7.201548922005296,True,False,False
+Sigmoid,clean,GD Uniform 50%,1.0,0,0.0007276214363632621,-7.186246945829142,False,False,False
+Sigmoid,clean,GD Uniform 50%,1.0,1,0.0007874078250696465,-7.186246945829142,False,False,False
+Sigmoid,clean,GD Uniform 50%,2.0,0,42.82930385080017,4.179262022343876,False,False,False
+Sigmoid,clean,GD Uniform 50%,2.0,1,99.61387946776561,4.179262022343876,False,False,False
+Sigmoid,clean,GD Ranked 70%,0.25,0,0.0007438760583152422,-7.201526163302956,False,False,False
+Sigmoid,clean,GD Ranked 70%,0.25,1,0.000747021791443328,-7.201526163302956,False,False,False
+Sigmoid,clean,GD Ranked 70%,0.5,0,0.0007119964928094881,-7.208418413651875,True,False,False
+Sigmoid,clean,GD Ranked 70%,0.5,1,0.0007697850369305857,-7.208418413651875,True,False,False
+Sigmoid,clean,GD Ranked 70%,1.0,0,0.0007148595156220681,-7.198472700855792,False,False,False
+Sigmoid,clean,GD Ranked 70%,1.0,1,0.0007821055238884889,-7.198472700855792,False,False,False
+Sigmoid,clean,GD Ranked 70%,2.0,0,42.82930350040126,4.179262018253224,False,False,False
+Sigmoid,clean,GD Ranked 70%,2.0,1,99.61387946776428,4.179262018253224,False,False,False
+Sigmoid,clean,GD Uniform 70%,0.25,0,0.0007403967021645531,-7.205142792230967,False,False,False
+Sigmoid,clean,GD Uniform 70%,0.25,1,0.0007451230741254776,-7.205142792230967,False,False,False
+Sigmoid,clean,GD Uniform 70%,0.5,0,0.0007089424874524273,-7.211699786962862,True,False,False
+Sigmoid,clean,GD Uniform 70%,0.5,1,0.0007680440871163935,-7.211699786962862,True,False,False
+Sigmoid,clean,GD Uniform 70%,1.0,0,0.0007085786296470597,-7.205595849187445,False,False,False
+Sigmoid,clean,GD Uniform 70%,1.0,1,0.0007778769767726161,-7.205595849187445,False,False,False
+Sigmoid,clean,GD Uniform 70%,2.0,0,42.82930353566599,4.179262018664918,False,False,False
+Sigmoid,clean,GD Uniform 70%,2.0,1,99.61387946776503,4.179262018664918,False,False,False
+Sigmoid,clean,SGD Alpha,0.05,0,0.0007281976510024399,-7.211974709233575,False,True,False
+Sigmoid,clean,SGD Alpha,0.05,1,0.0007473242701182933,-7.211974709233575,False,True,False
+Sigmoid,clean,SGD Alpha,0.1,0,0.0006958143454569729,-7.226656236691812,False,True,False
+Sigmoid,clean,SGD Alpha,0.1,1,0.0007594737527339647,-7.226656236691812,False,True,False
+Sigmoid,clean,SGD Alpha,0.2,0,0.0006755128437425917,-7.247366330010515,False,True,False
+Sigmoid,clean,SGD Alpha,0.2,1,0.0007505575159697089,-7.247366330010515,False,True,False
+Sigmoid,clean,SGD Alpha,0.4,0,0.0006723819941545986,-7.2557264856203165,True,True,False
+Sigmoid,clean,SGD Alpha,0.4,1,0.0007415492078746857,-7.2557264856203165,True,True,False
+Sigmoid,clean,SGD Ranked 10%,0.05,0,0.0007746125680202274,-7.1856066009735535,False,True,False
+Sigmoid,clean,SGD Ranked 10%,0.05,1,0.0007405883381438055,-7.1856066009735535,False,True,False
+Sigmoid,clean,SGD Ranked 10%,0.1,0,0.0007559403750236878,-7.177917868432284,False,True,False
+Sigmoid,clean,SGD Ranked 10%,0.1,1,0.00077064118413681,-7.177917868432284,False,True,False
+Sigmoid,clean,SGD Ranked 10%,0.2,0,0.0007279103734406377,-7.205308725183365,False,True,False
+Sigmoid,clean,SGD Ranked 10%,0.2,1,0.0007576531827183746,-7.205308725183365,False,True,False
+Sigmoid,clean,SGD Ranked 10%,0.4,0,0.0006960220056451233,-7.231708356683766,True,True,False
+Sigmoid,clean,SGD Ranked 10%,0.4,1,0.0007516141737169205,-7.231708356683766,True,True,False
+Sigmoid,clean,SGD Uniform 10%,0.05,0,0.0007670438154289262,-7.190709465970874,False,True,False
+Sigmoid,clean,SGD Uniform 10%,0.05,1,0.0007403020351466509,-7.190709465970874,False,True,False
+Sigmoid,clean,SGD Uniform 10%,0.1,0,0.0007474710671366456,-7.185230989944348,False,True,False
+Sigmoid,clean,SGD Uniform 10%,0.1,1,0.000768056683984725,-7.185230989944348,False,True,False
+Sigmoid,clean,SGD Uniform 10%,0.2,0,0.0007165746805247815,-7.215645441390789,False,True,False
+Sigmoid,clean,SGD Uniform 10%,0.2,1,0.0007538909747173701,-7.215645441390789,False,True,False
+Sigmoid,clean,SGD Uniform 10%,0.4,0,0.0006829312927712287,-7.2471707038710385,True,True,False
+Sigmoid,clean,SGD Uniform 10%,0.4,1,0.0007426949906806424,-7.2471707038710385,True,True,False
+Sigmoid,clean,SGD Ranked 30%,0.05,0,0.0007632371191066169,-7.190691796608743,False,True,False
+Sigmoid,clean,SGD Ranked 30%,0.05,1,0.0007440206334748807,-7.190691796608743,False,True,False
+Sigmoid,clean,SGD Ranked 30%,0.1,0,0.0007381616235694071,-7.19394356552548,False,True,False
+Sigmoid,clean,SGD Ranked 30%,0.1,1,0.0007643082543922256,-7.19394356552548,False,True,False
+Sigmoid,clean,SGD Ranked 30%,0.2,0,0.0007044287462340489,-7.223037121812132,False,True,False
+Sigmoid,clean,SGD Ranked 30%,0.2,1,0.0007556359306588476,-7.223037121812132,False,True,False
+Sigmoid,clean,SGD Ranked 30%,0.4,0,0.0006728292906844594,-7.255159247613143,True,True,False
+Sigmoid,clean,SGD Ranked 30%,0.4,1,0.00074189741396041,-7.255159247613143,True,True,False
+Sigmoid,clean,SGD Uniform 30%,0.05,0,0.0007562283394273247,-7.196722545565363,False,True,False
+Sigmoid,clean,SGD Uniform 30%,0.05,1,0.0007419134988056436,-7.196722545565363,False,True,False
+Sigmoid,clean,SGD Uniform 30%,0.1,0,0.000729747165756659,-7.198800163152355,False,True,False
+Sigmoid,clean,SGD Uniform 30%,0.1,1,0.0007656480992694599,-7.198800163152355,False,True,False
+Sigmoid,clean,SGD Uniform 30%,0.2,0,0.000694125929379976,-7.232396689121202,False,True,False
+Sigmoid,clean,SGD Uniform 30%,0.2,1,0.0007526304515969055,-7.232396689121202,False,True,False
+Sigmoid,clean,SGD Uniform 30%,0.4,0,0.000668803604291523,-7.260453478478961,True,True,False
+Sigmoid,clean,SGD Uniform 30%,0.4,1,0.0007385019245714303,-7.260453478478961,True,True,False
+Sigmoid,clean,SGD Ranked 50%,0.05,0,0.0007537368691852935,-7.195884244842478,False,True,False
+Sigmoid,clean,SGD Ranked 50%,0.05,1,0.0007456149387170585,-7.195884244842478,False,True,False
+Sigmoid,clean,SGD Ranked 50%,0.1,0,0.0007230623478992212,-7.20409727253492,False,True,False
+Sigmoid,clean,SGD Ranked 50%,0.1,1,0.0007645834054268085,-7.20409727253492,False,True,False
+Sigmoid,clean,SGD Ranked 50%,0.2,0,0.0006892049183987109,-7.233577780778832,False,True,False
+Sigmoid,clean,SGD Ranked 50%,0.2,1,0.000756215896926051,-7.233577780778832,False,True,False
+Sigmoid,clean,SGD Ranked 50%,0.4,0,0.0006681649246781103,-7.258416161849225,True,True,False
+Sigmoid,clean,SGD Ranked 50%,0.4,1,0.0007422259828798065,-7.258416161849225,True,True,False
+Sigmoid,clean,SGD Uniform 50%,0.05,0,0.0007451377313431824,-7.203504558456416,False,True,False
+Sigmoid,clean,SGD Uniform 50%,0.05,1,0.000742811954688648,-7.203504558456416,False,True,False
+Sigmoid,clean,SGD Uniform 50%,0.1,0,0.0007149416802684795,-7.209786876378358,False,True,False
+Sigmoid,clean,SGD Uniform 50%,0.1,1,0.0007645186268821745,-7.209786876378358,False,True,False
+Sigmoid,clean,SGD Uniform 50%,0.2,0,0.0006832077112400366,-7.240105473696968,False,True,False
+Sigmoid,clean,SGD Uniform 50%,0.2,1,0.0007529593476666889,-7.240105473696968,False,True,False
+Sigmoid,clean,SGD Uniform 50%,0.4,0,0.000664023787434341,-7.262286144781532,True,True,False
+Sigmoid,clean,SGD Uniform 50%,0.4,1,0.0007410965050726172,-7.262286144781532,True,True,False
+Sigmoid,clean,SGD Ranked 70%,0.05,0,0.000742107061986679,-7.203622376058444,False,True,False
+Sigmoid,clean,SGD Ranked 70%,0.05,1,0.0007456697759831546,-7.203622376058444,False,True,False
+Sigmoid,clean,SGD Ranked 70%,0.1,0,0.0007084031604760662,-7.21751595347709,False,True,False
+Sigmoid,clean,SGD Ranked 70%,0.1,1,0.0007597396749537544,-7.21751595347709,False,True,False
+Sigmoid,clean,SGD Ranked 70%,0.2,0,0.0006793506586573705,-7.246299556650484,False,True,False
+Sigmoid,clean,SGD Ranked 70%,0.2,1,0.0007479114393821832,-7.246299556650484,False,True,False
+Sigmoid,clean,SGD Ranked 70%,0.4,0,0.000667675365976585,-7.268873268378129,True,True,False
+Sigmoid,clean,SGD Ranked 70%,0.4,1,0.0007273970687918182,-7.268873268378129,True,True,False
+Sigmoid,clean,SGD Uniform 70%,0.05,0,0.0007368514587966144,-7.208753871283461,False,True,False
+Sigmoid,clean,SGD Uniform 70%,0.05,1,0.0007433203058945806,-7.208753871283461,False,True,False
+Sigmoid,clean,SGD Uniform 70%,0.1,0,0.0007049049610198858,-7.2205906977641785,False,True,False
+Sigmoid,clean,SGD Uniform 70%,0.1,1,0.0007588292110829746,-7.2205906977641785,False,True,False
+Sigmoid,clean,SGD Uniform 70%,0.2,0,0.0006783398018962324,-7.24471700996178,False,True,False
+Sigmoid,clean,SGD Uniform 70%,0.2,1,0.0007514004641677531,-7.24471700996178,False,True,False
+Sigmoid,clean,SGD Uniform 70%,0.4,0,0.0006651309813885248,-7.2637411196898825,True,True,False
+Sigmoid,clean,SGD Uniform 70%,0.4,1,0.0007377130226619355,-7.2637411196898825,True,True,False
+Sigmoid,asymmetric,GD MSE,0.25,0,0.025611085646410233,-3.6731791339475355,False,False,False
+Sigmoid,asymmetric,GD MSE,0.25,1,0.025181938195214252,-3.6731791339475355,False,False,False
+Sigmoid,asymmetric,GD MSE,0.5,0,0.02547355125621109,-3.6759434585664206,False,False,False
+Sigmoid,asymmetric,GD MSE,0.5,1,0.025178310578380873,-3.6759434585664206,False,False,False
+Sigmoid,asymmetric,GD MSE,1.0,0,0.025527160243361297,-3.6921817270976733,True,False,False
+Sigmoid,asymmetric,GD MSE,1.0,1,0.024322555041367447,-3.6921817270976733,True,False,False
+Sigmoid,asymmetric,GD MSE,2.0,0,0.10986966282057559,-2.031173892760319,False,False,False
+Sigmoid,asymmetric,GD MSE,2.0,1,0.15662712689011055,-2.031173892760319,False,False,False
+Sigmoid,asymmetric,SGD MSE,0.05,0,0.021518291732491746,-3.8606420074762084,False,True,False
+Sigmoid,asymmetric,SGD MSE,0.05,1,0.02060066159062306,-3.8606420074762084,False,True,False
+Sigmoid,asymmetric,SGD MSE,0.1,0,0.01641537944470814,-4.166762172824216,False,True,False
+Sigmoid,asymmetric,SGD MSE,0.1,1,0.014640146947779724,-4.166762172824216,False,True,False
+Sigmoid,asymmetric,SGD MSE,0.2,0,0.0092797333368569,-5.374539172383049,False,True,False
+Sigmoid,asymmetric,SGD MSE,0.2,1,0.0023131249488964538,-5.374539172383049,False,True,False
+Sigmoid,asymmetric,SGD MSE,0.4,0,0.004248840476794774,-6.174491257984895,True,True,False
+Sigmoid,asymmetric,SGD MSE,0.4,1,0.001020080887142616,-6.174491257984895,True,True,False
+Sigmoid,asymmetric,GD Alpha,0.25,0,0.0007787209941586229,-7.184463129176592,False,False,False
+Sigmoid,asymmetric,GD Alpha,0.25,1,0.0007383677707580705,-7.184463129176592,False,False,False
+Sigmoid,asymmetric,GD Alpha,0.5,0,0.0007511837419771931,-7.187582268333833,True,False,False
+Sigmoid,asymmetric,GD Alpha,0.5,1,0.0007606750740442093,-7.187582268333833,True,False,False
+Sigmoid,asymmetric,GD Alpha,1.0,0,0.0007686938011243119,-7.171629532766214,False,False,False
+Sigmoid,asymmetric,GD Alpha,1.0,1,0.0007674469358981076,-7.171629532766214,False,False,False
+Sigmoid,asymmetric,GD Alpha,2.0,0,0.0013874700439661352,-1.044312046560957,False,False,False
+Sigmoid,asymmetric,GD Alpha,2.0,1,89.26854707096885,-1.044312046560957,False,False,False
+Sigmoid,asymmetric,GD Ranked 10%,0.25,0,0.0008178632193213396,-7.159924443895886,True,True,False
+Sigmoid,asymmetric,GD Ranked 10%,0.25,1,0.0007383936762740236,-7.159924443895886,True,True,False
+Sigmoid,asymmetric,GD Ranked 10%,0.5,0,0.0008141858356209456,-7.139921289049596,False,True,False
+Sigmoid,asymmetric,GD Ranked 10%,0.5,1,0.0007720041291068703,-7.139921289049596,False,True,False
+Sigmoid,asymmetric,GD Ranked 10%,1.0,0,0.0009140015430679155,-6.990465660166723,False,True,False
+Sigmoid,asymmetric,GD Ranked 10%,1.0,1,0.0009272818233159545,-6.990465660166723,False,True,False
+Sigmoid,asymmetric,GD Ranked 10%,2.0,0,0.10084066214434734,1.0987177995118316,False,True,False
+Sigmoid,asymmetric,GD Ranked 10%,2.0,1,89.26854707380933,1.0987177995118316,False,True,False
+Sigmoid,asymmetric,GD Uniform 10%,0.25,0,0.0008151100841011269,-7.1627778740508194,True,True,False
+Sigmoid,asymmetric,GD Uniform 10%,0.25,1,0.0007366715915554996,-7.1627778740508194,True,True,False
+Sigmoid,asymmetric,GD Uniform 10%,0.5,0,0.0008115598101118514,-7.143434432642168,False,True,False
+Sigmoid,asymmetric,GD Uniform 10%,0.5,1,0.0007690793600829766,-7.143434432642168,False,True,False
+Sigmoid,asymmetric,GD Uniform 10%,1.0,0,0.0009009494111931397,-7.002403579659297,False,True,False
+Sigmoid,asymmetric,GD Uniform 10%,1.0,1,0.0009185210736831548,-7.002403579659297,False,True,False
+Sigmoid,asymmetric,GD Uniform 10%,2.0,0,0.10084068193477075,1.0987178976401017,False,True,False
+Sigmoid,asymmetric,GD Uniform 10%,2.0,1,89.26854707400236,1.0987178976401017,False,True,False
+Sigmoid,asymmetric,GD Ranked 30%,0.25,0,0.0008101652144487735,-7.164494981362075,True,True,False
+Sigmoid,asymmetric,GD Ranked 30%,0.25,1,0.0007386269264957141,-7.164494981362075,True,True,False
+Sigmoid,asymmetric,GD Ranked 30%,0.5,0,0.000798733106223843,-7.152407504648403,False,True,False
+Sigmoid,asymmetric,GD Ranked 30%,0.5,1,0.000767531293124761,-7.152407504648403,False,True,False
+Sigmoid,asymmetric,GD Ranked 30%,1.0,0,0.0008771944218965439,-7.068761535573907,False,True,False
+Sigmoid,asymmetric,GD Ranked 30%,1.0,1,0.000826144243528536,-7.068761535573907,False,True,False
+Sigmoid,asymmetric,GD Ranked 30%,2.0,0,0.001013139793925428,-1.2015259269503509,False,True,False
+Sigmoid,asymmetric,GD Ranked 30%,2.0,1,89.26854707279568,-1.2015259269503509,False,True,False
+Sigmoid,asymmetric,GD Uniform 30%,0.25,0,0.0008055900438633839,-7.167812432357278,True,True,False
+Sigmoid,asymmetric,GD Uniform 30%,0.25,1,0.0007379095591740644,-7.167812432357278,True,True,False
+Sigmoid,asymmetric,GD Uniform 30%,0.5,0,0.0007928283669891657,-7.156945537148049,False,True,False
+Sigmoid,asymmetric,GD Uniform 30%,0.5,1,0.0007662613338737996,-7.156945537148049,False,True,False
+Sigmoid,asymmetric,GD Uniform 30%,1.0,0,0.0008576772522829447,-7.0849410577389325,False,True,False
+Sigmoid,asymmetric,GD Uniform 30%,1.0,1,0.0008180399177112396,-7.0849410577389325,False,True,False
+Sigmoid,asymmetric,GD Uniform 30%,2.0,0,0.0011346757909839352,-1.1448795530742024,False,True,False
+Sigmoid,asymmetric,GD Uniform 30%,2.0,1,89.26854707330716,-1.1448795530742024,False,True,False
+Sigmoid,asymmetric,GD Ranked 50%,0.25,0,0.0008006601020223908,-7.170637539177157,True,True,False
+Sigmoid,asymmetric,GD Ranked 50%,0.25,1,0.000738269934484458,-7.170637539177157,True,True,False
+Sigmoid,asymmetric,GD Ranked 50%,0.5,0,0.0007831756859365635,-7.163699854050439,False,True,False
+Sigmoid,asymmetric,GD Ranked 50%,0.5,1,0.0007652972814996451,-7.163699854050439,False,True,False
+Sigmoid,asymmetric,GD Ranked 50%,1.0,0,0.0008420024989005151,-7.10710237455671,False,True,False
+Sigmoid,asymmetric,GD Ranked 50%,1.0,1,0.0007971424413865907,-7.10710237455671,False,True,False
+Sigmoid,asymmetric,GD Ranked 50%,2.0,0,0.0009203257933942987,-1.2495668089764238,False,True,False
+Sigmoid,asymmetric,GD Ranked 50%,2.0,1,89.26854707198255,-1.2495668089764238,False,True,False
+Sigmoid,asymmetric,GD Uniform 50%,0.25,0,0.0007975587441420286,-7.1720442960769795,True,True,False
+Sigmoid,asymmetric,GD Uniform 50%,0.25,1,0.0007390584649824125,-7.1720442960769795,True,True,False
+Sigmoid,asymmetric,GD Uniform 50%,0.5,0,0.0007786688492816934,-7.167113412005817,False,True,False
+Sigmoid,asymmetric,GD Uniform 50%,0.5,1,0.0007644896091822092,-7.167113412005817,False,True,False
+Sigmoid,asymmetric,GD Uniform 50%,1.0,0,0.0008252639751053814,-7.121691121729001,False,True,False
+Sigmoid,asymmetric,GD Uniform 50%,1.0,1,0.000789923075148774,-7.121691121729001,False,True,False
+Sigmoid,asymmetric,GD Uniform 50%,2.0,0,0.0010546545922767404,-1.1814463784695453,False,True,False
+Sigmoid,asymmetric,GD Uniform 50%,2.0,1,89.26854707264022,-1.1814463784695453,False,True,False
+Sigmoid,asymmetric,GD Ranked 70%,0.25,0,0.000792018157815516,-7.1763586987254815,True,True,False
+Sigmoid,asymmetric,GD Ranked 70%,0.25,1,0.0007378343935173229,-7.1763586987254815,True,True,False
+Sigmoid,asymmetric,GD Ranked 70%,0.5,0,0.0007691365825745089,-7.173940373283126,False,True,False
+Sigmoid,asymmetric,GD Ranked 70%,0.5,1,0.0007634684530904431,-7.173940373283126,False,True,False
+Sigmoid,asymmetric,GD Ranked 70%,1.0,0,0.0008084172694392642,-7.137333954280938,False,True,False
+Sigmoid,asymmetric,GD Ranked 70%,1.0,1,0.0007815466645322528,-7.137333954280938,False,True,False
+Sigmoid,asymmetric,GD Ranked 70%,2.0,0,0.001756354783161326,-0.9264327771292726,False,True,False
+Sigmoid,asymmetric,GD Ranked 70%,2.0,1,89.26854707135077,-0.9264327771292726,False,True,False
+Sigmoid,asymmetric,GD Uniform 70%,0.25,0,0.0007897292044553917,-7.177851357761844,True,True,False
+Sigmoid,asymmetric,GD Uniform 70%,0.25,1,0.0007377671743215039,-7.177851357761844,True,True,False
+Sigmoid,asymmetric,GD Uniform 70%,0.5,0,0.0007662684455457769,-7.176511822986238,False,True,False
+Sigmoid,asymmetric,GD Uniform 70%,0.5,1,0.0007623950887608046,-7.176511822986238,False,True,False
+Sigmoid,asymmetric,GD Uniform 70%,1.0,0,0.0007982488643600347,-7.146623284620706,False,True,False
+Sigmoid,asymmetric,GD Uniform 70%,1.0,1,0.0007769330156876834,-7.146623284620706,False,True,False
+Sigmoid,asymmetric,GD Uniform 70%,2.0,0,0.0009335010540790668,-1.2424596282070501,False,True,False
+Sigmoid,asymmetric,GD Uniform 70%,2.0,1,89.26854707195875,-1.2424596282070501,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.05,0,0.0007680678206421917,-7.194346801828003,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.05,1,0.000733956288872166,-7.194346801828003,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.1,0,0.0007273821080527889,-7.213332042301191,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.1,1,0.0007461339160305678,-7.213332042301191,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.2,0,0.0006830114601200753,-7.2508410841323006,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.2,1,0.0007371764714180809,-7.2508410841323006,False,True,False
+Sigmoid,asymmetric,SGD Alpha,0.4,0,0.0006606516281445004,-7.271124394398598,True,True,False
+Sigmoid,asymmetric,SGD Alpha,0.4,1,0.0007318281098783948,-7.271124394398598,True,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.05,0,0.0008107554151960194,-7.166146349479828,False,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.05,1,0.0007356555397722092,-7.166146349479828,False,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.1,0,0.0008035112434537357,-7.152756969263595,False,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.1,1,0.0007624340395444896,-7.152756969263595,False,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.2,0,0.000779684865319406,-7.174466757349774,False,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.2,1,0.0007523470965359888,-7.174466757349774,False,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.4,0,0.0007531701424243014,-7.20088741221592,True,True,False
+Sigmoid,asymmetric,SGD Ranked 10%,0.4,1,0.0007387467256790738,-7.20088741221592,True,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.05,0,0.0008119537904357053,-7.165090962908331,False,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.05,1,0.0007361219219992909,-7.165090962908331,False,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.1,0,0.0008062631520786959,-7.153554645671418,False,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.1,1,0.000758620493626894,-7.153554645671418,False,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.2,0,0.0007819266461961294,-7.176604278398334,False,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.2,1,0.0007469898712504746,-7.176604278398334,False,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.4,0,0.0007416872766872772,-7.219562949039923,True,True,False
+Sigmoid,asymmetric,SGD Uniform 10%,0.4,1,0.0007226807223949108,-7.219562949039923,True,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.05,0,0.000802231471571752,-7.171276884112242,False,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.05,1,0.0007358822824105788,-7.171276884112242,False,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.1,0,0.0007829653615021979,-7.17061401771304,False,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.1,1,0.0007549900902557844,-7.17061401771304,False,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.2,0,0.0007493306416665801,-7.200807987254359,False,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.2,1,0.0007426499559513755,-7.200807987254359,False,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.4,0,0.0007192541617730118,-7.232122660866882,True,True,False
+Sigmoid,asymmetric,SGD Ranked 30%,0.4,1,0.0007267343503872166,-7.232122660866882,True,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.05,0,0.0007998330472304048,-7.172663659792478,False,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.05,1,0.0007360446490924532,-7.172663659792478,False,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.1,0,0.0007792631016468505,-7.176970476606003,False,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.1,1,0.0007489943432315051,-7.176970476606003,False,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.2,0,0.00074110500655017,-7.211346441731212,False,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.2,1,0.0007352318619968266,-7.211346441731212,False,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.4,0,0.0007033055014208665,-7.247399750526775,True,True,False
+Sigmoid,asymmetric,SGD Uniform 30%,0.4,1,0.0007208494074886326,-7.247399750526775,True,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.05,0,0.0007924936659820104,-7.178391133562834,False,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.05,1,0.0007344003644305394,-7.178391133562834,False,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.1,0,0.0007653737246428277,-7.18362084958283,False,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.1,1,0.0007525106680121662,-7.18362084958283,False,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.2,0,0.0007270134199956946,-7.218583590816042,False,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.2,1,0.0007387126414681651,-7.218583590816042,False,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.4,0,0.0006930398252908788,-7.25124675372588,True,True,False
+Sigmoid,asymmetric,SGD Ranked 50%,0.4,1,0.0007259202374268702,-7.25124675372588,True,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.05,0,0.0007918316298640957,-7.179317880249384,False,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.05,1,0.000733653300784952,-7.179317880249384,False,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.1,0,0.0007654405709219253,-7.185197167969022,False,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.1,1,0.0007500765006793767,-7.185197167969022,False,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.2,0,0.000717350189727583,-7.2293529900778415,False,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.2,1,0.0007327107440828157,-7.2293529900778415,False,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.4,0,0.0006846583787146227,-7.26210829073937,True,True,False
+Sigmoid,asymmetric,SGD Uniform 50%,0.4,1,0.0007190166666651175,-7.26210829073937,True,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.05,0,0.0007843009999942066,-7.183955510566166,False,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.05,1,0.0007338592256578699,-7.183955510566166,False,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.1,0,0.0007513849562749766,-7.194459987471621,False,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.1,1,0.0007500823713553803,-7.194459987471621,False,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.2,0,0.0007049500471480684,-7.235654948893259,False,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.2,1,0.0007362607036681035,-7.235654948893259,False,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.4,0,0.0006757823799347517,-7.265017876353756,True,True,False
+Sigmoid,asymmetric,SGD Ranked 70%,0.4,1,0.0007242337954717086,-7.265017876353756,True,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.05,0,0.000784501122245759,-7.183832223293809,False,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.05,1,0.0007338529490467779,-7.183832223293809,False,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.1,0,0.0007507715930369676,-7.195509106930231,False,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.1,1,0.0007491216850437421,-7.195509106930231,False,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.2,0,0.0006994478049721002,-7.239772182351601,False,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.2,1,0.0007359672184060184,-7.239772182351601,False,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.4,0,0.0006718765789386617,-7.2678160187367595,True,True,False
+Sigmoid,asymmetric,SGD Uniform 70%,0.4,1,0.0007243787689325726,-7.2678160187367595,True,True,False
+Sigmoid,point_mass,GD MSE,0.25,0,0.03455275192778401,-3.286060912276192,False,False,False
+Sigmoid,point_mass,GD MSE,0.25,1,0.04048378549432937,-3.286060912276192,False,False,False
+Sigmoid,point_mass,GD MSE,0.5,0,0.034236793803653,-3.290677170372817,False,False,False
+Sigmoid,point_mass,GD MSE,0.5,1,0.04048191411219082,-3.290677170372817,False,False,False
+Sigmoid,point_mass,GD MSE,1.0,0,0.034307821582465314,-3.296136122480835,True,False,False
+Sigmoid,point_mass,GD MSE,1.0,1,0.039959440426937436,-3.296136122480835,True,False,False
+Sigmoid,point_mass,GD MSE,2.0,0,0.10986966282057559,-2.031173892760319,False,False,False
+Sigmoid,point_mass,GD MSE,2.0,1,0.15662712689011055,-2.031173892760319,False,False,False
+Sigmoid,point_mass,SGD MSE,0.05,0,0.02993694631565175,-3.467946930349354,False,True,False
+Sigmoid,point_mass,SGD MSE,0.05,1,0.03247671324382074,-3.467946930349354,False,True,False
+Sigmoid,point_mass,SGD MSE,0.1,0,0.022672743485816885,-3.7803964452975967,False,True,False
+Sigmoid,point_mass,SGD MSE,0.1,1,0.022955422700209723,-3.7803964452975967,False,True,False
+Sigmoid,point_mass,SGD MSE,0.2,0,0.014641944595250707,-4.3105092090695525,False,True,False
+Sigmoid,point_mass,SGD MSE,0.2,1,0.012312337550810355,-4.3105092090695525,False,True,False
+Sigmoid,point_mass,SGD MSE,0.4,0,0.0034060775246823136,-5.467193711390385,True,True,False
+Sigmoid,point_mass,SGD MSE,0.4,1,0.005236020650531913,-5.467193711390385,True,True,False
+Sigmoid,point_mass,GD Alpha,0.25,0,0.0008315949768396866,-7.149788128654286,False,False,False
+Sigmoid,point_mass,GD Alpha,0.25,1,0.0007410731534372231,-7.149788128654286,False,False,False
+Sigmoid,point_mass,GD Alpha,0.5,0,0.0008268772496199752,-7.158059960484379,True,False,False
+Sigmoid,point_mass,GD Alpha,0.5,1,0.0007330727447546899,-7.158059960484379,True,False,False
+Sigmoid,point_mass,GD Alpha,1.0,0,0.0008513387907390463,-6.992730087628477,False,False,False
+Sigmoid,point_mass,GD Alpha,1.0,1,0.0009910359224349435,-6.992730087628477,False,False,False
+Sigmoid,point_mass,GD Alpha,2.0,0,0.002964611830211422,-0.6908489288553041,False,False,False
+Sigmoid,point_mass,GD Alpha,2.0,1,84.71657851609466,-0.6908489288553041,False,False,False
+Sigmoid,point_mass,GD Ranked 10%,0.25,0,0.0008278817166861791,-7.152710284076551,False,False,False
+Sigmoid,point_mass,GD Ranked 10%,0.25,1,0.0007400592553861699,-7.152710284076551,False,False,False
+Sigmoid,point_mass,GD Ranked 10%,0.5,0,0.0008384115763827345,-7.152767803872475,True,False,False
+Sigmoid,point_mass,GD Ranked 10%,0.5,1,0.0007306805696348783,-7.152767803872475,True,False,False
+Sigmoid,point_mass,GD Ranked 10%,1.0,0,0.0009627789120562609,-6.94511854730127,False,False,False
+Sigmoid,point_mass,GD Ranked 10%,1.0,1,0.000963873650796622,-6.94511854730127,False,False,False
+Sigmoid,point_mass,GD Ranked 10%,2.0,0,0.09741411218621662,1.0552635625125992,False,False,False
+Sigmoid,point_mass,GD Ranked 10%,2.0,1,84.71657853205943,1.0552635625125992,False,False,False
+Sigmoid,point_mass,GD Uniform 10%,0.25,0,0.000824897659088579,-7.15798384469978,True,True,False
+Sigmoid,point_mass,GD Uniform 10%,0.25,1,0.0007349438468705313,-7.15798384469978,True,True,False
+Sigmoid,point_mass,GD Uniform 10%,0.5,0,0.0008347786006798494,-7.156539326317054,False,True,False
+Sigmoid,point_mass,GD Uniform 10%,0.5,1,0.0007283457905812341,-7.156539326317054,False,True,False
+Sigmoid,point_mass,GD Uniform 10%,1.0,0,0.000972498613435201,-6.917209341775808,False,True,False
+Sigmoid,point_mass,GD Uniform 10%,1.0,1,0.001009018931343655,-6.917209341775808,False,True,False
+Sigmoid,point_mass,GD Uniform 10%,2.0,0,0.09741414121148553,1.0552637114969412,False,True,False
+Sigmoid,point_mass,GD Uniform 10%,2.0,1,84.71657853300752,1.0552637114969412,False,True,False
+Sigmoid,point_mass,GD Ranked 30%,0.25,0,0.0008308858805496145,-7.148185854095755,False,False,False
+Sigmoid,point_mass,GD Ranked 30%,0.25,1,0.0007440862460094713,-7.148185854095755,False,False,False
+Sigmoid,point_mass,GD Ranked 30%,0.5,0,0.0008383077970939346,-7.1513458177835805,True,False,False
+Sigmoid,point_mass,GD Ranked 30%,0.5,1,0.0007328522756561137,-7.1513458177835805,True,False,False
+Sigmoid,point_mass,GD Ranked 30%,1.0,0,0.0009609917123011878,-6.930614973293453,False,False,False
+Sigmoid,point_mass,GD Ranked 30%,1.0,1,0.0009940876525859079,-6.930614973293453,False,False,False
+Sigmoid,point_mass,GD Ranked 30%,2.0,0,0.0025715924670715318,-0.7619593100811923,False,False,False
+Sigmoid,point_mass,GD Ranked 30%,2.0,1,84.71657852670829,-0.7619593100811923,False,False,False
+Sigmoid,point_mass,GD Uniform 30%,0.25,0,0.0008270903957338475,-7.155454494701831,True,True,False
+Sigmoid,point_mass,GD Uniform 30%,0.25,1,0.0007367128026183992,-7.155454494701831,True,True,False
+Sigmoid,point_mass,GD Uniform 30%,0.5,0,0.0008364517467788218,-7.155049356173937,False,True,False
+Sigmoid,point_mass,GD Uniform 30%,0.5,1,0.0007290582038409579,-7.155049356173937,False,True,False
+Sigmoid,point_mass,GD Uniform 30%,1.0,0,0.0009435835083718091,-6.938965586443183,False,True,False
+Sigmoid,point_mass,GD Uniform 30%,1.0,1,0.0009956592424701675,-6.938965586443183,False,True,False
+Sigmoid,point_mass,GD Uniform 30%,2.0,0,0.09741321063932958,1.055258935080305,False,True,False
+Sigmoid,point_mass,GD Uniform 30%,2.0,1,84.71657852913879,1.055258935080305,False,True,False
+Sigmoid,point_mass,GD Ranked 50%,0.25,0,0.0008305046296625085,-7.1472293480297004,False,False,False
+Sigmoid,point_mass,GD Ranked 50%,0.25,1,0.0007458532882234055,-7.1472293480297004,False,False,False
+Sigmoid,point_mass,GD Ranked 50%,0.5,0,0.0008338908477894118,-7.153604402140262,True,False,False
+Sigmoid,point_mass,GD Ranked 50%,0.5,1,0.0007334135974850131,-7.153604402140262,True,False,False
+Sigmoid,point_mass,GD Ranked 50%,1.0,0,0.0009261903304674299,-6.951415252233814,False,False,False
+Sigmoid,point_mass,GD Ranked 50%,1.0,1,0.0009894120298712167,-6.951415252233814,False,False,False
+Sigmoid,point_mass,GD Ranked 50%,2.0,0,0.001466025523999866,-1.0429444751326704,False,False,False
+Sigmoid,point_mass,GD Ranked 50%,2.0,1,84.71657852223915,-1.0429444751326704,False,False,False
+Sigmoid,point_mass,GD Uniform 50%,0.25,0,0.0008277496069031237,-7.152470713965824,True,True,False
+Sigmoid,point_mass,GD Uniform 50%,0.25,1,0.0007405321034145661,-7.152470713965824,True,True,False
+Sigmoid,point_mass,GD Uniform 50%,0.5,0,0.0008359696621990109,-7.151777590013463,False,True,False
+Sigmoid,point_mass,GD Uniform 50%,0.5,1,0.0007342676535149806,-7.151777590013463,False,True,False
+Sigmoid,point_mass,GD Uniform 50%,1.0,0,0.0009106314424200114,-6.957300840055698,False,True,False
+Sigmoid,point_mass,GD Uniform 50%,1.0,1,0.0009945408607423454,-6.957300840055698,False,True,False
+Sigmoid,point_mass,GD Uniform 50%,2.0,0,0.001238023502642057,-1.1274639028680271,False,True,False
+Sigmoid,point_mass,GD Uniform 50%,2.0,1,84.71657852542052,-1.1274639028680271,False,True,False
+Sigmoid,point_mass,GD Ranked 70%,0.25,0,0.0008312768158603205,-7.1480840140886635,False,False,False
+Sigmoid,point_mass,GD Ranked 70%,0.25,1,0.0007438878145882785,-7.1480840140886635,False,False,False
+Sigmoid,point_mass,GD Ranked 70%,0.5,0,0.0008370852232731493,-7.152531754178989,True,False,False
+Sigmoid,point_mass,GD Ranked 70%,0.5,1,0.0007321839076349214,-7.152531754178989,True,False,False
+Sigmoid,point_mass,GD Ranked 70%,1.0,0,0.000892352106961237,-6.97017024312776,False,False,False
+Sigmoid,point_mass,GD Ranked 70%,1.0,1,0.0009891241318520179,-6.97017024312776,False,False,False
+Sigmoid,point_mass,GD Ranked 70%,2.0,0,0.0035678136361258442,-0.598245491467309,False,False,False
+Sigmoid,point_mass,GD Ranked 70%,2.0,1,84.7165785187332,-0.598245491467309,False,False,False
+Sigmoid,point_mass,GD Uniform 70%,0.25,0,0.0008306120893624448,-7.150198110558936,False,False,False
+Sigmoid,point_mass,GD Uniform 70%,0.25,1,0.0007413419640176198,-7.150198110558936,False,False,False
+Sigmoid,point_mass,GD Uniform 70%,0.5,0,0.0008388819264821015,-7.152618893654946,True,False,False
+Sigmoid,point_mass,GD Uniform 70%,0.5,1,0.000730488408600696,-7.152618893654946,True,False,False
+Sigmoid,point_mass,GD Uniform 70%,1.0,0,0.0008825359192318735,-6.974084900290454,False,False,False
+Sigmoid,point_mass,GD Uniform 70%,1.0,1,0.0009923261422587384,-6.974084900290454,False,False,False
+Sigmoid,point_mass,GD Uniform 70%,2.0,0,0.001078460962737026,-1.1964544869603428,False,False,False
+Sigmoid,point_mass,GD Uniform 70%,2.0,1,84.71657852161238,-1.1964544869603428,False,False,False
+Sigmoid,point_mass,SGD Alpha,0.05,0,0.0008290135518039121,-7.156762116338531,False,True,False
+Sigmoid,point_mass,SGD Alpha,0.05,1,0.0007330840646687386,-7.156762116338531,False,True,False
+Sigmoid,point_mass,SGD Alpha,0.1,0,0.0007901276757687872,-7.170229534297254,False,True,False
+Sigmoid,point_mass,SGD Alpha,0.1,1,0.0007487218105457017,-7.170229534297254,False,True,False
+Sigmoid,point_mass,SGD Alpha,0.2,0,0.0007364969729782359,-7.217308577337667,False,True,False
+Sigmoid,point_mass,SGD Alpha,0.2,1,0.0007310624122412404,-7.217308577337667,False,True,False
+Sigmoid,point_mass,SGD Alpha,0.4,0,0.0007110175491723558,-7.223576679707158,True,True,False
+Sigmoid,point_mass,SGD Alpha,0.4,1,0.0007478262348488339,-7.223576679707158,True,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.05,0,0.0008222596128416512,-7.157506601432722,False,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.05,1,0.000738005839494498,-7.157506601432722,False,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.1,0,0.0008256665075974369,-7.162310035457507,False,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.1,1,0.0007279337904289876,-7.162310035457507,False,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.2,0,0.0008416942873565865,-7.162281746712187,False,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.2,1,0.0007141126716633413,-7.162281746712187,False,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.4,0,0.0008010732789458169,-7.17992268131132,True,True,False
+Sigmoid,point_mass,SGD Ranked 10%,0.4,1,0.0007243127875524917,-7.17992268131132,True,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.05,0,0.0008216921909042127,-7.159416638966171,False,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.05,1,0.0007356996687518825,-7.159416638966171,False,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.1,0,0.0008231099575196048,-7.1655529250433005,False,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.1,1,0.0007254741697799246,-7.1655529250433005,False,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.2,0,0.0008379688446106199,-7.1675076861897455,False,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.2,1,0.0007098295153856907,-7.1675076861897455,False,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.4,0,0.0007817656279121084,-7.179352907489186,True,True,False
+Sigmoid,point_mass,SGD Uniform 10%,0.4,1,0.000743047753521132,-7.179352907489186,True,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.05,0,0.0008301383406906669,-7.149786314000163,False,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.05,1,0.0007423762020244716,-7.149786314000163,False,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.1,0,0.0008337888325655608,-7.156540071276806,False,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.1,1,0.0007292093036555813,-7.156540071276806,False,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.2,0,0.0007997099088419388,-7.184744689792222,False,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.2,1,0.0007185840571050338,-7.184744689792222,False,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.4,0,0.0007638430113579177,-7.187337512941568,True,True,False
+Sigmoid,point_mass,SGD Ranked 30%,0.4,1,0.0007484345844447918,-7.187337512941568,True,True,False
+Sigmoid,point_mass,SGD Uniform 30%,0.05,0,0.0008294752980175707,-7.156455574155501,False,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.05,1,0.0007331253067298212,-7.156455574155501,False,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.1,0,0.0008335034478719651,-7.162801111236498,False,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.1,1,0.0007203815877855823,-7.162801111236498,False,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.2,0,0.0007902648178745701,-7.199075390741367,True,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.2,1,0.0007066264963937841,-7.199075390741367,True,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.4,0,0.00073654215133678,-7.184935277921159,False,False,False
+Sigmoid,point_mass,SGD Uniform 30%,0.4,1,0.0007799143405642823,-7.184935277921159,False,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.05,0,0.0008267148921098276,-7.1509121048830595,False,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.05,1,0.0007437738474494827,-7.1509121048830595,False,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.1,0,0.0008334042698948134,-7.1600012900262815,False,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.1,1,0.0007245129916158303,-7.1600012900262815,False,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.2,0,0.000778791180196033,-7.204761108886934,True,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.2,1,0.0007089294034591648,-7.204761108886934,True,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.4,0,0.000734819772103976,-7.179639187475731,False,False,False
+Sigmoid,point_mass,SGD Ranked 50%,0.4,1,0.000790066784993549,-7.179639187475731,False,False,False
+Sigmoid,point_mass,SGD Uniform 50%,0.05,0,0.0008232248196653711,-7.155812579362564,False,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.05,1,0.000739642249673303,-7.155812579362564,False,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.1,0,0.0008205298704226407,-7.168029619681825,False,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.1,1,0.0007241594200246952,-7.168029619681825,False,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.2,0,0.0007592947007310899,-7.184107115309022,False,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.2,1,0.0007577980370592479,-7.184107115309022,False,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.4,0,0.0007145990507428809,-7.201788529821277,True,True,False
+Sigmoid,point_mass,SGD Uniform 50%,0.4,1,0.0007772192138415184,-7.201788529821277,True,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.05,0,0.0008273597462066016,-7.148374609486557,False,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.05,1,0.0007469754315184707,-7.148374609486557,False,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.1,0,0.000817329871261172,-7.1679586830496005,False,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.1,1,0.0007270977878805352,-7.1679586830496005,False,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.2,0,0.000746777038648705,-7.172430638006466,False,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.2,1,0.0007887056428817087,-7.172430638006466,False,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.4,0,0.0007165802327649317,-7.19541086088404,True,True,False
+Sigmoid,point_mass,SGD Ranked 70%,0.4,1,0.0007850199837184568,-7.19541086088404,True,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.05,0,0.0008276959685862738,-7.153371434289635,False,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.05,1,0.0007392471829890651,-7.153371434289635,False,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.1,0,0.000816099121931322,-7.17137343561059,False,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.1,1,0.0007232380522323202,-7.17137343561059,False,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.2,0,0.0007571451613739216,-7.181716457054009,False,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.2,1,0.0007635916891485327,-7.181716457054009,False,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.4,0,0.0007120867516748454,-7.194638231453225,True,True,False
+Sigmoid,point_mass,SGD Uniform 70%,0.4,1,0.0007911953528876549,-7.194638231453225,True,True,False
+Sigmoid,symmetric,GD MSE,0.25,0,0.0020312478847249803,-5.514419199855713,False,False,False
+Sigmoid,symmetric,GD MSE,0.25,1,0.007988650385232802,-5.514419199855713,False,False,False
+Sigmoid,symmetric,GD MSE,0.5,0,0.002156533776137169,-5.484654998283061,False,False,False
+Sigmoid,symmetric,GD MSE,0.5,1,0.007986066709688181,-5.484654998283061,False,False,False
+Sigmoid,symmetric,GD MSE,1.0,0,0.0019661875636205455,-5.522848808685216,True,False,False
+Sigmoid,symmetric,GD MSE,1.0,1,0.008115018816923497,-5.522848808685216,True,False,False
+Sigmoid,symmetric,GD MSE,2.0,0,0.10986966282057559,-2.031173892760319,False,False,False
+Sigmoid,symmetric,GD MSE,2.0,1,0.15662712689011055,-2.031173892760319,False,False,False
+Sigmoid,symmetric,SGD MSE,0.05,0,0.0016074100886306825,-5.780043964166319,False,False,False
+Sigmoid,symmetric,SGD MSE,0.05,1,0.005934592626247192,-5.780043964166319,False,False,False
+Sigmoid,symmetric,SGD MSE,0.1,0,0.0017516320996724356,-6.022463423771571,False,False,False
+Sigmoid,symmetric,SGD MSE,0.1,1,0.0033536044704341817,-6.022463423771571,False,False,False
+Sigmoid,symmetric,SGD MSE,0.2,0,0.0009920401890919344,-6.513958483914234,True,False,False
+Sigmoid,symmetric,SGD MSE,0.2,1,0.0022157373765089856,-6.513958483914234,True,False,False
+Sigmoid,symmetric,SGD MSE,0.4,0,0.002770992249212863,-5.976238926165948,False,False,False
+Sigmoid,symmetric,SGD MSE,0.4,1,0.0023252492483010288,-5.976238926165948,False,False,False
+Sigmoid,symmetric,GD Alpha,0.25,0,0.0007631832606790664,-7.156297448486503,False,False,False
+Sigmoid,symmetric,GD Alpha,0.25,1,0.0007970584647596606,-7.156297448486503,False,False,False
+Sigmoid,symmetric,GD Alpha,0.5,0,0.0007598687466547663,-7.163737685341886,True,False,False
+Sigmoid,symmetric,GD Alpha,0.5,1,0.0007887110483803477,-7.163737685341886,True,False,False
+Sigmoid,symmetric,GD Alpha,1.0,0,0.0008464918924404615,-7.104608309628727,False,False,False
+Sigmoid,symmetric,GD Alpha,1.0,1,0.0007968798167574389,-7.104608309628727,False,False,False
+Sigmoid,symmetric,GD Alpha,2.0,0,0.005003727080069476,-0.35541319774710045,False,False,False
+Sigmoid,symmetric,GD Alpha,2.0,1,98.17443375379762,-0.35541319774710045,False,False,False
+Sigmoid,symmetric,GD Ranked 10%,0.25,0,0.0008352685159104044,-7.098831028247147,False,False,False
+Sigmoid,symmetric,GD Ranked 10%,0.25,1,0.0008169728069974704,-7.098831028247147,False,False,False
+Sigmoid,symmetric,GD Ranked 10%,0.5,0,0.0007918760035527781,-7.137494008302835,True,False,False
+Sigmoid,symmetric,GD Ranked 10%,0.5,1,0.0007976167994582544,-7.137494008302835,True,False,False
+Sigmoid,symmetric,GD Ranked 10%,1.0,0,0.0009243322084905657,-6.972041416646185,False,False,False
+Sigmoid,symmetric,GD Ranked 10%,1.0,1,0.000951335457895047,-6.972041416646185,False,False,False
+Sigmoid,symmetric,GD Ranked 10%,2.0,0,0.09362428146204348,1.1091401604568285,False,False,False
+Sigmoid,symmetric,GD Ranked 10%,2.0,1,98.17443375390646,1.1091401604568285,False,False,False
+Sigmoid,symmetric,GD Uniform 10%,0.25,0,0.00083436670512341,-7.103907867009316,False,False,False
+Sigmoid,symmetric,GD Uniform 10%,0.25,1,0.0008095935906348063,-7.103907867009316,False,False,False
+Sigmoid,symmetric,GD Uniform 10%,0.5,0,0.0007915271019900248,-7.138241627531009,True,False,False
+Sigmoid,symmetric,GD Uniform 10%,0.5,1,0.0007967761238950886,-7.138241627531009,True,False,False
+Sigmoid,symmetric,GD Uniform 10%,1.0,0,0.0009129986398405739,-6.983798960434278,False,False,False
+Sigmoid,symmetric,GD Uniform 10%,1.0,1,0.0009407607008681629,-6.983798960434278,False,False,False
+Sigmoid,symmetric,GD Uniform 10%,2.0,0,0.09390820500626663,1.110654158199373,False,False,False
+Sigmoid,symmetric,GD Uniform 10%,2.0,1,98.174433753915,1.110654158199373,False,False,False
+Sigmoid,symmetric,GD Ranked 30%,0.25,0,0.0008115339063177893,-7.124013893251786,False,False,False
+Sigmoid,symmetric,GD Ranked 30%,0.25,1,0.0007995644653181864,-7.124013893251786,False,False,False
+Sigmoid,symmetric,GD Ranked 30%,0.5,0,0.00077327431801399,-7.155134763732552,True,False,False
+Sigmoid,symmetric,GD Ranked 30%,0.5,1,0.0007884884263975911,-7.155134763732552,True,False,False
+Sigmoid,symmetric,GD Ranked 30%,1.0,0,0.0008733440471375059,-7.068705670644958,False,False,False
+Sigmoid,symmetric,GD Ranked 30%,1.0,1,0.0008298792422263012,-7.068705670644958,False,False,False
+Sigmoid,symmetric,GD Ranked 30%,2.0,0,0.002709468388797995,-0.6621284985518665,False,False,False
+Sigmoid,symmetric,GD Ranked 30%,2.0,1,98.17443375386547,-0.6621284985518665,False,False,False
+Sigmoid,symmetric,GD Uniform 30%,0.25,0,0.0008093363800673027,-7.123986956623265,False,False,False
+Sigmoid,symmetric,GD Uniform 30%,0.25,1,0.000801778651935133,-7.123986956623265,False,False,False
+Sigmoid,symmetric,GD Uniform 30%,0.5,0,0.0007724458834376768,-7.153629296570921,True,False,False
+Sigmoid,symmetric,GD Uniform 30%,0.5,1,0.0007917142808875493,-7.153629296570921,True,False,False
+Sigmoid,symmetric,GD Uniform 30%,1.0,0,0.0008698437429552307,-7.073793451586985,False,False,False
+Sigmoid,symmetric,GD Uniform 30%,1.0,1,0.000824783248756631,-7.073793451586985,False,False,False
+Sigmoid,symmetric,GD Uniform 30%,2.0,0,0.0028923841061635354,-0.6294641669936141,False,False,False
+Sigmoid,symmetric,GD Uniform 30%,2.0,1,98.17443375388771,-0.6294641669936141,False,False,False
+Sigmoid,symmetric,GD Ranked 50%,0.25,0,0.0007936714733198438,-7.136428034192566,False,False,False
+Sigmoid,symmetric,GD Ranked 50%,0.25,1,0.0007975108451343865,-7.136428034192566,False,False,False
+Sigmoid,symmetric,GD Ranked 50%,0.5,0,0.0007635193003704604,-7.162446812650759,True,False,False
+Sigmoid,symmetric,GD Ranked 50%,0.5,1,0.0007869691809450291,-7.162446812650759,True,False,False
+Sigmoid,symmetric,GD Ranked 50%,1.0,0,0.0008466419959344082,-7.097064885030755,False,False,False
+Sigmoid,symmetric,GD Ranked 50%,1.0,1,0.0008088499416265509,-7.097064885030755,False,False,False
+Sigmoid,symmetric,GD Ranked 50%,2.0,0,0.0036363566555445014,-0.5150135923344146,False,False,False
+Sigmoid,symmetric,GD Ranked 50%,2.0,1,98.1744337538344,-0.5150135923344146,False,False,False
+Sigmoid,symmetric,GD Uniform 50%,0.25,0,0.0007903733591017219,-7.137254186754779,False,False,False
+Sigmoid,symmetric,GD Uniform 50%,0.25,1,0.0007995166056829508,-7.137254186754779,False,False,False
+Sigmoid,symmetric,GD Uniform 50%,0.5,0,0.0007636638032271288,-7.1603636608426005,True,False,False
+Sigmoid,symmetric,GD Uniform 50%,0.5,1,0.0007901052386409124,-7.1603636608426005,True,False,False
+Sigmoid,symmetric,GD Uniform 50%,1.0,0,0.000850095859647591,-7.097751395529016,False,False,False
+Sigmoid,symmetric,GD Uniform 50%,1.0,1,0.0008044583595595066,-7.097751395529016,False,False,False
+Sigmoid,symmetric,GD Uniform 50%,2.0,0,0.0025203035729789076,-0.6983150432606191,False,False,False
+Sigmoid,symmetric,GD Uniform 50%,2.0,1,98.1744337538621,-0.6983150432606191,False,False,False
+Sigmoid,symmetric,GD Ranked 70%,0.25,0,0.0007776157936389113,-7.147137956652556,False,False,False
+Sigmoid,symmetric,GD Ranked 70%,0.25,1,0.000796727440850171,-7.147137956652556,False,False,False
+Sigmoid,symmetric,GD Ranked 70%,0.5,0,0.0007601426952124152,-7.16458906886849,True,False,False
+Sigmoid,symmetric,GD Ranked 70%,0.5,1,0.0007870854392006344,-7.16458906886849,True,False,False
+Sigmoid,symmetric,GD Ranked 70%,1.0,0,0.0008403058056139294,-7.105332920761948,False,False,False
+Sigmoid,symmetric,GD Ranked 70%,1.0,1,0.0008015836989773127,-7.105332920761948,False,False,False
+Sigmoid,symmetric,GD Ranked 70%,2.0,0,0.006682368959020085,-0.21076844349655177,False,False,False
+Sigmoid,symmetric,GD Ranked 70%,2.0,1,98.17443375381171,-0.21076844349655177,False,False,False
+Sigmoid,symmetric,GD Uniform 70%,0.25,0,0.0007763971716441148,-7.147257020473514,False,False,False
+Sigmoid,symmetric,GD Uniform 70%,0.25,1,0.0007977879749571071,-7.147257020473514,False,False,False
+Sigmoid,symmetric,GD Uniform 70%,0.5,0,0.0007610901687335793,-7.163069855623455,True,False,False
+Sigmoid,symmetric,GD Uniform 70%,0.5,1,0.0007884977608757403,-7.163069855623455,True,False,False
+Sigmoid,symmetric,GD Uniform 70%,1.0,0,0.0008466347429406339,-7.103160317684074,False,False,False
+Sigmoid,symmetric,GD Uniform 70%,1.0,1,0.0007990560672767224,-7.103160317684074,False,False,False
+Sigmoid,symmetric,GD Uniform 70%,2.0,0,0.004617005650234213,-0.395631539472042,False,False,False
+Sigmoid,symmetric,GD Uniform 70%,2.0,1,98.17443375383601,-0.395631539472042,False,False,False
+Sigmoid,symmetric,SGD Alpha,0.05,0,0.0007484714342286837,-7.170089813385859,False,False,False
+Sigmoid,symmetric,SGD Alpha,0.05,1,0.0007906128862414373,-7.170089813385859,False,False,False
+Sigmoid,symmetric,SGD Alpha,0.1,0,0.0007375853208403711,-7.182970136468995,False,False,False
+Sigmoid,symmetric,SGD Alpha,0.1,1,0.0007818782768229557,-7.182970136468995,False,False,False
+Sigmoid,symmetric,SGD Alpha,0.2,0,0.0007410285350383859,-7.186899042196009,True,False,False
+Sigmoid,symmetric,SGD Alpha,0.2,1,0.0007721539120995044,-7.186899042196009,True,False,False
+Sigmoid,symmetric,SGD Alpha,0.4,0,0.0007981753412368445,-7.143547526147932,False,False,False
+Sigmoid,symmetric,SGD Alpha,0.4,1,0.0007817990705181457,-7.143547526147932,False,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.05,0,0.0008412423305323382,-7.094267960078092,False,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.05,1,0.0008186080776152444,-7.094267960078092,False,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.1,0,0.000783606208932136,-7.14344133044572,False,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.1,1,0.0007965037563419361,-7.14344133044572,False,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.2,0,0.0007359644482863837,-7.189808646906746,True,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.2,1,0.000772955909278848,-7.189808646906746,True,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.4,0,0.0007739824342296027,-7.172098573508169,False,False,False
+Sigmoid,symmetric,SGD Ranked 10%,0.4,1,0.0007614882867264756,-7.172098573508169,False,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.05,0,0.0008255353809669988,-7.108767747841876,False,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.05,1,0.0008103396637713968,-7.108767747841876,False,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.1,0,0.0007712280246659263,-7.153920538594517,False,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.1,1,0.0007925027351712412,-7.153920538594517,False,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.2,0,0.0007246456935980231,-7.2018528058748235,True,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.2,1,0.0007663451588419607,-7.2018528058748235,True,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.4,0,0.000766029480260622,-7.180878234512846,False,False,False
+Sigmoid,symmetric,SGD Uniform 10%,0.4,1,0.0007560019775045754,-7.180878234512846,False,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.05,0,0.0007913281197043275,-7.14164214425249,False,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.05,1,0.0007915746024170274,-7.14164214425249,False,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.1,0,0.0007359713210714665,-7.191177858132792,False,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.1,1,0.0007708349265783486,-7.191177858132792,False,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.2,0,0.0007316291315201742,-7.2058594720450415,True,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.2,1,0.0007529722971854955,-7.2058594720450415,True,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.4,0,0.0007685207678249799,-7.174735402110629,False,False,False
+Sigmoid,symmetric,SGD Ranked 30%,0.4,1,0.0007628662532183306,-7.174735402110629,False,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.05,0,0.0007909269143390116,-7.147894330902241,False,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.05,1,0.000782134630242392,-7.147894330902241,False,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.1,0,0.0007384548491829107,-7.196160904423355,False,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.1,1,0.0007606241494580586,-7.196160904423355,False,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.2,0,0.0006968043625748281,-7.234385102756868,True,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.2,1,0.0007467617740470657,-7.234385102756868,True,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.4,0,0.0007633229786188461,-7.187660531503535,False,False,False
+Sigmoid,symmetric,SGD Uniform 30%,0.4,1,0.0007484607844190613,-7.187660531503535,False,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.05,0,0.0007683392116090223,-7.156988986724062,False,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.05,1,0.0007906155545757473,-7.156988986724062,False,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.1,0,0.000727249479472932,-7.196635459845018,False,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.1,1,0.0007716110598687957,-7.196635459845018,False,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.2,0,0.0007286368412864326,-7.208179785185045,True,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.2,1,0.0007525640413408218,-7.208179785185045,True,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.4,0,0.0007873217878441383,-7.167918057339135,False,False,False
+Sigmoid,symmetric,SGD Ranked 50%,0.4,1,0.0007548718179690565,-7.167918057339135,False,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.05,0,0.0007685892400886831,-7.161756140422045,False,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.05,1,0.0007828586502728424,-7.161756140422045,False,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.1,0,0.0007156664455597638,-7.208136683101742,False,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.1,1,0.0007662692041639456,-7.208136683101742,False,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.2,0,0.0007099019053920834,-7.223439624727114,True,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.2,1,0.0007492068153788772,-7.223439624727114,True,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.4,0,0.000790021797724196,-7.169025541007067,False,False,False
+Sigmoid,symmetric,SGD Uniform 50%,0.4,1,0.0007506274800269184,-7.169025541007067,False,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.05,0,0.0007591243561352431,-7.168182912842094,False,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.05,1,0.0007824966835996035,-7.168182912842094,False,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.1,0,0.0007257314737428522,-7.20272561203177,False,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.1,1,0.0007638640408570691,-7.20272561203177,False,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.2,0,0.0007242060396701047,-7.210149999853398,True,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.2,1,0.0007541906436932442,-7.210149999853398,True,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.4,0,0.0007917051164055115,-7.170108586656971,False,False,False
+Sigmoid,symmetric,SGD Ranked 70%,0.4,1,0.0007474107856957191,-7.170108586656971,False,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.05,0,0.0007636187825722775,-7.164843245698839,False,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.05,1,0.0007831043335526898,-7.164843245698839,False,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.1,0,0.0007274828613356452,-7.197292188767916,False,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.1,1,0.0007703510329617022,-7.197292188767916,False,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.2,0,0.0007250693168093619,-7.205693854871747,True,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.2,1,0.0007600362629184335,-7.205693854871747,True,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.4,0,0.0007743402166837872,-7.168170496632769,False,False,False
+Sigmoid,symmetric,SGD Uniform 70%,0.4,1,0.0007671395973782132,-7.168170496632769,False,False,False
+Sine,clean,GD MSE,0.25,0,0.010814549886512806,-4.434507219183797,False,False,False
+Sine,clean,GD MSE,0.25,1,0.013008508982069383,-4.434507219183797,False,False,False
+Sine,clean,GD MSE,0.5,0,0.004995302523408077,-5.192342389489352,False,False,False
+Sine,clean,GD MSE,0.5,1,0.006186242058024555,-5.192342389489352,False,False,False
+Sine,clean,GD MSE,1.0,0,0.004806740399676236,-5.31542559743699,True,False,False
+Sine,clean,GD MSE,1.0,1,0.005026079115689753,-5.31542559743699,True,False,False
+Sine,clean,GD MSE,2.0,0,0.09056172734216952,-2.041551976110666,False,False,False
+Sine,clean,GD MSE,2.0,1,0.186116890051139,-2.041551976110666,False,False,False
+Sine,clean,SGD MSE,0.05,0,0.010821732766374477,-4.434438749213291,False,True,False
+Sine,clean,SGD MSE,0.05,1,0.013001654962602907,-4.434438749213291,False,True,False
+Sine,clean,SGD MSE,0.1,0,0.004983991466045448,-5.275798342914923,False,True,False
+Sine,clean,SGD MSE,0.1,1,0.0052471380934983325,-5.275798342914923,False,True,False
+Sine,clean,SGD MSE,0.2,0,0.0031668771561580793,-5.709842130072108,False,True,False
+Sine,clean,SGD MSE,0.2,1,0.003466274269995079,-5.709842130072108,False,True,False
+Sine,clean,SGD MSE,0.4,0,0.0019543712019816552,-6.149117047027053,True,True,False
+Sine,clean,SGD MSE,0.4,1,0.002333123570581149,-6.149117047027053,True,True,False
+Sine,clean,GD Alpha,0.25,0,0.011470348281112527,-4.394211949492448,False,False,False
+Sine,clean,GD Alpha,0.25,1,0.013294113772582947,-4.394211949492448,False,False,False
+Sine,clean,GD Alpha,0.5,0,0.005932613772621965,-5.127942266158529,False,False,False
+Sine,clean,GD Alpha,0.5,1,0.005924884177025651,-5.127942266158529,False,False,False
+Sine,clean,GD Alpha,1.0,0,0.005702778308461368,-5.216804318997563,True,False,False
+Sine,clean,GD Alpha,1.0,1,0.005160061207508334,-5.216804318997563,True,False,False
+Sine,clean,GD Alpha,2.0,0,0.012836151394156878,0.13085662090387506,False,False,False
+Sine,clean,GD Alpha,2.0,1,101.2105502716161,0.13085662090387506,False,False,False
+Sine,clean,GD Ranked 10%,0.25,0,0.014826759090429121,-4.136991538137564,False,False,False
+Sine,clean,GD Ranked 10%,0.25,1,0.017203173744337188,-4.136991538137564,False,False,False
+Sine,clean,GD Ranked 10%,0.5,0,0.013828900767097651,-4.20108341007545,False,False,False
+Sine,clean,GD Ranked 10%,0.5,1,0.016225483747101897,-4.20108341007545,False,False,False
+Sine,clean,GD Ranked 10%,1.0,0,0.013036891722162335,-4.244514177543794,True,False,False
+Sine,clean,GD Ranked 10%,1.0,1,0.015779301343953955,-4.244514177543794,True,False,False
+Sine,clean,GD Ranked 10%,2.0,0,0.07867330862278102,1.0373758342860413,False,False,False
+Sine,clean,GD Ranked 10%,2.0,1,101.21055027161636,1.0373758342860413,False,False,False
+Sine,clean,GD Uniform 10%,0.25,0,0.01482465777309954,-4.141867668735703,False,False,False
+Sine,clean,GD Uniform 10%,0.25,1,0.01703863410993604,-4.141867668735703,False,False,False
+Sine,clean,GD Uniform 10%,0.5,0,0.013905659281625295,-4.205332127900793,False,False,False
+Sine,clean,GD Uniform 10%,0.5,1,0.015999386893080492,-4.205332127900793,False,False,False
+Sine,clean,GD Uniform 10%,1.0,0,0.01297456712405988,-4.248576450666199,True,False,False
+Sine,clean,GD Uniform 10%,1.0,1,0.01572680514266108,-4.248576450666199,True,False,False
+Sine,clean,GD Uniform 10%,2.0,0,0.0787126341998648,1.0376257014418808,False,False,False
+Sine,clean,GD Uniform 10%,2.0,1,101.21055027161636,1.0376257014418808,False,False,False
+Sine,clean,GD Ranked 30%,0.25,0,0.014006052790275099,-4.187969759570269,False,False,False
+Sine,clean,GD Ranked 30%,0.25,1,0.016445986414461846,-4.187969759570269,False,False,False
+Sine,clean,GD Ranked 30%,0.5,0,0.01210189021242048,-4.313910776831047,False,False,False
+Sine,clean,GD Ranked 30%,0.5,1,0.014795563140155687,-4.313910776831047,False,False,False
+Sine,clean,GD Ranked 30%,1.0,0,0.011293671893746266,-4.3819992146925095,True,False,False
+Sine,clean,GD Ranked 30%,1.0,1,0.013835940201668541,-4.3819992146925095,True,False,False
+Sine,clean,GD Ranked 30%,2.0,0,0.020648568274587185,0.36854685409341936,False,False,False
+Sine,clean,GD Ranked 30%,2.0,1,101.21055027161623,0.36854685409341936,False,False,False
+Sine,clean,GD Uniform 30%,0.25,0,0.014039626824286593,-4.195263789379053,False,False,False
+Sine,clean,GD Uniform 30%,0.25,1,0.01616905386987541,-4.195263789379053,False,False,False
+Sine,clean,GD Uniform 30%,0.5,0,0.012442912431236628,-4.314627245230636,False,False,False
+Sine,clean,GD Uniform 30%,0.5,1,0.01436945666959083,-4.314627245230636,False,False,False
+Sine,clean,GD Uniform 30%,1.0,0,0.01128067748396697,-4.387349649026341,True,False,False
+Sine,clean,GD Uniform 30%,1.0,1,0.013704441193514216,-4.387349649026341,True,False,False
+Sine,clean,GD Uniform 30%,2.0,0,0.06369898207584467,0.931808153306303,False,False,False
+Sine,clean,GD Uniform 30%,2.0,1,101.21055027161628,0.931808153306303,False,False,False
+Sine,clean,GD Ranked 50%,0.25,0,0.013274911510561488,-4.2383788836297995,False,False,False
+Sine,clean,GD Ranked 50%,0.25,1,0.01568769880232642,-4.2383788836297995,False,False,False
+Sine,clean,GD Ranked 50%,0.5,0,0.010280163550326927,-4.453690738843763,False,False,False
+Sine,clean,GD Ranked 50%,0.5,1,0.013169623278278501,-4.453690738843763,False,False,False
+Sine,clean,GD Ranked 50%,1.0,0,0.008881817681556553,-4.589292288547005,True,False,False
+Sine,clean,GD Ranked 50%,1.0,1,0.011622231248619169,-4.589292288547005,True,False,False
+Sine,clean,GD Ranked 50%,2.0,0,0.021893721448970692,0.39782381401194233,False,False,False
+Sine,clean,GD Ranked 50%,2.0,1,101.21055027161617,0.39782381401194233,False,False,False
+Sine,clean,GD Uniform 50%,0.25,0,0.013331268736101666,-4.245814456346632,False,False,False
+Sine,clean,GD Uniform 50%,0.25,1,0.015390790893283303,-4.245814456346632,False,False,False
+Sine,clean,GD Uniform 50%,0.5,0,0.010853946180482008,-4.449157102871499,False,False,False
+Sine,clean,GD Uniform 50%,0.5,1,0.012587039016981381,-4.449157102871499,False,False,False
+Sine,clean,GD Uniform 50%,1.0,0,0.008949483580171088,-4.596874237501613,True,False,False
+Sine,clean,GD Uniform 50%,1.0,1,0.011360770683833146,-4.596874237501613,True,False,False
+Sine,clean,GD Uniform 50%,2.0,0,0.019083217693209375,0.32912850906830116,False,False,False
+Sine,clean,GD Uniform 50%,2.0,1,101.21055027161623,0.32912850906830116,False,False,False
+Sine,clean,GD Ranked 70%,0.25,0,0.012573972152554829,-4.293296099717642,False,False,False
+Sine,clean,GD Ranked 70%,0.25,1,0.01483945308953586,-4.293296099717642,False,False,False
+Sine,clean,GD Ranked 70%,0.5,0,0.00837257731775214,-4.653875781647161,False,False,False
+Sine,clean,GD Ranked 70%,0.5,1,0.010835169019853048,-4.653875781647161,False,False,False
+Sine,clean,GD Ranked 70%,1.0,0,0.005977845776942108,-4.934372519096198,True,False,False
+Sine,clean,GD Ranked 70%,1.0,1,0.008659918008424597,-4.934372519096198,True,False,False
+Sine,clean,GD Ranked 70%,2.0,0,0.021223576740824934,0.3822801991453788,False,False,False
+Sine,clean,GD Ranked 70%,2.0,1,101.21055027161611,0.3822801991453788,False,False,False
+Sine,clean,GD Uniform 70%,0.25,0,0.012630427023946284,-4.299442994042252,False,False,False
+Sine,clean,GD Uniform 70%,0.25,1,0.014592618574823434,-4.299442994042252,False,False,False
+Sine,clean,GD Uniform 70%,0.5,0,0.008898906436721421,-4.657251981660336,False,False,False
+Sine,clean,GD Uniform 70%,0.5,1,0.010125714695723759,-4.657251981660336,False,False,False
+Sine,clean,GD Uniform 70%,1.0,0,0.0060945410227767035,-4.948340326447422,True,False,False
+Sine,clean,GD Uniform 70%,1.0,1,0.008260097975175497,-4.948340326447422,True,False,False
+Sine,clean,GD Uniform 70%,2.0,0,0.013371789090532554,0.15129746004839006,False,False,False
+Sine,clean,GD Uniform 70%,2.0,1,101.2105502716162,0.15129746004839006,False,False,False
+Sine,clean,SGD Alpha,0.05,0,0.011486815906308052,-4.393767219715942,False,True,False
+Sine,clean,SGD Alpha,0.05,1,0.013286868062766634,-4.393767219715942,False,True,False
+Sine,clean,SGD Alpha,0.1,0,0.005957651469376535,-5.126318534145703,False,True,False
+Sine,clean,SGD Alpha,0.1,1,0.00591917531927432,-5.126318534145703,False,True,False
+Sine,clean,SGD Alpha,0.2,0,0.003368889108344867,-5.659840234393185,False,True,False
+Sine,clean,SGD Alpha,0.2,1,0.003601127679071985,-5.659840234393185,False,True,False
+Sine,clean,SGD Alpha,0.4,0,0.0020668772793757855,-6.117947922654337,True,True,False
+Sine,clean,SGD Alpha,0.4,1,0.0023480279487011167,-6.117947922654337,True,True,False
+Sine,clean,SGD Ranked 10%,0.05,0,0.014830503836086275,-4.138755397144587,False,True,False
+Sine,clean,SGD Ranked 10%,0.05,1,0.017138264162764764,-4.138755397144587,False,True,False
+Sine,clean,SGD Ranked 10%,0.1,0,0.013816692438405229,-4.206705587974805,False,True,False
+Sine,clean,SGD Ranked 10%,0.1,1,0.016058236954819307,-4.206705587974805,False,True,False
+Sine,clean,SGD Ranked 10%,0.2,0,0.011657840675827334,-4.351400444498951,False,True,False
+Sine,clean,SGD Ranked 10%,0.2,1,0.01424962650144608,-4.351400444498951,False,True,False
+Sine,clean,SGD Ranked 10%,0.4,0,0.007137128545882405,-4.759811690326614,True,True,False
+Sine,clean,SGD Ranked 10%,0.4,1,0.010283869979057704,-4.759811690326614,True,True,False
+Sine,clean,SGD Uniform 10%,0.05,0,0.014810002985796194,-4.1442881628448,False,True,False
+Sine,clean,SGD Uniform 10%,0.05,1,0.01697312825201697,-4.1442881628448,False,True,False
+Sine,clean,SGD Uniform 10%,0.1,0,0.013900060855976202,-4.209197354751694,False,True,False
+Sine,clean,SGD Uniform 10%,0.1,1,0.01588257553810386,-4.209197354751694,False,True,False
+Sine,clean,SGD Uniform 10%,0.2,0,0.012156129376643064,-4.3439952458451145,False,True,False
+Sine,clean,SGD Uniform 10%,0.2,1,0.013869421826146786,-4.3439952458451145,False,True,False
+Sine,clean,SGD Uniform 10%,0.4,0,0.007785154721317997,-4.800655538068244,True,True,False
+Sine,clean,SGD Uniform 10%,0.4,1,0.008688330491390084,-4.800655538068244,True,True,False
+Sine,clean,SGD Ranked 30%,0.05,0,0.01400127759885228,-4.18928958060507,False,True,False
+Sine,clean,SGD Ranked 30%,0.05,1,0.01640822632484275,-4.18928958060507,False,True,False
+Sine,clean,SGD Ranked 30%,0.1,0,0.012044439478322854,-4.320562523489382,False,True,False
+Sine,clean,SGD Ranked 30%,0.1,1,0.014669674615347145,-4.320562523489382,False,True,False
+Sine,clean,SGD Ranked 30%,0.2,0,0.007096189840405546,-4.746330347891457,False,True,False
+Sine,clean,SGD Ranked 30%,0.2,1,0.010625872874969845,-4.746330347891457,False,True,False
+Sine,clean,SGD Ranked 30%,0.4,0,0.0038456508484049274,-5.477821659829097,True,True,False
+Sine,clean,SGD Ranked 30%,0.4,1,0.004539988042805753,-5.477821659829097,True,True,False
+Sine,clean,SGD Uniform 30%,0.05,0,0.014015874179259837,-4.19592746657598,False,True,False
+Sine,clean,SGD Uniform 30%,0.05,1,0.016174971325114463,-4.19592746657598,False,True,False
+Sine,clean,SGD Uniform 30%,0.1,0,0.012324583142786108,-4.3160443342055395,False,True,False
+Sine,clean,SGD Uniform 30%,0.1,1,0.014466360552989006,-4.3160443342055395,False,True,False
+Sine,clean,SGD Uniform 30%,0.2,0,0.007627725589826655,-4.741728201535017,False,True,False
+Sine,clean,SGD Uniform 30%,0.2,1,0.009976820395039108,-4.741728201535017,False,True,False
+Sine,clean,SGD Uniform 30%,0.4,0,0.003701726961531412,-5.520869805332084,True,True,False
+Sine,clean,SGD Uniform 30%,0.4,1,0.004327419864590562,-5.520869805332084,True,True,False
+Sine,clean,SGD Ranked 50%,0.05,0,0.01326508312446768,-4.241195531604957,False,True,False
+Sine,clean,SGD Ranked 50%,0.05,1,0.01561113186291364,-4.241195531604957,False,True,False
+Sine,clean,SGD Ranked 50%,0.1,0,0.010174727305907585,-4.462461632994656,False,True,False
+Sine,clean,SGD Ranked 50%,0.1,1,0.013074716948359624,-4.462461632994656,False,True,False
+Sine,clean,SGD Ranked 50%,0.2,0,0.004576065622550402,-5.215356593161903,False,True,False
+Sine,clean,SGD Ranked 50%,0.2,1,0.006449210866692153,-5.215356593161903,False,True,False
+Sine,clean,SGD Ranked 50%,0.4,0,0.003345737063233647,-5.625938978733036,True,True,False
+Sine,clean,SGD Ranked 50%,0.4,1,0.0038804284912938064,-5.625938978733036,True,True,False
+Sine,clean,SGD Uniform 50%,0.05,0,0.013334082812808477,-4.245429626747038,False,True,False
+Sine,clean,SGD Uniform 50%,0.05,1,0.015399390483510873,-4.245429626747038,False,True,False
+Sine,clean,SGD Uniform 50%,0.1,0,0.010876956680811541,-4.441032082801096,False,True,False
+Sine,clean,SGD Uniform 50%,0.1,1,0.01276618536450381,-4.441032082801096,False,True,False
+Sine,clean,SGD Uniform 50%,0.2,0,0.004933086226717488,-5.3021478022713415,False,True,False
+Sine,clean,SGD Uniform 50%,0.2,1,0.0050291458157722315,-5.3021478022713415,False,True,False
+Sine,clean,SGD Uniform 50%,0.4,0,0.003125424084979721,-5.707633083445122,True,True,False
+Sine,clean,SGD Uniform 50%,0.4,1,0.0035277998684282354,-5.707633083445122,True,True,False
+Sine,clean,SGD Ranked 70%,0.05,0,0.012548668279896051,-4.296026296578488,False,True,False
+Sine,clean,SGD Ranked 70%,0.05,1,0.014788404855748458,-4.296026296578488,False,True,False
+Sine,clean,SGD Ranked 70%,0.1,0,0.008151372544626667,-4.6637593353449525,False,True,False
+Sine,clean,SGD Ranked 70%,0.1,1,0.010911372171222108,-4.6637593353449525,False,True,False
+Sine,clean,SGD Ranked 70%,0.2,0,0.0038219076484357108,-5.517210673352201,False,True,False
+Sine,clean,SGD Ranked 70%,0.2,1,0.004222129108449505,-5.517210673352201,False,True,False
+Sine,clean,SGD Ranked 70%,0.4,0,0.002766090010676099,-5.835589499729736,True,True,False
+Sine,clean,SGD Ranked 70%,0.4,1,0.0030860648993550686,-5.835589499729736,True,True,False
+Sine,clean,SGD Uniform 70%,0.05,0,0.012666126692602484,-4.295871888100417,False,True,False
+Sine,clean,SGD Uniform 70%,0.05,1,0.014655790907467672,-4.295871888100417,False,True,False
+Sine,clean,SGD Uniform 70%,0.1,0,0.008974819029865947,-4.637847413849935,False,True,False
+Sine,clean,SGD Uniform 70%,0.1,1,0.010437373390966408,-4.637847413849935,False,True,False
+Sine,clean,SGD Uniform 70%,0.2,0,0.004029840077030843,-5.468220807784719,False,True,False
+Sine,clean,SGD Uniform 70%,0.2,1,0.004416476694807041,-5.468220807784719,False,True,False
+Sine,clean,SGD Uniform 70%,0.4,0,0.002648701004127483,-5.897229493619276,True,True,False
+Sine,clean,SGD Uniform 70%,0.4,1,0.0028490404062703595,-5.897229493619276,True,True,False
+Sine,asymmetric,GD MSE,0.25,0,0.04216881334519569,-3.2248241085068923,False,False,False
+Sine,asymmetric,GD MSE,0.25,1,0.03749401849203162,-3.2248241085068923,False,False,False
+Sine,asymmetric,GD MSE,0.5,0,0.038580882524749616,-3.2820337666825865,True,False,False
+Sine,asymmetric,GD MSE,0.5,1,0.03655018114222887,-3.2820337666825865,True,False,False
+Sine,asymmetric,GD MSE,1.0,0,0.04420325027448647,-3.1977158954308558,False,False,False
+Sine,asymmetric,GD MSE,1.0,1,0.0377611367374799,-3.1977158954308558,False,False,False
+Sine,asymmetric,GD MSE,2.0,0,0.09056172734216952,-2.041551976110666,False,False,False
+Sine,asymmetric,GD MSE,2.0,1,0.186116890051139,-2.041551976110666,False,False,False
+Sine,asymmetric,SGD MSE,0.05,0,0.03942197455100565,-3.3358106134655774,False,True,False
+Sine,asymmetric,SGD MSE,0.05,1,0.0321227962127739,-3.3358106134655774,False,True,False
+Sine,asymmetric,SGD MSE,0.1,0,0.029510262795340286,-3.6314406260879943,False,True,False
+Sine,asymmetric,SGD MSE,0.1,1,0.023757332307610058,-3.6314406260879943,False,True,False
+Sine,asymmetric,SGD MSE,0.2,0,0.02028522873651393,-4.185249829362464,False,True,False
+Sine,asymmetric,SGD MSE,0.2,1,0.01141716502033712,-4.185249829362464,False,True,False
+Sine,asymmetric,SGD MSE,0.4,0,0.017324339641795347,-4.353162838968692,True,True,False
+Sine,asymmetric,SGD MSE,0.4,1,0.009555075235399281,-4.353162838968692,True,True,False
+Sine,asymmetric,GD Alpha,0.25,0,0.0148654682949227,-3.926024733148584,False,False,False
+Sine,asymmetric,GD Alpha,0.25,1,0.026164934396548017,-3.926024733148584,False,False,False
+Sine,asymmetric,GD Alpha,0.5,0,0.011905112306937266,-4.11741472553373,True,False,False
+Sine,asymmetric,GD Alpha,0.5,1,0.022280529787922054,-4.11741472553373,True,False,False
+Sine,asymmetric,GD Alpha,1.0,0,0.013360170854443836,-3.9766081519623,False,False,False
+Sine,asymmetric,GD Alpha,1.0,1,0.026311768155988645,-3.9766081519623,False,False,False
+Sine,asymmetric,GD Alpha,2.0,0,0.01574819649922413,0.1708184122680767,False,False,False
+Sine,asymmetric,GD Alpha,2.0,1,89.3593832419116,0.1708184122680767,False,False,False
+Sine,asymmetric,GD Ranked 10%,0.25,0,0.01777640923043223,-3.8272957414245634,False,False,False
+Sine,asymmetric,GD Ranked 10%,0.25,1,0.026656867799791494,-3.8272957414245634,False,False,False
+Sine,asymmetric,GD Ranked 10%,0.5,0,0.016948138450101027,-3.8418347426319257,True,False,False
+Sine,asymmetric,GD Ranked 10%,0.5,1,0.02715830983602144,-3.8418347426319257,True,False,False
+Sine,asymmetric,GD Ranked 10%,1.0,0,0.01794147862982919,-3.7571162533109055,False,False,False
+Sine,asymmetric,GD Ranked 10%,1.0,1,0.030391494323424407,-3.7571162533109055,False,False,False
+Sine,asymmetric,GD Ranked 10%,2.0,0,0.0935270542120294,1.061580859054598,False,False,False
+Sine,asymmetric,GD Ranked 10%,2.0,1,89.35938324191652,1.061580859054598,False,False,False
+Sine,asymmetric,GD Uniform 10%,0.25,0,0.017837175145006483,-3.824186273928306,False,False,False
+Sine,asymmetric,GD Uniform 10%,0.25,1,0.026731783197260835,-3.824186273928306,False,False,False
+Sine,asymmetric,GD Uniform 10%,0.5,0,0.017033259928361126,-3.838817053416782,True,False,False
+Sine,asymmetric,GD Uniform 10%,0.5,1,0.027186174457878028,-3.838817053416782,True,False,False
+Sine,asymmetric,GD Uniform 10%,1.0,0,0.017772757288935376,-3.761111986015206,False,False,False
+Sine,asymmetric,GD Uniform 10%,1.0,1,0.030435807404719743,-3.761111986015206,False,False,False
+Sine,asymmetric,GD Uniform 10%,2.0,0,0.09352709560864934,1.0615810803628145,False,False,False
+Sine,asymmetric,GD Uniform 10%,2.0,1,89.35938324191682,1.0615810803628145,False,False,False
+Sine,asymmetric,GD Ranked 30%,0.25,0,0.017202902119941445,-3.8428075670428785,False,False,False
+Sine,asymmetric,GD Ranked 30%,0.25,1,0.026704105733869773,-3.8428075670428785,False,False,False
+Sine,asymmetric,GD Ranked 30%,0.5,0,0.0160930546747549,-3.867452812776885,True,False,False
+Sine,asymmetric,GD Ranked 30%,0.5,1,0.027172818129342205,-3.867452812776885,True,False,False
+Sine,asymmetric,GD Ranked 30%,1.0,0,0.01683240957109032,-3.7978329855502935,False,False,False
+Sine,asymmetric,GD Ranked 30%,1.0,1,0.02986055616589898,-3.7978329855502935,False,False,False
+Sine,asymmetric,GD Ranked 30%,2.0,0,0.09352486111343257,1.061569134509597,False,False,False
+Sine,asymmetric,GD Ranked 30%,2.0,1,89.35938324191478,1.061569134509597,False,False,False
+Sine,asymmetric,GD Uniform 30%,0.25,0,0.01731056919665568,-3.8382690689575245,False,False,False
+Sine,asymmetric,GD Uniform 30%,0.25,1,0.026779995410046414,-3.8382690689575245,False,False,False
+Sine,asymmetric,GD Uniform 30%,0.5,0,0.016192800394461346,-3.864772456703668,True,False,False
+Sine,asymmetric,GD Uniform 30%,0.5,1,0.027150593907791246,-3.864772456703668,True,False,False
+Sine,asymmetric,GD Uniform 30%,1.0,0,0.016513388922723894,-3.8052417470375572,False,False,False
+Sine,asymmetric,GD Uniform 30%,1.0,1,0.029989747167584707,-3.8052417470375572,False,False,False
+Sine,asymmetric,GD Uniform 30%,2.0,0,0.09352482093557529,1.0615689197118172,False,False,False
+Sine,asymmetric,GD Uniform 30%,2.0,1,89.35938324191561,1.0615689197118172,False,False,False
+Sine,asymmetric,GD Ranked 50%,0.25,0,0.01650544918512886,-3.8638696155909313,False,False,False
+Sine,asymmetric,GD Ranked 50%,0.25,1,0.02668444327578593,-3.8638696155909313,False,False,False
+Sine,asymmetric,GD Ranked 50%,0.5,0,0.014774171248435641,-3.9255348693985086,True,False,False
+Sine,asymmetric,GD Ranked 50%,0.5,1,0.026352426259945032,-3.9255348693985086,True,False,False
+Sine,asymmetric,GD Ranked 50%,1.0,0,0.01573682577296059,-3.8472993028021234,False,False,False
+Sine,asymmetric,GD Ranked 50%,1.0,1,0.028930846995629707,-3.8472993028021234,False,False,False
+Sine,asymmetric,GD Ranked 50%,2.0,0,0.025617225258388623,0.41408798033912597,False,False,False
+Sine,asymmetric,GD Ranked 50%,2.0,1,89.35938324191338,0.41408798033912597,False,False,False
+Sine,asymmetric,GD Uniform 50%,0.25,0,0.01651774151167083,-3.8620003496488433,False,False,False
+Sine,asymmetric,GD Uniform 50%,0.25,1,0.02676445797256517,-3.8620003496488433,False,False,False
+Sine,asymmetric,GD Uniform 50%,0.5,0,0.014941854354912904,-3.9208270733735557,True,False,False
+Sine,asymmetric,GD Uniform 50%,0.5,1,0.026303187224206676,-3.9208270733735557,True,False,False
+Sine,asymmetric,GD Uniform 50%,1.0,0,0.015439443668730906,-3.855487294380584,False,False,False
+Sine,asymmetric,GD Uniform 50%,1.0,1,0.02900912562103467,-3.855487294380584,False,False,False
+Sine,asymmetric,GD Uniform 50%,2.0,0,0.020049217522553526,0.2915505502456637,False,False,False
+Sine,asymmetric,GD Uniform 50%,2.0,1,89.35938324191447,0.2915505502456637,False,False,False
+Sine,asymmetric,GD Ranked 70%,0.25,0,0.015859762190284944,-3.8835171388747556,False,False,False
+Sine,asymmetric,GD Ranked 70%,0.25,1,0.026700734073769064,-3.8835171388747556,False,False,False
+Sine,asymmetric,GD Ranked 70%,0.5,0,0.01330482960275012,-3.991599398391759,True,False,False
+Sine,asymmetric,GD Ranked 70%,0.5,1,0.025640795667422545,-3.991599398391759,True,False,False
+Sine,asymmetric,GD Ranked 70%,1.0,0,0.014597854174596555,-3.897546455279706,False,False,False
+Sine,asymmetric,GD Ranked 70%,1.0,1,0.028206236439619694,-3.897546455279706,False,False,False
+Sine,asymmetric,GD Ranked 70%,2.0,0,0.021916157893765453,0.3360675709772323,False,False,False
+Sine,asymmetric,GD Ranked 70%,2.0,1,89.35938324191225,0.3360675709772323,False,False,False
+Sine,asymmetric,GD Uniform 70%,0.25,0,0.015799452921966682,-3.8841166539786975,False,False,False
+Sine,asymmetric,GD Uniform 70%,0.25,1,0.02677053749969731,-3.8841166539786975,False,False,False
+Sine,asymmetric,GD Uniform 70%,0.5,0,0.013446834400460024,-3.9832090961938613,True,False,False
+Sine,asymmetric,GD Uniform 70%,0.5,1,0.02579933322989097,-3.9832090961938613,True,False,False
+Sine,asymmetric,GD Uniform 70%,1.0,0,0.014480735109750903,-3.9050582929487136,False,False,False
+Sine,asymmetric,GD Uniform 70%,1.0,1,0.028010370571330774,-3.9050582929487136,False,False,False
+Sine,asymmetric,GD Uniform 70%,2.0,0,0.018326493531166624,0.2466293603206573,False,False,False
+Sine,asymmetric,GD Uniform 70%,2.0,1,89.35938324191329,0.2466293603206573,False,False,False
+Sine,asymmetric,SGD Alpha,0.05,0,0.014785705060368678,-3.9675253772177728,False,True,False
+Sine,asymmetric,SGD Alpha,0.05,1,0.02421080361260507,-3.9675253772177728,False,True,False
+Sine,asymmetric,SGD Alpha,0.1,0,0.01186139213491933,-4.185720536380595,False,True,False
+Sine,asymmetric,SGD Alpha,0.1,1,0.019507143227253457,-4.185720536380595,False,True,False
+Sine,asymmetric,SGD Alpha,0.2,0,0.006076151297846095,-5.172391741335481,False,True,False
+Sine,asymmetric,SGD Alpha,0.2,1,0.00529284331415693,-5.172391741335481,False,True,False
+Sine,asymmetric,SGD Alpha,0.4,0,0.004270757823683771,-5.619022927263746,True,True,False
+Sine,asymmetric,SGD Alpha,0.4,1,0.003082291813791931,-5.619022927263746,True,True,False
+Sine,asymmetric,SGD Ranked 10%,0.05,0,0.017691708076058563,-3.8370837043584913,False,True,False
+Sine,asymmetric,SGD Ranked 10%,0.05,1,0.02626525832561514,-3.8370837043584913,False,True,False
+Sine,asymmetric,SGD Ranked 10%,0.1,0,0.0167501697524918,-3.888142876789066,False,True,False
+Sine,asymmetric,SGD Ranked 10%,0.1,1,0.025048561774457388,-3.888142876789066,False,True,False
+Sine,asymmetric,SGD Ranked 10%,0.2,0,0.01565198572225983,-3.998425522093939,False,True,False
+Sine,asymmetric,SGD Ranked 10%,0.2,1,0.021500188910453515,-3.998425522093939,False,True,False
+Sine,asymmetric,SGD Ranked 10%,0.4,0,0.01291721737077789,-4.196438697884931,True,True,False
+Sine,asymmetric,SGD Ranked 10%,0.4,1,0.01753277630361384,-4.196438697884931,True,True,False
+Sine,asymmetric,SGD Uniform 10%,0.05,0,0.01779688052407791,-3.830158806516212,False,True,False
+Sine,asymmetric,SGD Uniform 10%,0.05,1,0.026474175659725475,-3.830158806516212,False,True,False
+Sine,asymmetric,SGD Uniform 10%,0.1,0,0.01688602502555846,-3.8843780206849523,False,True,False
+Sine,asymmetric,SGD Uniform 10%,0.1,1,0.025034832579905037,-3.8843780206849523,False,True,False
+Sine,asymmetric,SGD Uniform 10%,0.2,0,0.015768834732038703,-3.9883636893597885,False,True,False
+Sine,asymmetric,SGD Uniform 10%,0.2,1,0.021774676637081037,-3.9883636893597885,False,True,False
+Sine,asymmetric,SGD Uniform 10%,0.4,0,0.013440468195552469,-4.181397037855946,True,True,False
+Sine,asymmetric,SGD Uniform 10%,0.4,1,0.017364819849296047,-4.181397037855946,True,True,False
+Sine,asymmetric,SGD Ranked 30%,0.05,0,0.017110907995796478,-3.8567049800663744,False,True,False
+Sine,asymmetric,SGD Ranked 30%,0.05,1,0.026111724896342503,-3.8567049800663744,False,True,False
+Sine,asymmetric,SGD Ranked 30%,0.1,0,0.016032663277930004,-3.942219812000651,False,True,False
+Sine,asymmetric,SGD Ranked 30%,0.1,1,0.023486900443422894,-3.942219812000651,False,True,False
+Sine,asymmetric,SGD Ranked 30%,0.2,0,0.01270991791533454,-4.157454131952363,False,True,False
+Sine,asymmetric,SGD Ranked 30%,0.2,1,0.01926364550765111,-4.157454131952363,False,True,False
+Sine,asymmetric,SGD Ranked 30%,0.4,0,0.008384060558061544,-4.501557927826591,True,True,False
+Sine,asymmetric,SGD Ranked 30%,0.4,1,0.01467378182001243,-4.501557927826591,True,True,False
+Sine,asymmetric,SGD Uniform 30%,0.05,0,0.017121041564823067,-3.853587676737918,False,True,False
+Sine,asymmetric,SGD Uniform 30%,0.05,1,0.026259478158168145,-3.853587676737918,False,True,False
+Sine,asymmetric,SGD Uniform 30%,0.1,0,0.015796114634203145,-3.943809495449809,False,True,False
+Sine,asymmetric,SGD Uniform 30%,0.1,1,0.023762948133739057,-3.943809495449809,False,True,False
+Sine,asymmetric,SGD Uniform 30%,0.2,0,0.012941965439096637,-4.152735058246332,False,True,False
+Sine,asymmetric,SGD Uniform 30%,0.2,1,0.019097649703063716,-4.152735058246332,False,True,False
+Sine,asymmetric,SGD Uniform 30%,0.4,0,0.008934941775876736,-4.613584375988276,True,True,False
+Sine,asymmetric,SGD Uniform 30%,0.4,1,0.011005247162190021,-4.613584375988276,True,True,False
+Sine,asymmetric,SGD Ranked 50%,0.05,0,0.016462988617791892,-3.882755706547073,False,True,False
+Sine,asymmetric,SGD Ranked 50%,0.05,1,0.025761584194673542,-3.882755706547073,False,True,False
+Sine,asymmetric,SGD Ranked 50%,0.1,0,0.014679541670505537,-4.005039714185088,False,True,False
+Sine,asymmetric,SGD Ranked 50%,0.1,1,0.022623209045668904,-4.005039714185088,False,True,False
+Sine,asymmetric,SGD Ranked 50%,0.2,0,0.01038525048429163,-4.300048753256604,False,True,False
+Sine,asymmetric,SGD Ranked 50%,0.2,1,0.017725893401145058,-4.300048753256604,False,True,False
+Sine,asymmetric,SGD Ranked 50%,0.4,0,0.006187155015783002,-5.104762002226003,True,True,False
+Sine,asymmetric,SGD Ranked 50%,0.4,1,0.005950713820518625,-5.104762002226003,True,True,False
+Sine,asymmetric,SGD Uniform 50%,0.05,0,0.016433427816252347,-3.885622076616392,False,True,False
+Sine,asymmetric,SGD Uniform 50%,0.05,1,0.02566039782834164,-3.885622076616392,False,True,False
+Sine,asymmetric,SGD Uniform 50%,0.1,0,0.014939322129740074,-3.9963203701255345,False,True,False
+Sine,asymmetric,SGD Uniform 50%,0.1,1,0.02262087181856267,-3.9963203701255345,False,True,False
+Sine,asymmetric,SGD Uniform 50%,0.2,0,0.011128772196729584,-4.347531006637551,False,True,False
+Sine,asymmetric,SGD Uniform 50%,0.2,1,0.01504302908612592,-4.347531006637551,False,True,False
+Sine,asymmetric,SGD Uniform 50%,0.4,0,0.006495380999717256,-5.161287378325675,True,True,False
+Sine,asymmetric,SGD Uniform 50%,0.4,1,0.005062419304462043,-5.161287378325675,True,True,False
+Sine,asymmetric,SGD Ranked 70%,0.05,0,0.01584130164431089,-3.9142311927262448,False,True,False
+Sine,asymmetric,SGD Ranked 70%,0.05,1,0.02513918074662875,-3.9142311927262448,False,True,False
+Sine,asymmetric,SGD Ranked 70%,0.1,0,0.0132524399841655,-4.089164133503929,False,True,False
+Sine,asymmetric,SGD Ranked 70%,0.1,1,0.021178798398563944,-4.089164133503929,False,True,False
+Sine,asymmetric,SGD Ranked 70%,0.2,0,0.008078591896104046,-4.678055414176711,False,True,False
+Sine,asymmetric,SGD Ranked 70%,0.2,1,0.010699340911866147,-4.678055414176711,False,True,False
+Sine,asymmetric,SGD Ranked 70%,0.4,0,0.0051156089456690515,-5.355975525536247,True,True,False
+Sine,asymmetric,SGD Ranked 70%,0.4,1,0.004354731972404686,-5.355975525536247,True,True,False
+Sine,asymmetric,SGD Uniform 70%,0.05,0,0.015760194391145378,-3.9159187868231027,False,True,False
+Sine,asymmetric,SGD Uniform 70%,0.05,1,0.025183413050047697,-3.9159187868231027,False,True,False
+Sine,asymmetric,SGD Uniform 70%,0.1,0,0.013450800561803726,-4.074373954900446,False,True,False
+Sine,asymmetric,SGD Uniform 70%,0.1,1,0.021492929542580058,-4.074373954900446,False,True,False
+Sine,asymmetric,SGD Uniform 70%,0.2,0,0.00853109543322794,-4.66926311655407,False,True,False
+Sine,asymmetric,SGD Uniform 70%,0.2,1,0.010311569840953393,-4.66926311655407,False,True,False
+Sine,asymmetric,SGD Uniform 70%,0.4,0,0.005183970189293078,-5.372770327933256,True,True,False
+Sine,asymmetric,SGD Uniform 70%,0.4,1,0.004155358447695152,-5.372770327933256,True,True,False
+Sine,point_mass,GD MSE,0.25,0,0.05548803875858703,-2.9421850144268795,False,False,False
+Sine,point_mass,GD MSE,0.25,1,0.050147719984126454,-2.9421850144268795,False,False,False
+Sine,point_mass,GD MSE,0.5,0,0.02922290925015709,-3.2627684284394434,True,False,False
+Sine,point_mass,GD MSE,0.5,1,0.05015011141590208,-3.2627684284394434,True,False,False
+Sine,point_mass,GD MSE,1.0,0,0.058397266157817436,-2.887648978949583,False,False,False
+Sine,point_mass,GD MSE,1.0,1,0.05314072182471295,-2.887648978949583,False,False,False
+Sine,point_mass,GD MSE,2.0,0,0.09056172734216952,-2.041551976110666,False,False,False
+Sine,point_mass,GD MSE,2.0,1,0.186116890051139,-2.041551976110666,False,False,False
+Sine,point_mass,SGD MSE,0.05,0,0.05178951618531452,-3.0533412472673036,False,True,False
+Sine,point_mass,SGD MSE,0.05,1,0.043018933162537305,-3.0533412472673036,False,True,False
+Sine,point_mass,SGD MSE,0.1,0,0.039877082374304124,-3.3161966660470483,False,True,False
+Sine,point_mass,SGD MSE,0.1,1,0.03302667088161562,-3.3161966660470483,False,True,False
+Sine,point_mass,SGD MSE,0.2,0,0.027292438314778438,-3.722434889842133,False,True,False
+Sine,point_mass,SGD MSE,0.2,1,0.021413704178919392,-3.722434889842133,False,True,False
+Sine,point_mass,SGD MSE,0.4,0,0.02595483701233758,-3.828643173931987,True,True,False
+Sine,point_mass,SGD MSE,0.4,1,0.01820809399943834,-3.828643173931987,True,True,False
+Sine,point_mass,GD Alpha,0.25,0,0.01495044703924052,-3.9364007126783105,False,False,False
+Sine,point_mass,GD Alpha,0.25,1,0.02548188814365555,-3.9364007126783105,False,False,False
+Sine,point_mass,GD Alpha,0.5,0,0.011939796543213102,-4.279226708050775,True,False,False
+Sine,point_mass,GD Alpha,0.5,1,0.016073630530253177,-4.279226708050775,True,False,False
+Sine,point_mass,GD Alpha,1.0,0,0.01299787890741541,-4.03793225498014,False,False,False
+Sine,point_mass,GD Alpha,1.0,1,0.023923467114155595,-4.03793225498014,False,False,False
+Sine,point_mass,GD Alpha,2.0,0,0.01367708483876105,0.07225595482753988,False,False,False
+Sine,point_mass,GD Alpha,2.0,1,84.48258308095814,0.07225595482753988,False,False,False
+Sine,point_mass,GD Ranked 10%,0.25,0,0.017211689737623527,-3.868382955955086,False,False,False
+Sine,point_mass,GD Ranked 10%,0.25,1,0.025359561975851257,-3.868382955955086,False,False,False
+Sine,point_mass,GD Ranked 10%,0.5,0,0.01657585505043538,-3.8933233620267806,True,False,False
+Sine,point_mass,GD Ranked 10%,0.5,1,0.025051074289409447,-3.8933233620267806,True,False,False
+Sine,point_mass,GD Ranked 10%,1.0,0,0.016744348217681816,-3.848769834768453,False,False,False
+Sine,point_mass,GD Ranked 10%,1.0,1,0.02711020179198901,-3.848769834768453,False,False,False
+Sine,point_mass,GD Ranked 10%,2.0,0,0.11207663110375453,1.1239864801836061,False,False,False
+Sine,point_mass,GD Ranked 10%,2.0,1,84.48258308097742,1.1239864801836061,False,False,False
+Sine,point_mass,GD Uniform 10%,0.25,0,0.017268263858640026,-3.863779318453137,False,False,False
+Sine,point_mass,GD Uniform 10%,0.25,1,0.025510281405405736,-3.863779318453137,False,False,False
+Sine,point_mass,GD Uniform 10%,0.5,0,0.016708046334839476,-3.8888024747784753,True,False,False
+Sine,point_mass,GD Uniform 10%,0.5,1,0.025078607416455356,-3.8888024747784753,True,False,False
+Sine,point_mass,GD Uniform 10%,1.0,0,0.016698707605812504,-3.841506850303654,False,False,False
+Sine,point_mass,GD Uniform 10%,1.0,1,0.027582059128983795,-3.841506850303654,False,False,False
+Sine,point_mass,GD Uniform 10%,2.0,0,0.11214029095411282,1.1242704010022757,False,False,False
+Sine,point_mass,GD Uniform 10%,2.0,1,84.48258308097847,1.1242704010022757,False,False,False
+Sine,point_mass,GD Ranked 30%,0.25,0,0.017196411460602697,-3.8678439569539287,False,False,False
+Sine,point_mass,GD Ranked 30%,0.25,1,0.02540946946211726,-3.8678439569539287,False,False,False
+Sine,point_mass,GD Ranked 30%,0.5,0,0.015564664757441345,-3.924309105119938,True,False,False
+Sine,point_mass,GD Ranked 30%,0.5,1,0.025075445046216265,-3.924309105119938,True,False,False
+Sine,point_mass,GD Ranked 30%,1.0,0,0.0158644389370767,-3.82964581915762,False,False,False
+Sine,point_mass,GD Ranked 30%,1.0,1,0.029729471496052075,-3.82964581915762,False,False,False
+Sine,point_mass,GD Ranked 30%,2.0,0,0.042979547670785836,0.6447572418654468,False,False,False
+Sine,point_mass,GD Ranked 30%,2.0,1,84.4825830809711,0.6447572418654468,False,False,False
+Sine,point_mass,GD Uniform 30%,0.25,0,0.01719123376313125,-3.862672033888198,False,False,False
+Sine,point_mass,GD Uniform 30%,0.25,1,0.02568139760537156,-3.862672033888198,False,False,False
+Sine,point_mass,GD Uniform 30%,0.5,0,0.015633161288619565,-3.9223539016818862,True,False,False
+Sine,point_mass,GD Uniform 30%,0.5,1,0.02506339394024244,-3.9223539016818862,True,False,False
+Sine,point_mass,GD Uniform 30%,1.0,0,0.01573528147925414,-3.856992704174173,False,False,False
+Sine,point_mass,GD Uniform 30%,1.0,1,0.028378157028362723,-3.856992704174173,False,False,False
+Sine,point_mass,GD Uniform 30%,2.0,0,0.1030722057981405,1.08210994327112,False,False,False
+Sine,point_mass,GD Uniform 30%,2.0,1,84.48258308097382,1.08210994327112,False,False,False
+Sine,point_mass,GD Ranked 50%,0.25,0,0.01650645222054723,-3.8854631584600776,False,False,False
+Sine,point_mass,GD Ranked 50%,0.25,1,0.02555499746201709,-3.8854631584600776,False,False,False
+Sine,point_mass,GD Ranked 50%,0.5,0,0.014496379143038488,-3.9547117700601127,True,False,False
+Sine,point_mass,GD Ranked 50%,0.5,1,0.025335032300794102,-3.9547117700601127,True,False,False
+Sine,point_mass,GD Ranked 50%,1.0,0,0.015015348263376494,-3.863510902683905,False,False,False
+Sine,point_mass,GD Ranked 50%,1.0,1,0.029353619394895284,-3.863510902683905,False,False,False
+Sine,point_mass,GD Ranked 50%,2.0,0,0.01558206001581424,0.13745518513192945,False,False,False
+Sine,point_mass,GD Ranked 50%,2.0,1,84.48258308096575,0.13745518513192945,False,False,False
+Sine,point_mass,GD Uniform 50%,0.25,0,0.01645955778155137,-3.885634762988467,False,False,False
+Sine,point_mass,GD Uniform 50%,0.25,1,0.02561901126332265,-3.885634762988467,False,False,False
+Sine,point_mass,GD Uniform 50%,0.5,0,0.014678162290213594,-3.944906283897616,True,False,False
+Sine,point_mass,GD Uniform 50%,0.5,1,0.025516802568123866,-3.944906283897616,True,False,False
+Sine,point_mass,GD Uniform 50%,1.0,0,0.014861821043813594,-3.881105766482211,False,False,False
+Sine,point_mass,GD Uniform 50%,1.0,1,0.02863138364742357,-3.881105766482211,False,False,False
+Sine,point_mass,GD Uniform 50%,2.0,0,0.015528807491530667,0.13574348177685502,False,False,False
+Sine,point_mass,GD Uniform 50%,2.0,1,84.48258308096938,0.13574348177685502,False,False,False
+Sine,point_mass,GD Ranked 70%,0.25,0,0.015757121262131347,-3.908067491213041,False,False,False
+Sine,point_mass,GD Ranked 70%,0.25,1,0.02558696824195242,-3.908067491213041,False,False,False
+Sine,point_mass,GD Ranked 70%,0.5,0,0.013470526677768364,-4.036848018442482,True,False,False
+Sine,point_mass,GD Ranked 70%,0.5,1,0.023134162736491177,-4.036848018442482,True,False,False
+Sine,point_mass,GD Ranked 70%,1.0,0,0.014194842289564502,-3.883707135583361,False,False,False
+Sine,point_mass,GD Ranked 70%,1.0,1,0.029821142064606468,-3.883707135583361,False,False,False
+Sine,point_mass,GD Ranked 70%,2.0,0,0.01449304478622135,0.10122949059157893,False,False,False
+Sine,point_mass,GD Ranked 70%,2.0,1,84.48258308096152,0.10122949059157893,False,False,False
+Sine,point_mass,GD Uniform 70%,0.25,0,0.015711445398537912,-3.907226311989829,False,False,False
+Sine,point_mass,GD Uniform 70%,0.25,1,0.025704561873385563,-3.907226311989829,False,False,False
+Sine,point_mass,GD Uniform 70%,0.5,0,0.013622335239791304,-4.086573902589111,True,False,False
+Sine,point_mass,GD Uniform 70%,0.5,1,0.020710731794320994,-4.086573902589111,True,False,False
+Sine,point_mass,GD Uniform 70%,1.0,0,0.014078791517739282,-3.9011744772496044,False,False,False
+Sine,point_mass,GD Uniform 70%,1.0,1,0.029034712186203883,-3.9011744772496044,False,False,False
+Sine,point_mass,GD Uniform 70%,2.0,0,0.014540648212280332,0.10286908458738608,False,False,False
+Sine,point_mass,GD Uniform 70%,2.0,1,84.4825830809648,0.10286908458738608,False,False,False
+Sine,point_mass,SGD Alpha,0.05,0,0.014895819674837026,-3.973673555380003,False,True,False
+Sine,point_mass,SGD Alpha,0.05,1,0.023738135134131075,-3.973673555380003,False,True,False
+Sine,point_mass,SGD Alpha,0.1,0,0.01190262445673065,-4.299658711747821,False,True,False
+Sine,point_mass,SGD Alpha,0.1,1,0.015478225287588788,-4.299658711747821,False,True,False
+Sine,point_mass,SGD Alpha,0.2,0,0.005921352641830575,-5.240860205194146,False,True,False
+Sine,point_mass,SGD Alpha,0.2,1,0.004736153166619608,-5.240860205194146,False,True,False
+Sine,point_mass,SGD Alpha,0.4,0,0.004104005454005763,-5.633198037071155,True,True,False
+Sine,point_mass,SGD Alpha,0.4,1,0.0031178730263071584,-5.633198037071155,True,True,False
+Sine,point_mass,SGD Ranked 10%,0.05,0,0.01716730176306972,-3.8754135224581017,False,True,False
+Sine,point_mass,SGD Ranked 10%,0.05,1,0.025070127522731234,-3.8754135224581017,False,True,False
+Sine,point_mass,SGD Ranked 10%,0.1,0,0.016532138467555604,-3.9160564750605262,False,True,False
+Sine,point_mass,SGD Ranked 10%,0.1,1,0.024000900140519164,-3.9160564750605262,False,True,False
+Sine,point_mass,SGD Ranked 10%,0.2,0,0.015044426667543747,-4.005550665764575,False,True,False
+Sine,point_mass,SGD Ranked 10%,0.2,1,0.022051963045113605,-4.005550665764575,False,True,False
+Sine,point_mass,SGD Ranked 10%,0.4,0,0.013355907712838453,-4.143308884855403,True,True,False
+Sine,point_mass,SGD Ranked 10%,0.4,1,0.018857938691665205,-4.143308884855403,True,True,False
+Sine,point_mass,SGD Uniform 10%,0.05,0,0.01718537582387783,-3.8693942427859733,False,True,False
+Sine,point_mass,SGD Uniform 10%,0.05,1,0.025347073840818767,-3.8693942427859733,False,True,False
+Sine,point_mass,SGD Uniform 10%,0.1,0,0.016592239794661675,-3.9023898559522685,False,True,False
+Sine,point_mass,SGD Uniform 10%,0.1,1,0.024576623876686875,-3.9023898559522685,False,True,False
+Sine,point_mass,SGD Uniform 10%,0.2,0,0.015291509234311202,-4.00499579182782,False,True,False
+Sine,point_mass,SGD Uniform 10%,0.2,1,0.02171973408134751,-4.00499579182782,False,True,False
+Sine,point_mass,SGD Uniform 10%,0.4,0,0.013699262535026275,-4.112697050954421,True,True,False
+Sine,point_mass,SGD Uniform 10%,0.4,1,0.019546074124704084,-4.112697050954421,True,True,False
+Sine,point_mass,SGD Ranked 30%,0.05,0,0.017145001639075053,-3.8776788358276573,False,True,False
+Sine,point_mass,SGD Ranked 30%,0.05,1,0.0249892618049652,-3.8776788358276573,False,True,False
+Sine,point_mass,SGD Ranked 30%,0.1,0,0.015515877543708782,-3.9551175548748496,False,True,False
+Sine,point_mass,SGD Ranked 30%,0.1,1,0.023651146484930323,-3.9551175548748496,False,True,False
+Sine,point_mass,SGD Ranked 30%,0.2,0,0.012626957856943089,-4.147578704806454,False,True,False
+Sine,point_mass,SGD Ranked 30%,0.2,1,0.019776989342092512,-4.147578704806454,False,True,False
+Sine,point_mass,SGD Ranked 30%,0.4,0,0.008998040356117594,-4.445288178213094,True,True,False
+Sine,point_mass,SGD Ranked 30%,0.4,1,0.015301140775658193,-4.445288178213094,True,True,False
+Sine,point_mass,SGD Uniform 30%,0.05,0,0.01704538068503549,-3.8686353491297356,False,True,False
+Sine,point_mass,SGD Uniform 30%,0.05,1,0.0255940683675846,-3.8686353491297356,False,True,False
+Sine,point_mass,SGD Uniform 30%,0.1,0,0.015567747206729973,-3.9521193545454576,False,True,False
+Sine,point_mass,SGD Uniform 30%,0.1,1,0.023714117871469678,-3.9521193545454576,False,True,False
+Sine,point_mass,SGD Uniform 30%,0.2,0,0.013061474588413682,-4.150522906064872,False,True,False
+Sine,point_mass,SGD Uniform 30%,0.2,1,0.019006817290970982,-4.150522906064872,False,True,False
+Sine,point_mass,SGD Uniform 30%,0.4,0,0.009509457635871224,-4.66545833033825,True,True,False
+Sine,point_mass,SGD Uniform 30%,0.4,1,0.00932134613436216,-4.66545833033825,True,True,False
+Sine,point_mass,SGD Ranked 50%,0.05,0,0.016431963046296197,-3.902444367221321,False,True,False
+Sine,point_mass,SGD Ranked 50%,0.05,1,0.02481363794662517,-3.902444367221321,False,True,False
+Sine,point_mass,SGD Ranked 50%,0.1,0,0.014427909001642748,-4.019484740686363,False,True,False
+Sine,point_mass,SGD Ranked 50%,0.1,1,0.022362302580292134,-4.019484740686363,False,True,False
+Sine,point_mass,SGD Ranked 50%,0.2,0,0.010246419998464212,-4.299570297711416,False,True,False
+Sine,point_mass,SGD Ranked 50%,0.2,1,0.01798326469776964,-4.299570297711416,False,True,False
+Sine,point_mass,SGD Ranked 50%,0.4,0,0.0063419708524525,-5.104532837645694,True,True,False
+Sine,point_mass,SGD Ranked 50%,0.4,1,0.005808110498250743,-5.104532837645694,True,True,False
+Sine,point_mass,SGD Uniform 50%,0.05,0,0.0163612859951635,-3.895346367914396,False,True,False
+Sine,point_mass,SGD Uniform 50%,0.05,1,0.025277126300339403,-3.895346367914396,False,True,False
+Sine,point_mass,SGD Uniform 50%,0.1,0,0.014608859975242647,-4.0234334093181445,False,True,False
+Sine,point_mass,SGD Uniform 50%,0.1,1,0.021911586197783856,-4.0234334093181445,False,True,False
+Sine,point_mass,SGD Uniform 50%,0.2,0,0.011059637026367433,-4.44107569559416,False,True,False
+Sine,point_mass,SGD Uniform 50%,0.2,1,0.012554221579018756,-4.44107569559416,False,True,False
+Sine,point_mass,SGD Uniform 50%,0.4,0,0.006740409184678307,-5.137995685091948,True,True,False
+Sine,point_mass,SGD Uniform 50%,0.4,1,0.005111017760857398,-5.137995685091948,True,True,False
+Sine,point_mass,SGD Ranked 70%,0.05,0,0.015712649961056754,-3.928236923013075,False,True,False
+Sine,point_mass,SGD Ranked 70%,0.05,1,0.024644915069756697,-3.928236923013075,False,True,False
+Sine,point_mass,SGD Ranked 70%,0.1,0,0.013407726614273602,-4.121654742988746,False,True,False
+Sine,point_mass,SGD Ranked 70%,0.1,1,0.019616477821135955,-4.121654742988746,False,True,False
+Sine,point_mass,SGD Ranked 70%,0.2,0,0.007974023350891153,-4.855367078432916,False,True,False
+Sine,point_mass,SGD Ranked 70%,0.2,1,0.007603336953560639,-4.855367078432916,False,True,False
+Sine,point_mass,SGD Ranked 70%,0.4,0,0.005061131847928751,-5.323144257961429,True,True,False
+Sine,point_mass,SGD Ranked 70%,0.4,1,0.004700326142804079,-5.323144257961429,True,True,False
+Sine,point_mass,SGD Uniform 70%,0.05,0,0.01571992762038281,-3.9267759379085394,False,True,False
+Sine,point_mass,SGD Uniform 70%,0.05,1,0.024705589151121688,-3.9267759379085394,False,True,False
+Sine,point_mass,SGD Uniform 70%,0.1,0,0.013640585623356858,-4.126053016639626,False,True,False
+Sine,point_mass,SGD Uniform 70%,0.1,1,0.019112736378601877,-4.126053016639626,False,True,False
+Sine,point_mass,SGD Uniform 70%,0.2,0,0.008518526416953094,-4.83782232204081,False,True,False
+Sine,point_mass,SGD Uniform 70%,0.2,1,0.00737150980741091,-4.83782232204081,False,True,False
+Sine,point_mass,SGD Uniform 70%,0.4,0,0.00522351277497236,-5.347674847135458,True,True,False
+Sine,point_mass,SGD Uniform 70%,0.4,1,0.0043361668463791905,-5.347674847135458,True,True,False
+Sine,symmetric,GD MSE,0.25,0,0.014786024567138041,-4.184124165558597,False,False,False
+Sine,symmetric,GD MSE,0.25,1,0.015698729385198288,-4.184124165558597,False,False,False
+Sine,symmetric,GD MSE,0.5,0,0.009851466383294911,-4.676061290572588,False,False,False
+Sine,symmetric,GD MSE,0.5,1,0.008808944813436824,-4.676061290572588,False,False,False
+Sine,symmetric,GD MSE,1.0,0,0.009421609261520001,-4.69747429421082,True,False,False
+Sine,symmetric,GD MSE,1.0,1,0.00882471282301673,-4.69747429421082,True,False,False
+Sine,symmetric,GD MSE,2.0,0,0.09056172734216952,-2.041551976110666,False,False,False
+Sine,symmetric,GD MSE,2.0,1,0.186116890051139,-2.041551976110666,False,False,False
+Sine,symmetric,SGD MSE,0.05,0,0.014742113986896106,-4.195568394755931,False,True,False
+Sine,symmetric,SGD MSE,0.05,1,0.015389192442412481,-4.195568394755931,False,True,False
+Sine,symmetric,SGD MSE,0.1,0,0.009988315998773683,-4.77363395684436,False,True,False
+Sine,symmetric,SGD MSE,0.1,1,0.007147957378165128,-4.77363395684436,False,True,False
+Sine,symmetric,SGD MSE,0.2,0,0.00843842197753232,-4.90201354504606,False,True,False
+Sine,symmetric,SGD MSE,0.2,1,0.0065449132588395395,-4.90201354504606,False,True,False
+Sine,symmetric,SGD MSE,0.4,0,0.008566998152501525,-4.911258442798733,True,True,False
+Sine,symmetric,SGD MSE,0.4,1,0.0063285824848615365,-4.911258442798733,True,True,False
+Sine,symmetric,GD Alpha,0.25,0,0.012604651762388272,-4.284197731023731,False,False,False
+Sine,symmetric,GD Alpha,0.25,1,0.015075172157301071,-4.284197731023731,False,False,False
+Sine,symmetric,GD Alpha,0.5,0,0.008622429916768514,-4.725923212623851,False,False,False
+Sine,symmetric,GD Alpha,0.5,1,0.009109312071542678,-4.725923212623851,False,False,False
+Sine,symmetric,GD Alpha,1.0,0,0.005919575610754724,-5.049890153311903,True,False,False
+Sine,symmetric,GD Alpha,1.0,1,0.006941136295017386,-5.049890153311903,True,False,False
+Sine,symmetric,GD Alpha,2.0,0,64.79551506129563,4.368659711101396,False,False,False
+Sine,symmetric,GD Alpha,2.0,1,96.1666893597739,4.368659711101396,False,False,False
+Sine,symmetric,GD Ranked 10%,0.25,0,0.015036528867305516,-4.092705094223474,False,False,False
+Sine,symmetric,GD Ranked 10%,0.25,1,0.018534203650213674,-4.092705094223474,False,False,False
+Sine,symmetric,GD Ranked 10%,0.5,0,0.014330771630115475,-4.144764404265919,False,False,False
+Sine,symmetric,GD Ranked 10%,0.5,1,0.01752402263942078,-4.144764404265919,False,False,False
+Sine,symmetric,GD Ranked 10%,1.0,0,0.013497731748340583,-4.193066874175008,True,False,False
+Sine,symmetric,GD Ranked 10%,1.0,1,0.0168922537173185,-4.193066874175008,True,False,False
+Sine,symmetric,GD Ranked 10%,2.0,0,64.79551510624535,4.368659711450384,False,False,False
+Sine,symmetric,GD Ranked 10%,2.0,1,96.16668936018348,4.368659711450384,False,False,False
+Sine,symmetric,GD Uniform 10%,0.25,0,0.014943165219366896,-4.099772551344268,False,False,False
+Sine,symmetric,GD Uniform 10%,0.25,1,0.018388241950784274,-4.099772551344268,False,False,False
+Sine,symmetric,GD Uniform 10%,0.5,0,0.01434544544429379,-4.150170086902116,False,False,False
+Sine,symmetric,GD Uniform 10%,0.5,1,0.017317852104035584,-4.150170086902116,False,False,False
+Sine,symmetric,GD Uniform 10%,1.0,0,0.013314120442968005,-4.202222123459908,True,False,False
+Sine,symmetric,GD Uniform 10%,1.0,1,0.01681449230185757,-4.202222123459908,True,False,False
+Sine,symmetric,GD Uniform 10%,2.0,0,64.7955151169727,4.368659711533656,False,False,False
+Sine,symmetric,GD Uniform 10%,2.0,1,96.16668936027853,4.368659711533656,False,False,False
+Sine,symmetric,GD Ranked 30%,0.25,0,0.014505458813239582,-4.12932169218398,False,False,False
+Sine,symmetric,GD Ranked 30%,0.25,1,0.017856045335357628,-4.12932169218398,False,False,False
+Sine,symmetric,GD Ranked 30%,0.5,0,0.013095096937918634,-4.228396136458468,False,False,False
+Sine,symmetric,GD Ranked 30%,0.5,1,0.016223817919714275,-4.228396136458468,False,False,False
+Sine,symmetric,GD Ranked 30%,1.0,0,0.01224924392282574,-4.292236272472511,True,False,False
+Sine,symmetric,GD Ranked 30%,1.0,1,0.015265170546602551,-4.292236272472511,True,False,False
+Sine,symmetric,GD Ranked 30%,2.0,0,64.7955150800549,4.368659711246842,False,False,False
+Sine,symmetric,GD Ranked 30%,2.0,1,96.16668935990623,4.368659711246842,False,False,False
+Sine,symmetric,GD Uniform 30%,0.25,0,0.014459174747463914,-4.137782649781297,False,False,False
+Sine,symmetric,GD Uniform 30%,0.25,1,0.01761262747060007,-4.137782649781297,False,False,False
+Sine,symmetric,GD Uniform 30%,0.5,0,0.013231522271705869,-4.235161020928425,False,False,False
+Sine,symmetric,GD Uniform 30%,0.5,1,0.01584076186061055,-4.235161020928425,False,False,False
+Sine,symmetric,GD Uniform 30%,1.0,0,0.012141469315241822,-4.303222361152221,True,False,False
+Sine,symmetric,GD Uniform 30%,1.0,1,0.015065977055088354,-4.303222361152221,True,False,False
+Sine,symmetric,GD Uniform 30%,2.0,0,64.7955150999297,4.368659711401291,False,False,False
+Sine,symmetric,GD Uniform 30%,2.0,1,96.1666893601145,4.368659711401291,False,False,False
+Sine,symmetric,GD Ranked 50%,0.25,0,0.013959485287192937,-4.16786400882105,False,False,False
+Sine,symmetric,GD Ranked 50%,0.25,1,0.017177893820852396,-4.16786400882105,False,False,False
+Sine,symmetric,GD Ranked 50%,0.5,0,0.011909521020422881,-4.320616781894929,False,False,False
+Sine,symmetric,GD Ranked 50%,0.5,1,0.014834251956008787,-4.320616781894929,False,False,False
+Sine,symmetric,GD Ranked 50%,1.0,0,0.010807496224741893,-4.418160015831328,True,False,False
+Sine,symmetric,GD Ranked 50%,1.0,1,0.013449615766057004,-4.418160015831328,True,False,False
+Sine,symmetric,GD Ranked 50%,2.0,0,64.79551507006104,4.368659711169325,False,False,False
+Sine,symmetric,GD Ranked 50%,2.0,1,96.16668935982955,4.368659711169325,False,False,False
+Sine,symmetric,GD Uniform 50%,0.25,0,0.013922568180530287,-4.1779089649854315,False,False,False
+Sine,symmetric,GD Uniform 50%,0.25,1,0.01688087787075161,-4.1779089649854315,False,False,False
+Sine,symmetric,GD Uniform 50%,0.5,0,0.012164167385144848,-4.324614244623733,False,False,False
+Sine,symmetric,GD Uniform 50%,0.5,1,0.014408056629653528,-4.324614244623733,False,False,False
+Sine,symmetric,GD Uniform 50%,1.0,0,0.01073683316741485,-4.436987825816095,True,False,False
+Sine,symmetric,GD Uniform 50%,1.0,1,0.013037824687001966,-4.436987825816095,True,False,False
+Sine,symmetric,GD Uniform 50%,2.0,0,64.79551508982317,4.368659711322861,False,False,False
+Sine,symmetric,GD Uniform 50%,2.0,1,96.16668936002965,4.368659711322861,False,False,False
+Sine,symmetric,GD Ranked 70%,0.25,0,0.013439524908064023,-4.210520552196114,False,False,False
+Sine,symmetric,GD Ranked 70%,0.25,1,0.0163834137802709,-4.210520552196114,False,False,False
+Sine,symmetric,GD Ranked 70%,0.5,0,0.01064055086035204,-4.441078101765191,False,False,False
+Sine,symmetric,GD Ranked 70%,0.5,1,0.013048616323165944,-4.441078101765191,False,False,False
+Sine,symmetric,GD Ranked 70%,1.0,0,0.008768122102038664,-4.620471152802142,True,False,False
+Sine,symmetric,GD Ranked 70%,1.0,1,0.011061223306809946,-4.620471152802142,True,False,False
+Sine,symmetric,GD Ranked 70%,2.0,0,64.79551506415955,4.36865971112358,False,False,False
+Sine,symmetric,GD Ranked 70%,2.0,1,96.16668935979004,4.36865971112358,False,False,False
+Sine,symmetric,GD Uniform 70%,0.25,0,0.013416512957897699,-4.218617643298507,False,False,False
+Sine,symmetric,GD Uniform 70%,0.25,1,0.016147883893066817,-4.218617643298507,False,False,False
+Sine,symmetric,GD Uniform 70%,0.5,0,0.0109054182289227,-4.448496036588674,False,False,False
+Sine,symmetric,GD Uniform 70%,0.5,1,0.012544204095393361,-4.448496036588674,False,False,False
+Sine,symmetric,GD Uniform 70%,1.0,0,0.008869238131314832,-4.642776155751077,True,False,False
+Sine,symmetric,GD Uniform 70%,1.0,1,0.010458022074904195,-4.642776155751077,True,False,False
+Sine,symmetric,GD Uniform 70%,2.0,0,64.7955150802543,4.368659711248597,False,False,False
+Sine,symmetric,GD Uniform 70%,2.0,1,96.16668935994788,4.368659711248597,False,False,False
+Sine,symmetric,SGD Alpha,0.05,0,0.012614707793654837,-4.2912308801593095,False,True,False
+Sine,symmetric,SGD Alpha,0.05,1,0.014852755138101342,-4.2912308801593095,False,True,False
+Sine,symmetric,SGD Alpha,0.1,0,0.008674968516879138,-4.729484098176009,False,True,False
+Sine,symmetric,SGD Alpha,0.1,1,0.00898989047082771,-4.729484098176009,False,True,False
+Sine,symmetric,SGD Alpha,0.2,0,0.0042089606859676155,-5.419881514398789,False,True,False
+Sine,symmetric,SGD Alpha,0.2,1,0.004657746650949329,-5.419881514398789,False,True,False
+Sine,symmetric,SGD Alpha,0.4,0,0.002864073024746789,-5.773589654949406,True,True,False
+Sine,symmetric,SGD Alpha,0.4,1,0.0033739578849856355,-5.773589654949406,True,True,False
+Sine,symmetric,SGD Ranked 10%,0.05,0,0.015028658248723584,-4.097665986533026,False,True,False
+Sine,symmetric,SGD Ranked 10%,0.05,1,0.018360831202966235,-4.097665986533026,False,True,False
+Sine,symmetric,SGD Ranked 10%,0.1,0,0.01435441559282494,-4.155853986007459,False,True,False
+Sine,symmetric,SGD Ranked 10%,0.1,1,0.01711140130400705,-4.155853986007459,False,True,False
+Sine,symmetric,SGD Ranked 10%,0.2,0,0.012897691985128933,-4.274658192930164,False,True,False
+Sine,symmetric,SGD Ranked 10%,0.2,1,0.015016442878538603,-4.274658192930164,False,True,False
+Sine,symmetric,SGD Ranked 10%,0.4,0,0.010292409355525459,-4.52626587795171,True,True,False
+Sine,symmetric,SGD Ranked 10%,0.4,1,0.01137675381265825,-4.52626587795171,True,True,False
+Sine,symmetric,SGD Uniform 10%,0.05,0,0.014940730610655196,-4.103166455134303,False,True,False
+Sine,symmetric,SGD Uniform 10%,0.05,1,0.018266824873342132,-4.103166455134303,False,True,False
+Sine,symmetric,SGD Uniform 10%,0.1,0,0.014330762131774009,-4.157748082944617,False,True,False
+Sine,symmetric,SGD Uniform 10%,0.1,1,0.01707483884417263,-4.157748082944617,False,True,False
+Sine,symmetric,SGD Uniform 10%,0.2,0,0.013035905733570963,-4.274598696286454,False,True,False
+Sine,symmetric,SGD Uniform 10%,0.2,1,0.014858998416131544,-4.274598696286454,False,True,False
+Sine,symmetric,SGD Uniform 10%,0.4,0,0.010916333590476677,-4.496276609664031,True,True,False
+Sine,symmetric,SGD Uniform 10%,0.4,1,0.011389560343385672,-4.496276609664031,True,True,False
+Sine,symmetric,SGD Ranked 30%,0.05,0,0.014530089845391178,-4.131837788108852,False,True,False
+Sine,symmetric,SGD Ranked 30%,0.05,1,0.017736298826252963,-4.131837788108852,False,True,False
+Sine,symmetric,SGD Ranked 30%,0.1,0,0.013109030226401721,-4.239976995444533,False,True,False
+Sine,symmetric,SGD Ranked 30%,0.1,1,0.01583551566086881,-4.239976995444533,False,True,False
+Sine,symmetric,SGD Ranked 30%,0.2,0,0.009770241296924751,-4.5179128632015715,False,True,False
+Sine,symmetric,SGD Ranked 30%,0.2,1,0.012186681414407746,-4.5179128632015715,False,True,False
+Sine,symmetric,SGD Ranked 30%,0.4,0,0.005284983659393866,-5.10884174490003,True,True,False
+Sine,symmetric,SGD Ranked 30%,0.4,1,0.006909916409897448,-5.10884174490003,True,True,False
+Sine,symmetric,SGD Uniform 30%,0.05,0,0.014418657109781591,-4.143498453302636,False,True,False
+Sine,symmetric,SGD Uniform 30%,0.05,1,0.017461363685354482,-4.143498453302636,False,True,False
+Sine,symmetric,SGD Uniform 30%,0.1,0,0.013188433523826369,-4.244157811744333,False,True,False
+Sine,symmetric,SGD Uniform 30%,0.1,1,0.015609110297202505,-4.244157811744333,False,True,False
+Sine,symmetric,SGD Uniform 30%,0.2,0,0.010210229489430695,-4.506841028935823,False,True,False
+Sine,symmetric,SGD Uniform 30%,0.2,1,0.011922631387279892,-4.506841028935823,False,True,False
+Sine,symmetric,SGD Uniform 30%,0.4,0,0.0053057918365007565,-5.208136539953723,True,True,False
+Sine,symmetric,SGD Uniform 30%,0.4,1,0.005643127622642521,-5.208136539953723,True,True,False
+Sine,symmetric,SGD Ranked 50%,0.05,0,0.014000870441178141,-4.173768721700764,False,True,False
+Sine,symmetric,SGD Ranked 50%,0.05,1,0.016926045890890477,-4.173768721700764,False,True,False
+Sine,symmetric,SGD Ranked 50%,0.1,0,0.011955670122183853,-4.334883059580591,False,True,False
+Sine,symmetric,SGD Ranked 50%,0.1,1,0.014361324370809746,-4.334883059580591,False,True,False
+Sine,symmetric,SGD Ranked 50%,0.2,0,0.007063861104951337,-4.8598539927037985,False,True,False
+Sine,symmetric,SGD Ranked 50%,0.2,1,0.008506331527779694,-4.8598539927037985,False,True,False
+Sine,symmetric,SGD Ranked 50%,0.4,0,0.0041101822455515856,-5.407877838349357,True,True,False
+Sine,symmetric,SGD Ranked 50%,0.4,1,0.004885577569433059,-5.407877838349357,True,True,False
+Sine,symmetric,SGD Uniform 50%,0.05,0,0.013917580479112575,-4.183128073088735,False,True,False
+Sine,symmetric,SGD Uniform 50%,0.05,1,0.016711574917131752,-4.183128073088735,False,True,False
+Sine,symmetric,SGD Uniform 50%,0.1,0,0.01222300042153392,-4.33406887981633,False,True,False
+Sine,symmetric,SGD Uniform 50%,0.1,1,0.014070119172324773,-4.33406887981633,False,True,False
+Sine,symmetric,SGD Uniform 50%,0.2,0,0.007756905045739796,-4.9049614331791265,False,True,False
+Sine,symmetric,SGD Uniform 50%,0.2,1,0.007078091231443083,-4.9049614331791265,False,True,False
+Sine,symmetric,SGD Uniform 50%,0.4,0,0.00427332894084349,-5.404580023585845,True,True,False
+Sine,symmetric,SGD Uniform 50%,0.4,1,0.004730152182386941,-5.404580023585845,True,True,False
+Sine,symmetric,SGD Ranked 70%,0.05,0,0.013459454890894097,-4.216316912568735,False,True,False
+Sine,symmetric,SGD Ranked 70%,0.05,1,0.01617060208966193,-4.216316912568735,False,True,False
+Sine,symmetric,SGD Ranked 70%,0.1,0,0.010615208687245298,-4.447703993303163,False,True,False
+Sine,symmetric,SGD Ranked 70%,0.1,1,0.012907581046041743,-4.447703993303163,False,True,False
+Sine,symmetric,SGD Ranked 70%,0.2,0,0.004918726622863599,-5.198587481181602,False,True,False
+Sine,symmetric,SGD Ranked 70%,0.2,1,0.006204568745336366,-5.198587481181602,False,True,False
+Sine,symmetric,SGD Ranked 70%,0.4,0,0.003598525269950329,-5.525769441999198,True,True,False
+Sine,symmetric,SGD Ranked 70%,0.4,1,0.004408116759846206,-5.525769441999198,True,True,False
+Sine,symmetric,SGD Uniform 70%,0.05,0,0.01344016167700154,-4.22230693291906,False,True,False
+Sine,symmetric,SGD Uniform 70%,0.05,1,0.01600096971458334,-4.22230693291906,False,True,False
+Sine,symmetric,SGD Uniform 70%,0.1,0,0.010957684009319688,-4.447131835752363,False,True,False
+Sine,symmetric,SGD Uniform 70%,0.1,1,0.01251847984648361,-4.447131835752363,False,True,False
+Sine,symmetric,SGD Uniform 70%,0.2,0,0.005364260727326771,-5.235686545880066,False,True,False
+Sine,symmetric,SGD Uniform 70%,0.2,1,0.005282391311428872,-5.235686545880066,False,True,False
+Sine,symmetric,SGD Uniform 70%,0.4,0,0.00357627784364957,-5.564905325882384,True,True,False
+Sine,symmetric,SGD Uniform 70%,0.4,1,0.00410160087630328,-5.564905325882384,True,True,False

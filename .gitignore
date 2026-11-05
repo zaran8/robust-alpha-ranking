@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Experiment caches
+results/*/cache/
+
+# Temporary files
+*.tmp
+.DS_Store
+
+# Large local archive
+robust_alpha_results_20261106.tar.gz
