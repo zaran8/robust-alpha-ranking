@@ -11,3 +11,8 @@ results/*/cache/
 
 # Large local archive
 robust_alpha_results_20261106.tar.gz
+results/
+logs/
+*.tar.gz
+*_old.*
+*_backup_*
